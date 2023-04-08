@@ -1,0 +1,629 @@
+2023-02-24 17:13:13, INFO: Current config content is :<module 'config' from 'data_gibson/output/config.py'>
+2023-02-24 17:13:13, INFO: Using device: cuda:0
+2023-02-24 17:13:13, INFO: Similarity_func: embedded_gaussian
+2023-02-24 17:13:13, INFO: Layerwise_graph: False
+2023-02-24 17:13:13, INFO: Skip_connection: True
+2023-02-24 17:13:13, INFO: Number of layers: 2
+2023-02-24 17:13:13, INFO: Similarity_func: embedded_gaussian
+2023-02-24 17:13:13, INFO: Layerwise_graph: False
+2023-02-24 17:13:13, INFO: Skip_connection: True
+2023-02-24 17:13:13, INFO: Number of layers: 2
+2023-02-24 17:13:14, INFO: Planning depth: 1
+2023-02-24 17:13:14, INFO: Planning width: 1
+2023-02-24 17:13:14, INFO: Sparse search: None
+2023-02-24 17:13:30, INFO: human number: 20
+2023-02-24 17:13:30, INFO: Not randomize human's radius and preferred speed
+2023-02-24 17:13:30, INFO: Training simulation: from_data, test simulation: from_data
+2023-02-24 17:13:30, INFO: Square width: 20, circle width: 4
+2023-02-24 17:13:30, INFO: Similarity_func: embedded_gaussian
+2023-02-24 17:13:30, INFO: Layerwise_graph: False
+2023-02-24 17:13:30, INFO: Skip_connection: True
+2023-02-24 17:13:30, INFO: Number of layers: 2
+2023-02-24 17:13:30, INFO: Lr: 0.001 for parameters graph_model.gat0.w_a.0.weight graph_model.gat0.w_a.0.bias graph_model.gat0.w_a.1.weight graph_model.gat0.w_a.1.bias graph_model.gat1.w_a.0.weight graph_model.gat1.w_a.0.bias graph_model.gat1.w_a.1.weight graph_model.gat1.w_a.1.bias graph_model.w_r.0.weight graph_model.w_r.0.bias graph_model.w_r.1.weight graph_model.w_r.1.bias graph_model.w_h.0.weight graph_model.w_h.0.bias graph_model.w_h.1.weight graph_model.w_h.1.bias value_network.0.weight value_network.0.bias value_network.1.weight value_network.1.bias value_network.2.weight value_network.2.bias value_network.3.weight value_network.3.bias mapconv.conv1.weight mapconv.conv1.bias mapconv.layer1.0.conv1.weight mapconv.layer1.0.conv1.bias mapconv.layer1.0.conv2.weight mapconv.layer1.0.conv2.bias mapconv.layer1.1.conv1.weight mapconv.layer1.1.conv1.bias mapconv.layer1.1.conv2.weight mapconv.layer1.1.conv2.bias mapconv.layer2.0.conv1.weight mapconv.layer2.0.conv1.bias mapconv.layer2.0.conv2.weight mapconv.layer2.0.conv2.bias mapconv.layer2.0.downsample.0.weight mapconv.layer2.0.downsample.0.bias mapconv.layer2.1.conv1.weight mapconv.layer2.1.conv1.bias mapconv.layer2.1.conv2.weight mapconv.layer2.1.conv2.bias mapconv.layer3.0.conv1.weight mapconv.layer3.0.conv1.bias mapconv.layer3.0.conv2.weight mapconv.layer3.0.conv2.bias mapconv.layer3.0.downsample.0.weight mapconv.layer3.0.downsample.0.bias mapconv.layer3.1.conv1.weight mapconv.layer3.1.conv1.bias mapconv.layer3.1.conv2.weight mapconv.layer3.1.conv2.bias mapconv.layer4.0.conv1.weight mapconv.layer4.0.conv1.bias mapconv.layer4.0.conv2.weight mapconv.layer4.0.conv2.bias mapconv.layer4.0.downsample.0.weight mapconv.layer4.0.downsample.0.bias mapconv.layer4.1.conv1.weight mapconv.layer4.1.conv1.bias mapconv.layer4.1.conv2.weight mapconv.layer4.1.conv2.bias mapconv.conv2.weight mapconv.conv2.bias mapconv.conv3.weight mapconv.conv3.bias mapconv.conv4.weight mapconv.conv4.bias mapconv.l1.weight mapconv.l1.bias mapconv.l2.weight mapconv.l2.bias weight.weight weight.bias graph_model.gat0.w_a.0.weight graph_model.gat0.w_a.0.bias graph_model.gat0.w_a.1.weight graph_model.gat0.w_a.1.bias graph_model.gat1.w_a.0.weight graph_model.gat1.w_a.0.bias graph_model.gat1.w_a.1.weight graph_model.gat1.w_a.1.bias graph_model.w_r.0.weight graph_model.w_r.0.bias graph_model.w_r.1.weight graph_model.w_r.1.bias graph_model.w_h.0.weight graph_model.w_h.0.bias graph_model.w_h.1.weight graph_model.w_h.1.bias human_motion_predictor_RGL.0.weight human_motion_predictor_RGL.0.bias human_motion_predictor_RGL.1.weight human_motion_predictor_RGL.1.bias human_motion_predictor.st_gcns.0.gcn.conv.weight human_motion_predictor.st_gcns.0.gcn.conv.bias human_motion_predictor.st_gcns.0.tcn.0.weight human_motion_predictor.st_gcns.0.tcn.0.bias human_motion_predictor.st_gcns.0.tcn.1.weight human_motion_predictor.st_gcns.0.tcn.2.weight human_motion_predictor.st_gcns.0.tcn.2.bias human_motion_predictor.st_gcns.0.tcn.3.weight human_motion_predictor.st_gcns.0.tcn.3.bias human_motion_predictor.st_gcns.0.residual.0.weight human_motion_predictor.st_gcns.0.residual.0.bias human_motion_predictor.st_gcns.0.residual.1.weight human_motion_predictor.st_gcns.0.residual.1.bias human_motion_predictor.st_gcns.0.prelu.weight human_motion_predictor.tpcnns.0.weight human_motion_predictor.tpcnns.0.bias human_motion_predictor.tpcnns.1.weight human_motion_predictor.tpcnns.1.bias human_motion_predictor.tpcnns.2.weight human_motion_predictor.tpcnns.2.bias human_motion_predictor.tpcnn_ouput.weight human_motion_predictor.tpcnn_ouput.bias human_motion_predictor.prelus.0.weight human_motion_predictor.prelus.1.weight human_motion_predictor.prelus.2.weight mappredictor.conv1.weight mappredictor.conv1.bias mappredictor.layer1.0.conv1.weight mappredictor.layer1.0.conv1.bias mappredictor.layer1.0.conv2.weight mappredictor.layer1.0.conv2.bias mappredictor.layer1.1.conv1.weight mappredictor.layer1.1.conv1.bias mappredictor.layer1.1.conv2.weight mappredictor.layer1.1.conv2.bias mappredictor.layer2.0.conv1.weight mappredictor.layer2.0.conv1.bias mappredictor.layer2.0.conv2.weight mappredictor.layer2.0.conv2.bias mappredictor.layer2.0.downsample.0.weight mappredictor.layer2.0.downsample.0.bias mappredictor.layer2.1.conv1.weight mappredictor.layer2.1.conv1.bias mappredictor.layer2.1.conv2.weight mappredictor.layer2.1.conv2.bias mappredictor.layer3.0.conv1.weight mappredictor.layer3.0.conv1.bias mappredictor.layer3.0.conv2.weight mappredictor.layer3.0.conv2.bias mappredictor.layer3.0.downsample.0.weight mappredictor.layer3.0.downsample.0.bias mappredictor.layer3.1.conv1.weight mappredictor.layer3.1.conv1.bias mappredictor.layer3.1.conv2.weight mappredictor.layer3.1.conv2.bias mappredictor.layer4.0.conv1.weight mappredictor.layer4.0.conv1.bias mappredictor.layer4.0.conv2.weight mappredictor.layer4.0.conv2.bias mappredictor.layer4.0.downsample.0.weight mappredictor.layer4.0.downsample.0.bias mappredictor.layer4.1.conv1.weight mappredictor.layer4.1.conv1.bias mappredictor.layer4.1.conv2.weight mappredictor.layer4.1.conv2.bias mappredictor.conv2.weight mappredictor.conv2.bias mappredictor.conv3.weight mappredictor.conv3.bias with Adam optimizer
+2023-02-24 17:13:30, INFO: Collision with obstacle !!!
+2023-02-24 17:13:32, INFO: Collision with obstacle !!!
+2023-02-24 17:13:32, INFO: Collision with obstacle !!!
+2023-02-24 17:13:33, INFO: Collision with obstacle !!!
+2023-02-24 17:13:33, INFO: Collision with obstacle !!!
+2023-02-24 17:13:34, INFO: Collision with obstacle !!!
+2023-02-24 17:13:34, INFO: Success !!!
+2023-02-24 17:13:36, INFO: Collision with obstacle !!!
+2023-02-24 17:13:37, INFO: Collision with obstacle !!!
+2023-02-24 17:13:38, INFO: Collision with obstacle !!!
+2023-02-24 17:13:39, INFO: Collision with obstacle !!!
+2023-02-24 17:13:40, INFO: Collision with obstacle !!!
+2023-02-24 17:13:42, INFO: Collision with obstacle !!!
+2023-02-24 17:13:42, INFO: Collision with obstacle !!!
+2023-02-24 17:13:43, INFO: Collision with obstacle !!!
+2023-02-24 17:13:45, INFO: Collision with obstacle !!!
+2023-02-24 17:13:46, INFO: Collision with obstacle !!!
+2023-02-24 17:13:46, INFO: Collision with obstacle !!!
+2023-02-24 17:13:46, INFO: Collision with obstacle !!!
+2023-02-24 17:13:47, INFO: Collision with obstacle !!!
+2023-02-24 17:13:48, INFO: Collision with obstacle !!!
+2023-02-24 17:13:49, INFO: Collision with obstacle !!!
+2023-02-24 17:13:49, INFO: Collision with obstacle !!!
+2023-02-24 17:13:50, INFO: Collision with obstacle !!!
+2023-02-24 17:13:52, INFO: Collision with obstacle !!!
+2023-02-24 17:13:53, INFO: Collision with obstacle !!!
+2023-02-24 17:13:54, INFO: Collision with obstacle !!!
+2023-02-24 17:13:55, INFO: Collision with obstacle !!!
+2023-02-24 17:13:56, INFO: Collision with obstacle !!!
+2023-02-24 17:13:57, INFO: Collision with obstacle !!!
+2023-02-24 17:13:58, INFO: Collision with obstacle !!!
+2023-02-24 17:13:58, INFO: Collision with obstacle !!!
+2023-02-24 17:13:59, INFO: Collision with obstacle !!!
+2023-02-24 17:14:00, INFO: Collision with obstacle !!!
+2023-02-24 17:14:00, INFO: Collision with obstacle !!!
+2023-02-24 17:14:01, INFO: Collision with obstacle !!!
+2023-02-24 17:14:03, INFO: Collision with obstacle !!!
+2023-02-24 17:14:09, INFO: Collision with human !!!
+2023-02-24 17:14:14, INFO: Collision with obstacle !!!
+2023-02-24 17:14:14, INFO: Collision with obstacle !!!
+2023-02-24 17:14:15, INFO: Collision with obstacle !!!
+2023-02-24 17:14:16, INFO: Collision with obstacle !!!
+2023-02-24 17:14:18, INFO: Success !!!
+2023-02-24 17:14:19, INFO: Success !!!
+2023-02-24 17:14:20, INFO: Collision with obstacle !!!
+2023-02-24 17:14:22, INFO: Collision with obstacle !!!
+2023-02-24 17:14:23, INFO: Collision with obstacle !!!
+2023-02-24 17:14:24, INFO: Collision with obstacle !!!
+2023-02-24 17:14:25, INFO: Collision with obstacle !!!
+2023-02-24 17:14:26, INFO: Collision with obstacle !!!
+2023-02-24 17:14:27, INFO: Success !!!
+2023-02-24 17:14:29, INFO: Collision with obstacle !!!
+2023-02-24 17:14:29, INFO: Collision with obstacle !!!
+2023-02-24 17:14:30, INFO: Collision with obstacle !!!
+2023-02-24 17:14:31, INFO: Collision with obstacle !!!
+2023-02-24 17:14:32, INFO: Collision with obstacle !!!
+2023-02-24 17:14:33, INFO: Collision with obstacle !!!
+2023-02-24 17:14:34, INFO: Collision with obstacle !!!
+2023-02-24 17:14:34, INFO: Success !!!
+2023-02-24 17:14:35, INFO: Collision with obstacle !!!
+2023-02-24 17:14:36, INFO: Collision with obstacle !!!
+2023-02-24 17:14:37, INFO: Collision with obstacle !!!
+2023-02-24 17:14:38, INFO: Collision with obstacle !!!
+2023-02-24 17:14:39, INFO: Collision with obstacle !!!
+2023-02-24 17:14:40, INFO: Collision with obstacle !!!
+2023-02-24 17:14:41, INFO: Collision with obstacle !!!
+2023-02-24 17:14:41, INFO: Collision with obstacle !!!
+2023-02-24 17:14:42, INFO: Collision with obstacle !!!
+2023-02-24 17:14:43, INFO: Collision with human !!!
+2023-02-24 17:14:43, INFO: Collision with obstacle !!!
+2023-02-24 17:14:44, INFO: Collision with human !!!
+2023-02-24 17:14:45, INFO: Collision with obstacle !!!
+2023-02-24 17:14:46, INFO: Success !!!
+2023-02-24 17:14:47, INFO: Collision with obstacle !!!
+2023-02-24 17:14:48, INFO: Collision with obstacle !!!
+2023-02-24 17:14:49, INFO: Collision with obstacle !!!
+2023-02-24 17:14:49, INFO: Success !!!
+2023-02-24 17:14:49, INFO: Collision with obstacle !!!
+2023-02-24 17:14:50, INFO: Collision with human !!!
+2023-02-24 17:14:51, INFO: Collision with obstacle !!!
+2023-02-24 17:14:52, INFO: Collision with obstacle !!!
+2023-02-24 17:14:53, INFO: Collision with obstacle !!!
+2023-02-24 17:14:58, INFO: Timeout !!!
+2023-02-24 17:15:00, INFO: Success !!!
+2023-02-24 17:15:01, INFO: Collision with obstacle !!!
+2023-02-24 17:15:02, INFO: Collision with obstacle !!!
+2023-02-24 17:15:02, INFO: Collision with obstacle !!!
+2023-02-24 17:15:03, INFO: Collision with obstacle !!!
+2023-02-24 17:15:03, INFO: Collision with obstacle !!!
+2023-02-24 17:15:04, INFO: Collision with obstacle !!!
+2023-02-24 17:15:05, INFO: Success !!!
+2023-02-24 17:15:06, INFO: Collision with obstacle !!!
+2023-02-24 17:15:07, INFO: Collision with obstacle !!!
+2023-02-24 17:15:07, INFO: Collision with obstacle !!!
+2023-02-24 17:15:08, INFO: Collision with obstacle !!!
+2023-02-24 17:15:09, INFO: Collision with obstacle !!!
+2023-02-24 17:15:09, INFO: Success !!!
+2023-02-24 17:15:10, INFO: Collision with obstacle !!!
+2023-02-24 17:15:11, INFO: Collision with obstacle !!!
+2023-02-24 17:15:11, INFO: Collision with obstacle !!!
+2023-02-24 17:15:13, INFO: Collision with obstacle !!!
+2023-02-24 17:15:14, INFO: Collision with obstacle !!!
+2023-02-24 17:15:15, INFO: Collision with obstacle !!!
+2023-02-24 17:15:15, INFO: Success !!!
+2023-02-24 17:15:17, INFO: Success !!!
+2023-02-24 17:15:20, INFO: Collision with obstacle !!!
+2023-02-24 17:15:21, INFO: Collision with obstacle !!!
+2023-02-24 17:15:21, INFO: Collision with obstacle !!!
+2023-02-24 17:15:22, INFO: Collision with obstacle !!!
+2023-02-24 17:15:23, INFO: Collision with obstacle !!!
+2023-02-24 17:15:23, INFO: Collision with obstacle !!!
+2023-02-24 17:15:24, INFO: Collision with obstacle !!!
+2023-02-24 17:15:25, INFO: Collision with obstacle !!!
+2023-02-24 17:15:27, INFO: Collision with obstacle !!!
+2023-02-24 17:15:27, INFO: Collision with human !!!
+2023-02-24 17:15:28, INFO: Collision with obstacle !!!
+2023-02-24 17:15:29, INFO: Collision with obstacle !!!
+2023-02-24 17:15:30, INFO: Collision with human !!!
+2023-02-24 17:15:32, INFO: Collision with obstacle !!!
+2023-02-24 17:15:33, INFO: Collision with obstacle !!!
+2023-02-24 17:15:34, INFO: Collision with obstacle !!!
+2023-02-24 17:15:35, INFO: Collision with obstacle !!!
+2023-02-24 17:15:36, INFO: Collision with obstacle !!!
+2023-02-24 17:15:36, INFO: Collision with obstacle !!!
+2023-02-24 17:15:37, INFO: Success !!!
+2023-02-24 17:15:38, INFO: Collision with obstacle !!!
+2023-02-24 17:15:38, INFO: Collision with obstacle !!!
+2023-02-24 17:15:39, INFO: Collision with obstacle !!!
+2023-02-24 17:15:40, INFO: Collision with obstacle !!!
+2023-02-24 17:15:41, INFO: Collision with obstacle !!!
+2023-02-24 17:15:42, INFO: Collision with obstacle !!!
+2023-02-24 17:15:43, INFO: Collision with obstacle !!!
+2023-02-24 17:15:45, INFO: Success !!!
+2023-02-24 17:15:46, INFO: Collision with obstacle !!!
+2023-02-24 17:15:47, INFO: Collision with obstacle !!!
+2023-02-24 17:15:48, INFO: Collision with obstacle !!!
+2023-02-24 17:15:50, INFO: Success !!!
+2023-02-24 17:15:52, INFO: Collision with obstacle !!!
+2023-02-24 17:15:53, INFO: Collision with human !!!
+2023-02-24 17:15:54, INFO: Collision with obstacle !!!
+2023-02-24 17:15:54, INFO: Collision with obstacle !!!
+2023-02-24 17:15:56, INFO: Collision with obstacle !!!
+2023-02-24 17:15:58, INFO: Collision with obstacle !!!
+2023-02-24 17:15:59, INFO: Success !!!
+2023-02-24 17:16:01, INFO: Collision with obstacle !!!
+2023-02-24 17:16:02, INFO: Collision with obstacle !!!
+2023-02-24 17:16:03, INFO: Collision with obstacle !!!
+2023-02-24 17:16:04, INFO: Collision with obstacle !!!
+2023-02-24 17:16:05, INFO: Success !!!
+2023-02-24 17:16:06, INFO: Collision with obstacle !!!
+2023-02-24 17:16:07, INFO: Collision with obstacle !!!
+2023-02-24 17:16:08, INFO: Collision with obstacle !!!
+2023-02-24 17:16:09, INFO: Collision with obstacle !!!
+2023-02-24 17:16:09, INFO: Collision with obstacle !!!
+2023-02-24 17:16:10, INFO: Collision with obstacle !!!
+2023-02-24 17:16:10, INFO: Collision with obstacle !!!
+2023-02-24 17:16:11, INFO: Collision with obstacle !!!
+2023-02-24 17:16:12, INFO: Collision with obstacle !!!
+2023-02-24 17:16:13, INFO: Collision with obstacle !!!
+2023-02-24 17:16:14, INFO: Collision with obstacle !!!
+2023-02-24 17:16:15, INFO: Collision with obstacle !!!
+2023-02-24 17:16:16, INFO: Collision with obstacle !!!
+2023-02-24 17:16:17, INFO: Collision with obstacle !!!
+2023-02-24 17:16:18, INFO: Collision with obstacle !!!
+2023-02-24 17:16:19, INFO: Collision with obstacle !!!
+2023-02-24 17:16:20, INFO: Collision with obstacle !!!
+2023-02-24 17:16:20, INFO: Collision with obstacle !!!
+2023-02-24 17:16:22, INFO: Collision with obstacle !!!
+2023-02-24 17:16:23, INFO: Collision with obstacle !!!
+2023-02-24 17:16:23, INFO: Collision with obstacle !!!
+2023-02-24 17:16:24, INFO: Collision with obstacle !!!
+2023-02-24 17:16:26, INFO: Collision with obstacle !!!
+2023-02-24 17:16:27, INFO: Collision with obstacle !!!
+2023-02-24 17:16:28, INFO: Collision with obstacle !!!
+2023-02-24 17:16:29, INFO: Collision with obstacle !!!
+2023-02-24 17:16:30, INFO: Success !!!
+2023-02-24 17:16:31, INFO: Collision with obstacle !!!
+2023-02-24 17:16:32, INFO: Collision with obstacle !!!
+2023-02-24 17:16:33, INFO: Collision with obstacle !!!
+2023-02-24 17:16:34, INFO: Collision with obstacle !!!
+2023-02-24 17:16:35, INFO: Collision with obstacle !!!
+2023-02-24 17:16:36, INFO: Collision with obstacle !!!
+2023-02-24 17:16:37, INFO: Collision with obstacle !!!
+2023-02-24 17:16:37, INFO: Collision with obstacle !!!
+2023-02-24 17:16:39, INFO: Collision with obstacle !!!
+2023-02-24 17:16:40, INFO: Collision with obstacle !!!
+2023-02-24 17:16:42, INFO: Collision with obstacle !!!
+2023-02-24 17:16:42, INFO: Collision with obstacle !!!
+2023-02-24 17:16:43, INFO: Collision with obstacle !!!
+2023-02-24 17:16:43, INFO: Collision with obstacle !!!
+2023-02-24 17:16:44, INFO: Collision with obstacle !!!
+2023-02-24 17:16:45, INFO: Collision with obstacle !!!
+2023-02-24 17:16:46, INFO: Collision with obstacle !!!
+2023-02-24 17:16:47, INFO: Collision with obstacle !!!
+2023-02-24 17:16:48, INFO: Collision with obstacle !!!
+2023-02-24 17:16:50, INFO: Collision with obstacle !!!
+2023-02-24 17:16:51, INFO: Collision with obstacle !!!
+2023-02-24 17:16:52, INFO: Collision with human !!!
+2023-02-24 17:16:53, INFO: Collision with obstacle !!!
+2023-02-24 17:16:53, INFO: Collision with obstacle !!!
+2023-02-24 17:16:53, INFO: Collision with obstacle !!!
+2023-02-24 17:16:54, INFO: Collision with obstacle !!!
+2023-02-24 17:16:55, INFO: Collision with obstacle !!!
+2023-02-24 17:16:56, INFO: Collision with obstacle !!!
+2023-02-24 17:16:57, INFO: Collision with obstacle !!!
+2023-02-24 17:16:58, INFO: Collision with obstacle !!!
+2023-02-24 17:16:59, INFO: Collision with obstacle !!!
+2023-02-24 17:17:00, INFO: Collision with obstacle !!!
+2023-02-24 17:17:01, INFO: Collision with obstacle !!!
+2023-02-24 17:17:01, INFO: Collision with obstacle !!!
+2023-02-24 17:17:02, INFO: Collision with obstacle !!!
+2023-02-24 17:17:03, INFO: Collision with obstacle !!!
+2023-02-24 17:17:05, INFO: Collision with obstacle !!!
+2023-02-24 17:17:06, INFO: Collision with obstacle !!!
+2023-02-24 17:17:06, INFO: Success !!!
+2023-02-24 17:17:07, INFO: Collision with obstacle !!!
+2023-02-24 17:17:08, INFO: Collision with obstacle !!!
+2023-02-24 17:17:11, INFO: Collision with obstacle !!!
+2023-02-24 17:17:11, INFO: Success !!!
+2023-02-24 17:17:12, INFO: Collision with obstacle !!!
+2023-02-24 17:17:13, INFO: Success !!!
+2023-02-24 17:17:13, INFO: Collision with obstacle !!!
+2023-02-24 17:17:14, INFO: Collision with obstacle !!!
+2023-02-24 17:17:17, INFO: Collision with human !!!
+2023-02-24 17:17:21, INFO: Collision with obstacle !!!
+2023-02-24 17:17:22, INFO: Collision with obstacle !!!
+2023-02-24 17:17:24, INFO: Collision with obstacle !!!
+2023-02-24 17:17:25, INFO: Collision with obstacle !!!
+2023-02-24 17:17:26, INFO: Collision with obstacle !!!
+2023-02-24 17:17:28, INFO: Collision with obstacle !!!
+2023-02-24 17:17:29, INFO: Success !!!
+2023-02-24 17:17:30, INFO: Collision with obstacle !!!
+2023-02-24 17:17:31, INFO: Collision with obstacle !!!
+2023-02-24 17:17:32, INFO: Collision with obstacle !!!
+2023-02-24 17:17:32, INFO: Collision with human !!!
+2023-02-24 17:17:33, INFO: Collision with obstacle !!!
+2023-02-24 17:17:34, INFO: Success !!!
+2023-02-24 17:17:36, INFO: Collision with obstacle !!!
+2023-02-24 17:17:36, INFO: Collision with obstacle !!!
+2023-02-24 17:17:37, INFO: Collision with obstacle !!!
+2023-02-24 17:17:38, INFO: Collision with obstacle !!!
+2023-02-24 17:17:39, INFO: Collision with obstacle !!!
+2023-02-24 17:17:41, INFO: Collision with obstacle !!!
+2023-02-24 17:17:42, INFO: Success !!!
+2023-02-24 17:17:44, INFO: Collision with obstacle !!!
+2023-02-24 17:17:46, INFO: Collision with obstacle !!!
+2023-02-24 17:17:47, INFO: Collision with obstacle !!!
+2023-02-24 17:17:48, INFO: Collision with obstacle !!!
+2023-02-24 17:17:49, INFO: Collision with obstacle !!!
+2023-02-24 17:17:50, INFO: Success !!!
+2023-02-24 17:17:51, INFO: Collision with obstacle !!!
+2023-02-24 17:17:52, INFO: Collision with obstacle !!!
+2023-02-24 17:17:53, INFO: Collision with obstacle !!!
+2023-02-24 17:17:53, INFO: Collision with obstacle !!!
+2023-02-24 17:17:54, INFO: Collision with obstacle !!!
+2023-02-24 17:17:55, INFO: Collision with obstacle !!!
+2023-02-24 17:17:56, INFO: Success !!!
+2023-02-24 17:17:57, INFO: Collision with obstacle !!!
+2023-02-24 17:17:58, INFO: Collision with obstacle !!!
+2023-02-24 17:18:00, INFO: Collision with obstacle !!!
+2023-02-24 17:18:01, INFO: Collision with obstacle !!!
+2023-02-24 17:18:02, INFO: Collision with obstacle !!!
+2023-02-24 17:18:02, INFO: Collision with obstacle !!!
+2023-02-24 17:18:02, INFO: Collision with obstacle !!!
+2023-02-24 17:18:03, INFO: Collision with obstacle !!!
+2023-02-24 17:18:05, INFO: Collision with obstacle !!!
+2023-02-24 17:18:05, INFO: Collision with obstacle !!!
+2023-02-24 17:18:06, INFO: Collision with obstacle !!!
+2023-02-24 17:18:08, INFO: Collision with obstacle !!!
+2023-02-24 17:18:10, INFO: Collision with obstacle !!!
+2023-02-24 17:18:11, INFO: Collision with obstacle !!!
+2023-02-24 17:18:13, INFO: Collision with human !!!
+2023-02-24 17:18:14, INFO: Success !!!
+2023-02-24 17:18:15, INFO: Collision with obstacle !!!
+2023-02-24 17:18:16, INFO: Collision with obstacle !!!
+2023-02-24 17:18:17, INFO: Collision with obstacle !!!
+2023-02-24 17:18:18, INFO: Collision with obstacle !!!
+2023-02-24 17:18:20, INFO: Collision with obstacle !!!
+2023-02-24 17:18:20, INFO: Collision with obstacle !!!
+2023-02-24 17:18:21, INFO: Collision with obstacle !!!
+2023-02-24 17:18:21, INFO: Collision with obstacle !!!
+2023-02-24 17:18:22, INFO: Collision with obstacle !!!
+2023-02-24 17:18:23, INFO: Collision with obstacle !!!
+2023-02-24 17:18:24, INFO: Collision with obstacle !!!
+2023-02-24 17:18:25, INFO: Collision with obstacle !!!
+2023-02-24 17:18:26, INFO: Collision with obstacle !!!
+2023-02-24 17:18:27, INFO: Collision with obstacle !!!
+2023-02-24 17:18:27, INFO: Success !!!
+2023-02-24 17:18:28, INFO: Collision with obstacle !!!
+2023-02-24 17:18:29, INFO: Collision with obstacle !!!
+2023-02-24 17:18:31, INFO: Collision with human !!!
+2023-02-24 17:18:33, INFO: Collision with obstacle !!!
+2023-02-24 17:18:34, INFO: Collision with obstacle !!!
+2023-02-24 17:18:35, INFO: Collision with obstacle !!!
+2023-02-24 17:18:36, INFO: Collision with obstacle !!!
+2023-02-24 17:18:37, INFO: Collision with obstacle !!!
+2023-02-24 17:18:37, INFO: Success !!!
+2023-02-24 17:18:39, INFO: Collision with obstacle !!!
+2023-02-24 17:18:41, INFO: Collision with obstacle !!!
+2023-02-24 17:18:42, INFO: Collision with obstacle !!!
+2023-02-24 17:18:43, INFO: Collision with obstacle !!!
+2023-02-24 17:18:45, INFO: Collision with human !!!
+2023-02-24 17:18:47, INFO: Collision with obstacle !!!
+2023-02-24 17:18:48, INFO: Collision with obstacle !!!
+2023-02-24 17:18:49, INFO: Success !!!
+2023-02-24 17:18:55, INFO: Collision with obstacle !!!
+2023-02-24 17:19:00, INFO: Collision with obstacle !!!
+2023-02-24 17:19:00, INFO: Success !!!
+2023-02-24 17:19:01, INFO: Collision with obstacle !!!
+2023-02-24 17:19:02, INFO: Collision with obstacle !!!
+2023-02-24 17:19:03, INFO: Collision with obstacle !!!
+2023-02-24 17:19:04, INFO: Collision with obstacle !!!
+2023-02-24 17:19:05, INFO: Collision with obstacle !!!
+2023-02-24 17:19:06, INFO: Collision with obstacle !!!
+2023-02-24 17:19:07, INFO: Collision with obstacle !!!
+2023-02-24 17:19:07, INFO: Collision with obstacle !!!
+2023-02-24 17:19:08, INFO: Collision with obstacle !!!
+2023-02-24 17:19:09, INFO: Collision with obstacle !!!
+2023-02-24 17:19:10, INFO: Collision with obstacle !!!
+2023-02-24 17:19:10, INFO: Success !!!
+2023-02-24 17:19:11, INFO: Collision with human !!!
+2023-02-24 17:19:11, INFO: Collision with obstacle !!!
+2023-02-24 17:19:12, INFO: Collision with obstacle !!!
+2023-02-24 17:19:13, INFO: Collision with obstacle !!!
+2023-02-24 17:19:13, INFO: Collision with obstacle !!!
+2023-02-24 17:19:14, INFO: Collision with obstacle !!!
+2023-02-24 17:19:15, INFO: Collision with obstacle !!!
+2023-02-24 17:19:17, INFO: Collision with human !!!
+2023-02-24 17:19:19, INFO: Collision with obstacle !!!
+2023-02-24 17:19:20, INFO: Collision with obstacle !!!
+2023-02-24 17:19:20, INFO: Collision with obstacle !!!
+2023-02-24 17:19:21, INFO: Success !!!
+2023-02-24 17:19:22, INFO: Collision with obstacle !!!
+2023-02-24 17:19:23, INFO: Collision with obstacle !!!
+2023-02-24 17:19:24, INFO: Collision with obstacle !!!
+2023-02-24 17:19:25, INFO: Collision with obstacle !!!
+2023-02-24 17:19:26, INFO: Collision with obstacle !!!
+2023-02-24 17:19:27, INFO: Success !!!
+2023-02-24 17:19:28, INFO: Collision with obstacle !!!
+2023-02-24 17:19:29, INFO: Collision with human !!!
+2023-02-24 17:19:30, INFO: Collision with obstacle !!!
+2023-02-24 17:19:32, INFO: Collision with obstacle !!!
+2023-02-24 17:19:33, INFO: Collision with obstacle !!!
+2023-02-24 17:19:33, INFO: Collision with obstacle !!!
+2023-02-24 17:19:35, INFO: Collision with obstacle !!!
+2023-02-24 17:19:36, INFO: Collision with obstacle !!!
+2023-02-24 17:19:37, INFO: Collision with obstacle !!!
+2023-02-24 17:19:37, INFO: Collision with obstacle !!!
+2023-02-24 17:19:38, INFO: Success !!!
+2023-02-24 17:19:39, INFO: Collision with obstacle !!!
+2023-02-24 17:19:40, INFO: Collision with obstacle !!!
+2023-02-24 17:19:41, INFO: Collision with obstacle !!!
+2023-02-24 17:19:42, INFO: Collision with obstacle !!!
+2023-02-24 17:19:43, INFO: Success !!!
+2023-02-24 17:19:45, INFO: Collision with obstacle !!!
+2023-02-24 17:19:46, INFO: Collision with obstacle !!!
+2023-02-24 17:19:47, INFO: Collision with obstacle !!!
+2023-02-24 17:19:48, INFO: Success !!!
+2023-02-24 17:19:50, INFO: Collision with obstacle !!!
+2023-02-24 17:19:51, INFO: Collision with obstacle !!!
+2023-02-24 17:19:52, INFO: Collision with obstacle !!!
+2023-02-24 17:19:53, INFO: Collision with obstacle !!!
+2023-02-24 17:19:56, INFO: Collision with obstacle !!!
+2023-02-24 17:20:01, INFO: Timeout !!!
+2023-02-24 17:20:03, INFO: Collision with obstacle !!!
+2023-02-24 17:20:03, INFO: Collision with obstacle !!!
+2023-02-24 17:20:04, INFO: Collision with obstacle !!!
+2023-02-24 17:20:05, INFO: Collision with obstacle !!!
+2023-02-24 17:20:06, INFO: Collision with obstacle !!!
+2023-02-24 17:20:07, INFO: Collision with obstacle !!!
+2023-02-24 17:20:08, INFO: Collision with obstacle !!!
+2023-02-24 17:20:08, INFO: Collision with obstacle !!!
+2023-02-24 17:20:08, INFO: Collision with human !!!
+2023-02-24 17:20:09, INFO: Success !!!
+2023-02-24 17:20:10, INFO: Collision with obstacle !!!
+2023-02-24 17:20:11, INFO: Collision with obstacle !!!
+2023-02-24 17:20:12, INFO: Collision with obstacle !!!
+2023-02-24 17:20:13, INFO: Collision with obstacle !!!
+2023-02-24 17:20:14, INFO: Collision with obstacle !!!
+2023-02-24 17:20:15, INFO: Collision with obstacle !!!
+2023-02-24 17:20:16, INFO: Collision with human !!!
+2023-02-24 17:20:17, INFO: Collision with obstacle !!!
+2023-02-24 17:20:18, INFO: Collision with obstacle !!!
+2023-02-24 17:20:20, INFO: Collision with obstacle !!!
+2023-02-24 17:20:22, INFO: Collision with obstacle !!!
+2023-02-24 17:20:23, INFO: Collision with obstacle !!!
+2023-02-24 17:20:24, INFO: Success !!!
+2023-02-24 17:20:24, INFO: Collision with obstacle !!!
+2023-02-24 17:20:25, INFO: Collision with obstacle !!!
+2023-02-24 17:20:26, INFO: Collision with obstacle !!!
+2023-02-24 17:20:27, INFO: Collision with obstacle !!!
+2023-02-24 17:20:29, INFO: Collision with obstacle !!!
+2023-02-24 17:20:30, INFO: Collision with obstacle !!!
+2023-02-24 17:20:31, INFO: Collision with obstacle !!!
+2023-02-24 17:20:31, INFO: Collision with obstacle !!!
+2023-02-24 17:20:33, INFO: Collision with obstacle !!!
+2023-02-24 17:20:34, INFO: Collision with obstacle !!!
+2023-02-24 17:20:35, INFO: Collision with obstacle !!!
+2023-02-24 17:20:36, INFO: Collision with obstacle !!!
+2023-02-24 17:20:37, INFO: Collision with obstacle !!!
+2023-02-24 17:20:37, INFO: Collision with obstacle !!!
+2023-02-24 17:20:39, INFO: Collision with obstacle !!!
+2023-02-24 17:20:39, INFO: Collision with human !!!
+2023-02-24 17:20:41, INFO: Collision with obstacle !!!
+2023-02-24 17:20:42, INFO: Collision with obstacle !!!
+2023-02-24 17:20:42, INFO: Collision with obstacle !!!
+2023-02-24 17:20:43, INFO: Collision with obstacle !!!
+2023-02-24 17:20:44, INFO: Collision with obstacle !!!
+2023-02-24 17:20:44, INFO: Collision with obstacle !!!
+2023-02-24 17:20:45, INFO: Collision with obstacle !!!
+2023-02-24 17:20:47, INFO: Collision with obstacle !!!
+2023-02-24 17:20:49, INFO: Collision with obstacle !!!
+2023-02-24 17:20:50, INFO: Collision with obstacle !!!
+2023-02-24 17:20:50, INFO: Collision with obstacle !!!
+2023-02-24 17:20:51, INFO: Success !!!
+2023-02-24 17:20:51, INFO: Collision with obstacle !!!
+2023-02-24 17:20:51, INFO: Collision with obstacle !!!
+2023-02-24 17:20:52, INFO: Collision with obstacle !!!
+2023-02-24 17:20:53, INFO: Collision with obstacle !!!
+2023-02-24 17:20:53, INFO: Collision with obstacle !!!
+2023-02-24 17:20:54, INFO: Collision with obstacle !!!
+2023-02-24 17:20:56, INFO: Collision with obstacle !!!
+2023-02-24 17:20:57, INFO: Collision with obstacle !!!
+2023-02-24 17:20:58, INFO: Collision with obstacle !!!
+2023-02-24 17:20:59, INFO: Collision with obstacle !!!
+2023-02-24 17:20:59, INFO: Collision with obstacle !!!
+2023-02-24 17:21:00, INFO: Collision with obstacle !!!
+2023-02-24 17:21:01, INFO: Collision with obstacle !!!
+2023-02-24 17:21:01, INFO: Collision with obstacle !!!
+2023-02-24 17:21:03, INFO: Success !!!
+2023-02-24 17:21:05, INFO: Collision with obstacle !!!
+2023-02-24 17:21:06, INFO: Collision with obstacle !!!
+2023-02-24 17:21:07, INFO: Collision with obstacle !!!
+2023-02-24 17:21:07, INFO: Collision with obstacle !!!
+2023-02-24 17:21:08, INFO: Collision with obstacle !!!
+2023-02-24 17:21:08, INFO: Collision with obstacle !!!
+2023-02-24 17:21:10, INFO: Collision with human !!!
+2023-02-24 17:21:11, INFO: Collision with obstacle !!!
+2023-02-24 17:21:11, INFO: Collision with obstacle !!!
+2023-02-24 17:21:12, INFO: Collision with obstacle !!!
+2023-02-24 17:21:13, INFO: Success !!!
+2023-02-24 17:21:13, INFO: Collision with obstacle !!!
+2023-02-24 17:21:15, INFO: Collision with obstacle !!!
+2023-02-24 17:21:16, INFO: Collision with obstacle !!!
+2023-02-24 17:21:16, INFO: Collision with obstacle !!!
+2023-02-24 17:21:18, INFO: Collision with obstacle !!!
+2023-02-24 17:21:20, INFO: Collision with obstacle !!!
+2023-02-24 17:21:22, INFO: Collision with obstacle !!!
+2023-02-24 17:21:22, INFO: Success !!!
+2023-02-24 17:21:23, INFO: Collision with obstacle !!!
+2023-02-24 17:21:24, INFO: Collision with obstacle !!!
+2023-02-24 17:21:24, INFO: Collision with obstacle !!!
+2023-02-24 17:21:25, INFO: Collision with obstacle !!!
+2023-02-24 17:21:25, INFO: Collision with obstacle !!!
+2023-02-24 17:21:26, INFO: Collision with obstacle !!!
+2023-02-24 17:21:28, INFO: Collision with obstacle !!!
+2023-02-24 17:21:29, INFO: Collision with obstacle !!!
+2023-02-24 17:21:30, INFO: Collision with obstacle !!!
+2023-02-24 17:21:31, INFO: Success !!!
+2023-02-24 17:21:32, INFO: Collision with obstacle !!!
+2023-02-24 17:21:32, INFO: Collision with obstacle !!!
+2023-02-24 17:21:33, INFO: Collision with obstacle !!!
+2023-02-24 17:21:33, INFO: Collision with obstacle !!!
+2023-02-24 17:21:36, INFO: Success !!!
+2023-02-24 17:21:37, INFO: Collision with obstacle !!!
+2023-02-24 17:21:38, INFO: Collision with obstacle !!!
+2023-02-24 17:21:39, INFO: Collision with obstacle !!!
+2023-02-24 17:21:40, INFO: Collision with obstacle !!!
+2023-02-24 17:21:41, INFO: Collision with obstacle !!!
+2023-02-24 17:21:42, INFO: Collision with obstacle !!!
+2023-02-24 17:21:42, INFO: Collision with obstacle !!!
+2023-02-24 17:21:43, INFO: Collision with obstacle !!!
+2023-02-24 17:21:43, INFO: Collision with obstacle !!!
+2023-02-24 17:21:44, INFO: Collision with obstacle !!!
+2023-02-24 17:21:45, INFO: Collision with obstacle !!!
+2023-02-24 17:21:45, INFO: Collision with obstacle !!!
+2023-02-24 17:21:46, INFO: Collision with obstacle !!!
+2023-02-24 17:21:46, INFO: Collision with obstacle !!!
+2023-02-24 17:21:47, INFO: Collision with obstacle !!!
+2023-02-24 17:21:49, INFO: Success !!!
+2023-02-24 17:21:56, INFO: Timeout !!!
+2023-02-24 17:21:58, INFO: Collision with obstacle !!!
+2023-02-24 17:21:59, INFO: Collision with obstacle !!!
+2023-02-24 17:21:59, INFO: Success !!!
+2023-02-24 17:22:00, INFO: Collision with obstacle !!!
+2023-02-24 17:22:01, INFO: Collision with obstacle !!!
+2023-02-24 17:22:01, INFO: Collision with obstacle !!!
+2023-02-24 17:22:02, INFO: Collision with obstacle !!!
+2023-02-24 17:22:03, INFO: Collision with obstacle !!!
+2023-02-24 17:22:03, INFO: Collision with obstacle !!!
+2023-02-24 17:22:04, INFO: Collision with obstacle !!!
+2023-02-24 17:22:04, INFO: Collision with obstacle !!!
+2023-02-24 17:22:05, INFO: Collision with obstacle !!!
+2023-02-24 17:22:06, INFO: Collision with obstacle !!!
+2023-02-24 17:22:07, INFO: Collision with obstacle !!!
+2023-02-24 17:22:09, INFO: Collision with obstacle !!!
+2023-02-24 17:22:12, INFO: Collision with obstacle !!!
+2023-02-24 17:22:14, INFO: Collision with obstacle !!!
+2023-02-24 17:22:15, INFO: Collision with obstacle !!!
+2023-02-24 17:22:16, INFO: Collision with obstacle !!!
+2023-02-24 17:22:17, INFO: TRAIN has success rate: 0.09, collision rate: 0.04, collisionobs rate: 0.86, nav time: 46.17, total reward: -0.0418, average return: -0.0797
+2023-02-24 17:22:23, INFO: Average loss in epoch of statePredictor0: 1.137168
+2023-02-24 17:22:28, INFO: Average loss in epoch of statePredictor1: 0.739301
+2023-02-24 17:22:32, INFO: Average loss in epoch of statePredictor2: 0.323833
+2023-02-24 17:22:37, INFO: Average loss in epoch of statePredictor3: 0.222730
+2023-02-24 17:22:42, INFO: Average loss in epoch of statePredictor4: 0.209859
+2023-02-24 17:22:46, INFO: Average loss in epoch of statePredictor5: 0.205598
+2023-02-24 17:22:51, INFO: Average loss in epoch of statePredictor6: 0.203185
+2023-02-24 17:22:56, INFO: Average loss in epoch of statePredictor7: 0.201356
+2023-02-24 17:23:00, INFO: Average loss in epoch of statePredictor8: 0.199992
+2023-02-24 17:23:05, INFO: Average loss in epoch of statePredictor9: 0.198511
+2023-02-24 17:23:10, INFO: Average loss in epoch of statePredictor10: 0.196961
+2023-02-24 17:23:14, INFO: Average loss in epoch of statePredictor11: 0.195006
+2023-02-24 17:23:19, INFO: Average loss in epoch of statePredictor12: 0.192548
+2023-02-24 17:23:24, INFO: Average loss in epoch of statePredictor13: 0.189368
+2023-02-24 17:23:28, INFO: Average loss in epoch of statePredictor14: 0.186455
+2023-02-24 17:23:33, INFO: Average loss in epoch of statePredictor15: 0.184042
+2023-02-24 17:23:38, INFO: Average loss in epoch of statePredictor16: 0.182383
+2023-02-24 17:23:42, INFO: Average loss in epoch of statePredictor17: 0.181016
+2023-02-24 17:23:47, INFO: Average loss in epoch of statePredictor18: 0.179812
+2023-02-24 17:23:52, INFO: Average loss in epoch of statePredictor19: 0.178852
+2023-02-24 17:23:56, INFO: Average loss in epoch of statePredictor20: 0.177904
+2023-02-24 17:24:01, INFO: Average loss in epoch of statePredictor21: 0.176996
+2023-02-24 17:24:05, INFO: Average loss in epoch of statePredictor22: 0.176037
+2023-02-24 17:24:10, INFO: Average loss in epoch of statePredictor23: 0.175348
+2023-02-24 17:24:15, INFO: Average loss in epoch of statePredictor24: 0.174886
+2023-02-24 17:24:19, INFO: Average loss in epoch of statePredictor25: 0.174119
+2023-02-24 17:24:24, INFO: Average loss in epoch of statePredictor26: 0.173661
+2023-02-24 17:24:28, INFO: Average loss in epoch of statePredictor27: 0.173473
+2023-02-24 17:24:33, INFO: Average loss in epoch of statePredictor28: 0.172957
+2023-02-24 17:24:38, INFO: Average loss in epoch of statePredictor29: 0.172583
+2023-02-24 17:24:42, INFO: Average loss in epoch of statePredictor30: 0.172183
+2023-02-24 17:24:47, INFO: Average loss in epoch of statePredictor31: 0.171921
+2023-02-24 17:24:52, INFO: Average loss in epoch of statePredictor32: 0.171742
+2023-02-24 17:24:56, INFO: Average loss in epoch of statePredictor33: 0.171344
+2023-02-24 17:25:01, INFO: Average loss in epoch of statePredictor34: 0.171230
+2023-02-24 17:25:06, INFO: Average loss in epoch of statePredictor35: 0.171115
+2023-02-24 17:25:10, INFO: Average loss in epoch of statePredictor36: 0.171046
+2023-02-24 17:25:15, INFO: Average loss in epoch of statePredictor37: 0.170792
+2023-02-24 17:25:20, INFO: Average loss in epoch of statePredictor38: 0.170572
+2023-02-24 17:25:24, INFO: Average loss in epoch of statePredictor39: 0.170247
+2023-02-24 17:25:29, INFO: Average loss in epoch of statePredictor40: 0.170429
+2023-02-24 17:25:33, INFO: Average loss in epoch of statePredictor41: 0.170226
+2023-02-24 17:25:38, INFO: Average loss in epoch of statePredictor42: 0.170191
+2023-02-24 17:25:43, INFO: Average loss in epoch of statePredictor43: 0.170051
+2023-02-24 17:25:47, INFO: Average loss in epoch of statePredictor44: 0.169872
+2023-02-24 17:25:52, INFO: Average loss in epoch of statePredictor45: 0.169897
+2023-02-24 17:25:56, INFO: Average loss in epoch of statePredictor46: 0.169692
+2023-02-24 17:26:01, INFO: Average loss in epoch of statePredictor47: 0.169652
+2023-02-24 17:26:06, INFO: Average loss in epoch of statePredictor48: 0.169534
+2023-02-24 17:26:10, INFO: Average loss in epoch of statePredictor49: 0.169575
+2023-02-24 17:26:56, INFO: Average loss in epoch 0: 23655.269798, 41910.187260
+2023-02-24 17:27:42, INFO: Average loss in epoch 1: 0.595607, 375.704195
+2023-02-24 17:28:29, INFO: Average loss in epoch 2: 0.088949, 718.784661
+2023-02-24 17:29:16, INFO: Average loss in epoch 3: 0.001742, 214.778529
+2023-02-24 17:30:02, INFO: Average loss in epoch 4: 0.001149, 175.731314
+2023-02-24 17:30:49, INFO: Average loss in epoch 5: 0.006274, 177.540618
+2023-02-24 17:31:36, INFO: Average loss in epoch 6: 0.001069, 150.677702
+2023-02-24 17:32:22, INFO: Average loss in epoch 7: 0.001170, 148.950652
+2023-02-24 17:33:09, INFO: Average loss in epoch 8: 0.001060, 183.948108
+2023-02-24 17:33:56, INFO: Average loss in epoch 9: 0.001053, 123.485848
+2023-02-24 17:34:43, INFO: Average loss in epoch 10: 0.001076, 112.033136
+2023-02-24 17:35:30, INFO: Average loss in epoch 11: 39.274696, 98.969068
+2023-02-24 17:36:18, INFO: Average loss in epoch 12: 1289.225327, 99.426049
+2023-02-24 17:37:05, INFO: Average loss in epoch 13: 0.003181, 90.877163
+2023-02-24 17:37:53, INFO: Average loss in epoch 14: 0.001055, 96.055955
+2023-02-24 17:38:41, INFO: Average loss in epoch 15: 0.001055, 85.839419
+2023-02-24 17:39:30, INFO: Average loss in epoch 16: 0.001051, 80.240127
+2023-02-24 17:40:19, INFO: Average loss in epoch 17: 0.001052, 84.056571
+2023-02-24 17:41:08, INFO: Average loss in epoch 18: 0.001055, 82.922585
+2023-02-24 17:41:56, INFO: Average loss in epoch 19: 0.001055, 76.196340
+2023-02-24 17:42:45, INFO: Average loss in epoch 20: 0.001052, 78.307468
+2023-02-24 17:43:34, INFO: Average loss in epoch 21: 0.001056, 77.290791
+2023-02-24 17:44:22, INFO: Average loss in epoch 22: 0.001079, 78.793576
+2023-02-24 17:45:11, INFO: Average loss in epoch 23: 0.001077, 81.801919
+2023-02-24 17:45:59, INFO: Average loss in epoch 24: 0.001054, 72.279314
+2023-02-24 17:46:48, INFO: Average loss in epoch 25: 0.001059, 74.329233
+2023-02-24 17:47:36, INFO: Average loss in epoch 26: 0.001063, 73.532598
+2023-02-24 17:48:25, INFO: Average loss in epoch 27: 0.001056, 64.733740
+2023-02-24 17:49:13, INFO: Average loss in epoch 28: 0.001060, 61.193512
+2023-02-24 17:50:02, INFO: Average loss in epoch 29: 0.001053, 62.778023
+2023-02-24 17:50:51, INFO: Average loss in epoch 30: 0.001056, 61.700738
+2023-02-24 17:51:39, INFO: Average loss in epoch 31: 0.001054, 59.862840
+2023-02-24 17:52:28, INFO: Average loss in epoch 32: 0.001052, 61.015046
+2023-02-24 17:53:16, INFO: Average loss in epoch 33: 0.001056, 61.144788
+2023-02-24 17:54:05, INFO: Average loss in epoch 34: 0.001055, 57.665375
+2023-02-24 17:54:53, INFO: Average loss in epoch 35: 0.001052, 58.607167
+2023-02-24 17:55:42, INFO: Average loss in epoch 36: 0.001052, 55.234009
+2023-02-24 17:56:30, INFO: Average loss in epoch 37: 0.001068, 53.134983
+2023-02-24 17:57:19, INFO: Average loss in epoch 38: 0.001052, 53.215556
+2023-02-24 17:58:07, INFO: Average loss in epoch 39: 0.001056, 59.266970
+2023-02-24 17:58:56, INFO: Average loss in epoch 40: 0.001052, 56.396882
+2023-02-24 17:59:44, INFO: Average loss in epoch 41: 0.001056, 58.251017
+2023-02-24 18:00:33, INFO: Average loss in epoch 42: 0.001059, 58.024454
+2023-02-24 18:01:21, INFO: Average loss in epoch 43: 0.001054, 54.520752
+2023-02-24 18:02:10, INFO: Average loss in epoch 44: 886.913224, 55.684439
+2023-02-24 18:02:59, INFO: Average loss in epoch 45: 0.130176, 52.306747
+2023-02-24 18:03:51, INFO: Average loss in epoch 46: 0.001054, 54.676663
+2023-02-24 18:04:43, INFO: Average loss in epoch 47: 0.001051, 49.478058
+2023-02-24 18:05:34, INFO: Average loss in epoch 48: 0.001061, 52.082325
+2023-02-24 18:06:28, INFO: Average loss in epoch 49: 0.001053, 48.307742
+2023-02-24 18:06:28, INFO: Finish imitation learning. Weights saved.
+2023-02-24 18:06:28, INFO: Experience set size: 1562/5000
+2023-02-24 18:06:28, INFO: Agent is invisible and has holonomic kinematic constraint
+2023-02-24 18:06:28, INFO: Lr: 0.0001 for parameters graph_model.gat0.w_a.0.weight graph_model.gat0.w_a.0.bias graph_model.gat0.w_a.1.weight graph_model.gat0.w_a.1.bias graph_model.gat1.w_a.0.weight graph_model.gat1.w_a.0.bias graph_model.gat1.w_a.1.weight graph_model.gat1.w_a.1.bias graph_model.w_r.0.weight graph_model.w_r.0.bias graph_model.w_r.1.weight graph_model.w_r.1.bias graph_model.w_h.0.weight graph_model.w_h.0.bias graph_model.w_h.1.weight graph_model.w_h.1.bias value_network.0.weight value_network.0.bias value_network.1.weight value_network.1.bias value_network.2.weight value_network.2.bias value_network.3.weight value_network.3.bias mapconv.conv1.weight mapconv.conv1.bias mapconv.layer1.0.conv1.weight mapconv.layer1.0.conv1.bias mapconv.layer1.0.conv2.weight mapconv.layer1.0.conv2.bias mapconv.layer1.1.conv1.weight mapconv.layer1.1.conv1.bias mapconv.layer1.1.conv2.weight mapconv.layer1.1.conv2.bias mapconv.layer2.0.conv1.weight mapconv.layer2.0.conv1.bias mapconv.layer2.0.conv2.weight mapconv.layer2.0.conv2.bias mapconv.layer2.0.downsample.0.weight mapconv.layer2.0.downsample.0.bias mapconv.layer2.1.conv1.weight mapconv.layer2.1.conv1.bias mapconv.layer2.1.conv2.weight mapconv.layer2.1.conv2.bias mapconv.layer3.0.conv1.weight mapconv.layer3.0.conv1.bias mapconv.layer3.0.conv2.weight mapconv.layer3.0.conv2.bias mapconv.layer3.0.downsample.0.weight mapconv.layer3.0.downsample.0.bias mapconv.layer3.1.conv1.weight mapconv.layer3.1.conv1.bias mapconv.layer3.1.conv2.weight mapconv.layer3.1.conv2.bias mapconv.layer4.0.conv1.weight mapconv.layer4.0.conv1.bias mapconv.layer4.0.conv2.weight mapconv.layer4.0.conv2.bias mapconv.layer4.0.downsample.0.weight mapconv.layer4.0.downsample.0.bias mapconv.layer4.1.conv1.weight mapconv.layer4.1.conv1.bias mapconv.layer4.1.conv2.weight mapconv.layer4.1.conv2.bias mapconv.conv2.weight mapconv.conv2.bias mapconv.conv3.weight mapconv.conv3.bias mapconv.conv4.weight mapconv.conv4.bias mapconv.l1.weight mapconv.l1.bias mapconv.l2.weight mapconv.l2.bias weight.weight weight.bias graph_model.gat0.w_a.0.weight graph_model.gat0.w_a.0.bias graph_model.gat0.w_a.1.weight graph_model.gat0.w_a.1.bias graph_model.gat1.w_a.0.weight graph_model.gat1.w_a.0.bias graph_model.gat1.w_a.1.weight graph_model.gat1.w_a.1.bias graph_model.w_r.0.weight graph_model.w_r.0.bias graph_model.w_r.1.weight graph_model.w_r.1.bias graph_model.w_h.0.weight graph_model.w_h.0.bias graph_model.w_h.1.weight graph_model.w_h.1.bias human_motion_predictor_RGL.0.weight human_motion_predictor_RGL.0.bias human_motion_predictor_RGL.1.weight human_motion_predictor_RGL.1.bias human_motion_predictor.st_gcns.0.gcn.conv.weight human_motion_predictor.st_gcns.0.gcn.conv.bias human_motion_predictor.st_gcns.0.tcn.0.weight human_motion_predictor.st_gcns.0.tcn.0.bias human_motion_predictor.st_gcns.0.tcn.1.weight human_motion_predictor.st_gcns.0.tcn.2.weight human_motion_predictor.st_gcns.0.tcn.2.bias human_motion_predictor.st_gcns.0.tcn.3.weight human_motion_predictor.st_gcns.0.tcn.3.bias human_motion_predictor.st_gcns.0.residual.0.weight human_motion_predictor.st_gcns.0.residual.0.bias human_motion_predictor.st_gcns.0.residual.1.weight human_motion_predictor.st_gcns.0.residual.1.bias human_motion_predictor.st_gcns.0.prelu.weight human_motion_predictor.tpcnns.0.weight human_motion_predictor.tpcnns.0.bias human_motion_predictor.tpcnns.1.weight human_motion_predictor.tpcnns.1.bias human_motion_predictor.tpcnns.2.weight human_motion_predictor.tpcnns.2.bias human_motion_predictor.tpcnn_ouput.weight human_motion_predictor.tpcnn_ouput.bias human_motion_predictor.prelus.0.weight human_motion_predictor.prelus.1.weight human_motion_predictor.prelus.2.weight mappredictor.conv1.weight mappredictor.conv1.bias mappredictor.layer1.0.conv1.weight mappredictor.layer1.0.conv1.bias mappredictor.layer1.0.conv2.weight mappredictor.layer1.0.conv2.bias mappredictor.layer1.1.conv1.weight mappredictor.layer1.1.conv1.bias mappredictor.layer1.1.conv2.weight mappredictor.layer1.1.conv2.bias mappredictor.layer2.0.conv1.weight mappredictor.layer2.0.conv1.bias mappredictor.layer2.0.conv2.weight mappredictor.layer2.0.conv2.bias mappredictor.layer2.0.downsample.0.weight mappredictor.layer2.0.downsample.0.bias mappredictor.layer2.1.conv1.weight mappredictor.layer2.1.conv1.bias mappredictor.layer2.1.conv2.weight mappredictor.layer2.1.conv2.bias mappredictor.layer3.0.conv1.weight mappredictor.layer3.0.conv1.bias mappredictor.layer3.0.conv2.weight mappredictor.layer3.0.conv2.bias mappredictor.layer3.0.downsample.0.weight mappredictor.layer3.0.downsample.0.bias mappredictor.layer3.1.conv1.weight mappredictor.layer3.1.conv1.bias mappredictor.layer3.1.conv2.weight mappredictor.layer3.1.conv2.bias mappredictor.layer4.0.conv1.weight mappredictor.layer4.0.conv1.bias mappredictor.layer4.0.conv2.weight mappredictor.layer4.0.conv2.bias mappredictor.layer4.0.downsample.0.weight mappredictor.layer4.0.downsample.0.bias mappredictor.layer4.1.conv1.weight mappredictor.layer4.1.conv1.bias mappredictor.layer4.1.conv2.weight mappredictor.layer4.1.conv2.bias mappredictor.conv2.weight mappredictor.conv2.bias mappredictor.conv3.weight mappredictor.conv3.bias with Adam optimizer
+2023-02-24 18:07:21, INFO: Collision with obstacle !!!
+2023-02-24 18:07:22, INFO: TRAIN in episode 0 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0098, average return: -0.0704

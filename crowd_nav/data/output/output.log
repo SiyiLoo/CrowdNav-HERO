@@ -1,0 +1,2249 @@
+2023-04-07 15:06:57, INFO: Current config content is :<module 'config' from 'data/output/config.py'>
+2023-04-07 15:06:57, INFO: Using device: cuda:0
+2023-04-07 15:06:57, INFO: Similarity_func: embedded_gaussian
+2023-04-07 15:06:57, INFO: Layerwise_graph: False
+2023-04-07 15:06:57, INFO: Skip_connection: True
+2023-04-07 15:06:57, INFO: Number of layers: 2
+2023-04-07 15:06:57, INFO: Similarity_func: embedded_gaussian
+2023-04-07 15:06:57, INFO: Layerwise_graph: False
+2023-04-07 15:06:57, INFO: Skip_connection: True
+2023-04-07 15:06:57, INFO: Number of layers: 2
+2023-04-07 15:06:58, INFO: Planning depth: 1
+2023-04-07 15:06:58, INFO: Planning width: 1
+2023-04-07 15:06:58, INFO: Sparse search: None
+2023-04-07 15:07:50, INFO: human number: 20
+2023-04-07 15:07:50, INFO: Not randomize human's radius and preferred speed
+2023-04-07 15:07:50, INFO: Training simulation: from_data, test simulation: from_data
+2023-04-07 15:07:50, INFO: Square width: 20, circle width: 4
+2023-04-07 15:07:50, INFO: Similarity_func: embedded_gaussian
+2023-04-07 15:07:50, INFO: Layerwise_graph: False
+2023-04-07 15:07:50, INFO: Skip_connection: True
+2023-04-07 15:07:50, INFO: Number of layers: 2
+2023-04-07 15:07:51, INFO: Lr: 0.001 for parameters graph_model.gat0.w_a.0.weight graph_model.gat0.w_a.0.bias graph_model.gat0.w_a.1.weight graph_model.gat0.w_a.1.bias graph_model.gat1.w_a.0.weight graph_model.gat1.w_a.0.bias graph_model.gat1.w_a.1.weight graph_model.gat1.w_a.1.bias graph_model.w_r.0.weight graph_model.w_r.0.bias graph_model.w_r.1.weight graph_model.w_r.1.bias graph_model.w_h.0.weight graph_model.w_h.0.bias graph_model.w_h.1.weight graph_model.w_h.1.bias value_network.0.weight value_network.0.bias value_network.1.weight value_network.1.bias value_network.2.weight value_network.2.bias value_network.3.weight value_network.3.bias mapconv.conv1.weight mapconv.conv1.bias mapconv.layer1.0.conv1.weight mapconv.layer1.0.conv1.bias mapconv.layer1.0.conv2.weight mapconv.layer1.0.conv2.bias mapconv.layer1.1.conv1.weight mapconv.layer1.1.conv1.bias mapconv.layer1.1.conv2.weight mapconv.layer1.1.conv2.bias mapconv.layer2.0.conv1.weight mapconv.layer2.0.conv1.bias mapconv.layer2.0.conv2.weight mapconv.layer2.0.conv2.bias mapconv.layer2.0.downsample.0.weight mapconv.layer2.0.downsample.0.bias mapconv.layer2.1.conv1.weight mapconv.layer2.1.conv1.bias mapconv.layer2.1.conv2.weight mapconv.layer2.1.conv2.bias mapconv.layer3.0.conv1.weight mapconv.layer3.0.conv1.bias mapconv.layer3.0.conv2.weight mapconv.layer3.0.conv2.bias mapconv.layer3.0.downsample.0.weight mapconv.layer3.0.downsample.0.bias mapconv.layer3.1.conv1.weight mapconv.layer3.1.conv1.bias mapconv.layer3.1.conv2.weight mapconv.layer3.1.conv2.bias mapconv.layer4.0.conv1.weight mapconv.layer4.0.conv1.bias mapconv.layer4.0.conv2.weight mapconv.layer4.0.conv2.bias mapconv.layer4.0.downsample.0.weight mapconv.layer4.0.downsample.0.bias mapconv.layer4.1.conv1.weight mapconv.layer4.1.conv1.bias mapconv.layer4.1.conv2.weight mapconv.layer4.1.conv2.bias mapconv.conv2.weight mapconv.conv2.bias mapconv.conv3.weight mapconv.conv3.bias mapconv.conv4.weight mapconv.conv4.bias mapconv.l1.weight mapconv.l1.bias mapconv.l2.weight mapconv.l2.bias weight.weight weight.bias graph_model.gat0.w_a.0.weight graph_model.gat0.w_a.0.bias graph_model.gat0.w_a.1.weight graph_model.gat0.w_a.1.bias graph_model.gat1.w_a.0.weight graph_model.gat1.w_a.0.bias graph_model.gat1.w_a.1.weight graph_model.gat1.w_a.1.bias graph_model.w_r.0.weight graph_model.w_r.0.bias graph_model.w_r.1.weight graph_model.w_r.1.bias graph_model.w_h.0.weight graph_model.w_h.0.bias graph_model.w_h.1.weight graph_model.w_h.1.bias human_motion_predictor_RGL.0.weight human_motion_predictor_RGL.0.bias human_motion_predictor_RGL.1.weight human_motion_predictor_RGL.1.bias human_motion_predictor.st_gcns.0.gcn.conv.weight human_motion_predictor.st_gcns.0.gcn.conv.bias human_motion_predictor.st_gcns.0.tcn.0.weight human_motion_predictor.st_gcns.0.tcn.0.bias human_motion_predictor.st_gcns.0.tcn.1.weight human_motion_predictor.st_gcns.0.tcn.2.weight human_motion_predictor.st_gcns.0.tcn.2.bias human_motion_predictor.st_gcns.0.tcn.3.weight human_motion_predictor.st_gcns.0.tcn.3.bias human_motion_predictor.st_gcns.0.residual.0.weight human_motion_predictor.st_gcns.0.residual.0.bias human_motion_predictor.st_gcns.0.residual.1.weight human_motion_predictor.st_gcns.0.residual.1.bias human_motion_predictor.st_gcns.0.prelu.weight human_motion_predictor.tpcnns.0.weight human_motion_predictor.tpcnns.0.bias human_motion_predictor.tpcnns.1.weight human_motion_predictor.tpcnns.1.bias human_motion_predictor.tpcnns.2.weight human_motion_predictor.tpcnns.2.bias human_motion_predictor.tpcnn_ouput.weight human_motion_predictor.tpcnn_ouput.bias human_motion_predictor.prelus.0.weight human_motion_predictor.prelus.1.weight human_motion_predictor.prelus.2.weight mappredictor.conv1.weight mappredictor.conv1.bias mappredictor.layer1.0.conv1.weight mappredictor.layer1.0.conv1.bias mappredictor.layer1.0.conv2.weight mappredictor.layer1.0.conv2.bias mappredictor.layer1.1.conv1.weight mappredictor.layer1.1.conv1.bias mappredictor.layer1.1.conv2.weight mappredictor.layer1.1.conv2.bias mappredictor.layer2.0.conv1.weight mappredictor.layer2.0.conv1.bias mappredictor.layer2.0.conv2.weight mappredictor.layer2.0.conv2.bias mappredictor.layer2.0.downsample.0.weight mappredictor.layer2.0.downsample.0.bias mappredictor.layer2.1.conv1.weight mappredictor.layer2.1.conv1.bias mappredictor.layer2.1.conv2.weight mappredictor.layer2.1.conv2.bias mappredictor.layer3.0.conv1.weight mappredictor.layer3.0.conv1.bias mappredictor.layer3.0.conv2.weight mappredictor.layer3.0.conv2.bias mappredictor.layer3.0.downsample.0.weight mappredictor.layer3.0.downsample.0.bias mappredictor.layer3.1.conv1.weight mappredictor.layer3.1.conv1.bias mappredictor.layer3.1.conv2.weight mappredictor.layer3.1.conv2.bias mappredictor.layer4.0.conv1.weight mappredictor.layer4.0.conv1.bias mappredictor.layer4.0.conv2.weight mappredictor.layer4.0.conv2.bias mappredictor.layer4.0.downsample.0.weight mappredictor.layer4.0.downsample.0.bias mappredictor.layer4.1.conv1.weight mappredictor.layer4.1.conv1.bias mappredictor.layer4.1.conv2.weight mappredictor.layer4.1.conv2.bias mappredictor.conv2.weight mappredictor.conv2.bias mappredictor.conv3.weight mappredictor.conv3.bias with Adam optimizer
+2023-04-07 15:07:52, INFO: Collision with obstacle !!!
+2023-04-07 15:07:59, INFO: Timeout !!!
+2023-04-07 15:08:01, INFO: Collision with obstacle !!!
+2023-04-07 15:08:08, INFO: Collision with obstacle !!!
+2023-04-07 15:08:12, INFO: Collision with obstacle !!!
+2023-04-07 15:08:13, INFO: Collision with obstacle !!!
+2023-04-07 15:08:20, INFO: Timeout !!!
+2023-04-07 15:08:23, INFO: Collision with obstacle !!!
+2023-04-07 15:08:27, INFO: Collision with obstacle !!!
+2023-04-07 15:08:28, INFO: Collision with obstacle !!!
+2023-04-07 15:08:31, INFO: Collision with human !!!
+2023-04-07 15:08:38, INFO: Success !!!
+2023-04-07 15:08:41, INFO: Collision with obstacle !!!
+2023-04-07 15:08:43, INFO: Collision with obstacle !!!
+2023-04-07 15:09:04, INFO: Collision with obstacle !!!
+2023-04-07 15:09:05, INFO: Collision with obstacle !!!
+2023-04-07 15:09:06, INFO: Collision with obstacle !!!
+2023-04-07 15:09:08, INFO: Collision with obstacle !!!
+2023-04-07 15:09:09, INFO: Collision with obstacle !!!
+2023-04-07 15:09:11, INFO: Collision with obstacle !!!
+2023-04-07 15:09:30, INFO: Collision with obstacle !!!
+2023-04-07 15:09:31, INFO: Collision with obstacle !!!
+2023-04-07 15:09:32, INFO: Collision with obstacle !!!
+2023-04-07 15:09:34, INFO: Collision with obstacle !!!
+2023-04-07 15:09:43, INFO: Collision with obstacle !!!
+2023-04-07 15:09:44, INFO: Success !!!
+2023-04-07 15:09:49, INFO: Success !!!
+2023-04-07 15:10:02, INFO: Success !!!
+2023-04-07 15:10:07, INFO: Collision with obstacle !!!
+2023-04-07 15:10:07, INFO: Success !!!
+2023-04-07 15:10:10, INFO: Collision with obstacle !!!
+2023-04-07 15:10:13, INFO: Collision with obstacle !!!
+2023-04-07 15:10:18, INFO: Collision with obstacle !!!
+2023-04-07 15:10:21, INFO: Collision with obstacle !!!
+2023-04-07 15:10:25, INFO: Collision with obstacle !!!
+2023-04-07 15:10:29, INFO: Collision with obstacle !!!
+2023-04-07 15:10:39, INFO: Collision with obstacle !!!
+2023-04-07 15:10:40, INFO: Collision with obstacle !!!
+2023-04-07 15:10:42, INFO: Collision with obstacle !!!
+2023-04-07 15:10:50, INFO: Collision with human !!!
+2023-04-07 15:11:05, INFO: Collision with obstacle !!!
+2023-04-07 15:11:09, INFO: Collision with obstacle !!!
+2023-04-07 15:11:10, INFO: Collision with obstacle !!!
+2023-04-07 15:11:17, INFO: Timeout !!!
+2023-04-07 15:11:19, INFO: Collision with obstacle !!!
+2023-04-07 15:11:21, INFO: Collision with obstacle !!!
+2023-04-07 15:11:24, INFO: Collision with obstacle !!!
+2023-04-07 15:11:33, INFO: Collision with obstacle !!!
+2023-04-07 15:11:53, INFO: Collision with obstacle !!!
+2023-04-07 15:12:01, INFO: Success !!!
+2023-04-07 15:12:15, INFO: Collision with obstacle !!!
+2023-04-07 15:12:19, INFO: Collision with obstacle !!!
+2023-04-07 15:12:21, INFO: Collision with obstacle !!!
+2023-04-07 15:12:22, INFO: Collision with obstacle !!!
+2023-04-07 15:12:29, INFO: Timeout !!!
+2023-04-07 15:12:32, INFO: Collision with obstacle !!!
+2023-04-07 15:12:38, INFO: Collision with obstacle !!!
+2023-04-07 15:12:45, INFO: Success !!!
+2023-04-07 15:12:49, INFO: Collision with obstacle !!!
+2023-04-07 15:13:15, INFO: Collision with obstacle !!!
+2023-04-07 15:13:22, INFO: Collision with obstacle !!!
+2023-04-07 15:14:05, INFO: Timeout !!!
+2023-04-07 15:14:07, INFO: Collision with obstacle !!!
+2023-04-07 15:14:11, INFO: Collision with obstacle !!!
+2023-04-07 15:14:15, INFO: Success !!!
+2023-04-07 15:14:23, INFO: Collision with obstacle !!!
+2023-04-07 15:14:25, INFO: Collision with obstacle !!!
+2023-04-07 15:14:27, INFO: Collision with obstacle !!!
+2023-04-07 15:14:30, INFO: Collision with obstacle !!!
+2023-04-07 15:14:36, INFO: Collision with obstacle !!!
+2023-04-07 15:14:43, INFO: Timeout !!!
+2023-04-07 15:14:45, INFO: Success !!!
+2023-04-07 15:14:49, INFO: Collision with obstacle !!!
+2023-04-07 15:14:51, INFO: Collision with obstacle !!!
+2023-04-07 15:14:53, INFO: Collision with obstacle !!!
+2023-04-07 15:15:01, INFO: Collision with obstacle !!!
+2023-04-07 15:15:03, INFO: Collision with obstacle !!!
+2023-04-07 15:15:04, INFO: Success !!!
+2023-04-07 15:15:08, INFO: Collision with obstacle !!!
+2023-04-07 15:15:14, INFO: Collision with obstacle !!!
+2023-04-07 15:15:16, INFO: Collision with obstacle !!!
+2023-04-07 15:15:18, INFO: Success !!!
+2023-04-07 15:15:24, INFO: Collision with obstacle !!!
+2023-04-07 15:15:25, INFO: Collision with obstacle !!!
+2023-04-07 15:15:29, INFO: Collision with obstacle !!!
+2023-04-07 15:15:36, INFO: Success !!!
+2023-04-07 15:15:39, INFO: Collision with obstacle !!!
+2023-04-07 15:16:02, INFO: Success !!!
+2023-04-07 15:16:11, INFO: Collision with obstacle !!!
+2023-04-07 15:16:13, INFO: Collision with obstacle !!!
+2023-04-07 15:16:17, INFO: Collision with obstacle !!!
+2023-04-07 15:16:37, INFO: Collision with obstacle !!!
+2023-04-07 15:16:44, INFO: Collision with obstacle !!!
+2023-04-07 15:16:50, INFO: Collision with obstacle !!!
+2023-04-07 15:17:01, INFO: Collision with obstacle !!!
+2023-04-07 15:17:03, INFO: Collision with obstacle !!!
+2023-04-07 15:17:11, INFO: Collision with obstacle !!!
+2023-04-07 15:17:18, INFO: Success !!!
+2023-04-07 15:17:28, INFO: Collision with obstacle !!!
+2023-04-07 15:17:46, INFO: Collision with obstacle !!!
+2023-04-07 15:17:54, INFO: Collision with obstacle !!!
+2023-04-07 15:17:55, INFO: Collision with obstacle !!!
+2023-04-07 15:17:56, INFO: Collision with obstacle !!!
+2023-04-07 15:17:58, INFO: Success !!!
+2023-04-07 15:18:06, INFO: Success !!!
+2023-04-07 15:18:11, INFO: Collision with obstacle !!!
+2023-04-07 15:18:19, INFO: Collision with obstacle !!!
+2023-04-07 15:18:24, INFO: Success !!!
+2023-04-07 15:18:29, INFO: Collision with obstacle !!!
+2023-04-07 15:18:30, INFO: Collision with obstacle !!!
+2023-04-07 15:18:47, INFO: Success !!!
+2023-04-07 15:19:14, INFO: Collision with obstacle !!!
+2023-04-07 15:19:16, INFO: Collision with obstacle !!!
+2023-04-07 15:19:17, INFO: Collision with obstacle !!!
+2023-04-07 15:19:30, INFO: Success !!!
+2023-04-07 15:19:35, INFO: Success !!!
+2023-04-07 15:19:40, INFO: Collision with obstacle !!!
+2023-04-07 15:19:44, INFO: Collision with obstacle !!!
+2023-04-07 15:19:44, INFO: Collision with obstacle !!!
+2023-04-07 15:19:46, INFO: Collision with obstacle !!!
+2023-04-07 15:19:48, INFO: Collision with obstacle !!!
+2023-04-07 15:19:50, INFO: Collision with obstacle !!!
+2023-04-07 15:19:53, INFO: Collision with human !!!
+2023-04-07 15:19:58, INFO: Collision with obstacle !!!
+2023-04-07 15:19:59, INFO: Collision with obstacle !!!
+2023-04-07 15:20:00, INFO: Collision with obstacle !!!
+2023-04-07 15:20:10, INFO: Collision with obstacle !!!
+2023-04-07 15:20:15, INFO: Collision with obstacle !!!
+2023-04-07 15:20:30, INFO: Timeout !!!
+2023-04-07 15:20:33, INFO: Collision with obstacle !!!
+2023-04-07 15:20:35, INFO: Collision with obstacle !!!
+2023-04-07 15:20:36, INFO: Collision with obstacle !!!
+2023-04-07 15:20:38, INFO: Collision with obstacle !!!
+2023-04-07 15:20:41, INFO: Collision with obstacle !!!
+2023-04-07 15:20:42, INFO: Collision with obstacle !!!
+2023-04-07 15:20:44, INFO: Collision with obstacle !!!
+2023-04-07 15:20:46, INFO: Collision with obstacle !!!
+2023-04-07 15:20:59, INFO: Collision with obstacle !!!
+2023-04-07 15:21:02, INFO: Collision with obstacle !!!
+2023-04-07 15:21:04, INFO: Collision with obstacle !!!
+2023-04-07 15:21:09, INFO: Collision with obstacle !!!
+2023-04-07 15:21:12, INFO: Collision with obstacle !!!
+2023-04-07 15:21:14, INFO: Collision with obstacle !!!
+2023-04-07 15:21:16, INFO: Collision with obstacle !!!
+2023-04-07 15:21:17, INFO: Collision with human !!!
+2023-04-07 15:21:19, INFO: Collision with obstacle !!!
+2023-04-07 15:21:21, INFO: Collision with obstacle !!!
+2023-04-07 15:21:24, INFO: Success !!!
+2023-04-07 15:21:57, INFO: Collision with obstacle !!!
+2023-04-07 15:22:02, INFO: Collision with obstacle !!!
+2023-04-07 15:22:07, INFO: Collision with obstacle !!!
+2023-04-07 15:22:10, INFO: Collision with obstacle !!!
+2023-04-07 15:22:13, INFO: Collision with obstacle !!!
+2023-04-07 15:22:16, INFO: Collision with obstacle !!!
+2023-04-07 15:22:26, INFO: Collision with obstacle !!!
+2023-04-07 15:22:37, INFO: Collision with obstacle !!!
+2023-04-07 15:22:39, INFO: Collision with obstacle !!!
+2023-04-07 15:22:45, INFO: Timeout !!!
+2023-04-07 15:22:49, INFO: Success !!!
+2023-04-07 15:24:28, INFO: Collision with obstacle !!!
+2023-04-07 15:24:32, INFO: Collision with obstacle !!!
+2023-04-07 15:24:43, INFO: Collision with obstacle !!!
+2023-04-07 15:24:46, INFO: Success !!!
+2023-04-07 15:24:53, INFO: Success !!!
+2023-04-07 15:24:56, INFO: Collision with obstacle !!!
+2023-04-07 15:25:08, INFO: Collision with obstacle !!!
+2023-04-07 15:25:29, INFO: Collision with obstacle !!!
+2023-04-07 15:26:29, INFO: Timeout !!!
+2023-04-07 15:26:31, INFO: Success !!!
+2023-04-07 15:27:37, INFO: Timeout !!!
+2023-04-07 15:27:40, INFO: Collision with obstacle !!!
+2023-04-07 15:27:43, INFO: Success !!!
+2023-04-07 15:27:47, INFO: Collision with obstacle !!!
+2023-04-07 15:27:49, INFO: Collision with obstacle !!!
+2023-04-07 15:27:54, INFO: Collision with obstacle !!!
+2023-04-07 15:27:55, INFO: Collision with obstacle !!!
+2023-04-07 15:27:58, INFO: Collision with obstacle !!!
+2023-04-07 15:27:59, INFO: Collision with obstacle !!!
+2023-04-07 15:28:01, INFO: Collision with obstacle !!!
+2023-04-07 15:28:08, INFO: Collision with human !!!
+2023-04-07 15:28:12, INFO: Collision with obstacle !!!
+2023-04-07 15:28:13, INFO: Collision with obstacle !!!
+2023-04-07 15:28:13, INFO: Collision with human !!!
+2023-04-07 15:28:20, INFO: Collision with obstacle !!!
+2023-04-07 15:28:22, INFO: Collision with obstacle !!!
+2023-04-07 15:28:29, INFO: Collision with obstacle !!!
+2023-04-07 15:28:32, INFO: Collision with obstacle !!!
+2023-04-07 15:28:33, INFO: Collision with obstacle !!!
+2023-04-07 15:28:38, INFO: Timeout !!!
+2023-04-07 15:28:40, INFO: Collision with obstacle !!!
+2023-04-07 15:28:42, INFO: Collision with obstacle !!!
+2023-04-07 15:28:45, INFO: Collision with obstacle !!!
+2023-04-07 15:28:49, INFO: Collision with obstacle !!!
+2023-04-07 15:28:55, INFO: Collision with obstacle !!!
+2023-04-07 15:28:56, INFO: Collision with obstacle !!!
+2023-04-07 15:29:05, INFO: Collision with obstacle !!!
+2023-04-07 15:29:07, INFO: Collision with obstacle !!!
+2023-04-07 15:29:13, INFO: Collision with obstacle !!!
+2023-04-07 15:29:15, INFO: Collision with obstacle !!!
+2023-04-07 15:29:17, INFO: Collision with obstacle !!!
+2023-04-07 15:29:20, INFO: Collision with obstacle !!!
+2023-04-07 15:29:29, INFO: Success !!!
+2023-04-07 15:29:34, INFO: Collision with human !!!
+2023-04-07 15:29:50, INFO: Collision with obstacle !!!
+2023-04-07 15:29:51, INFO: Collision with obstacle !!!
+2023-04-07 15:29:53, INFO: Collision with obstacle !!!
+2023-04-07 15:29:54, INFO: Collision with obstacle !!!
+2023-04-07 15:29:55, INFO: Collision with obstacle !!!
+2023-04-07 15:29:58, INFO: Collision with obstacle !!!
+2023-04-07 15:30:01, INFO: Collision with obstacle !!!
+2023-04-07 15:30:03, INFO: Collision with obstacle !!!
+2023-04-07 15:30:06, INFO: Success !!!
+2023-04-07 15:30:09, INFO: Collision with obstacle !!!
+2023-04-07 15:30:16, INFO: Timeout !!!
+2023-04-07 15:30:19, INFO: Success !!!
+2023-04-07 15:30:25, INFO: Collision with obstacle !!!
+2023-04-07 15:30:28, INFO: Success !!!
+2023-04-07 15:30:36, INFO: Success !!!
+2023-04-07 15:30:40, INFO: Collision with obstacle !!!
+2023-04-07 15:30:49, INFO: Success !!!
+2023-04-07 15:31:19, INFO: Collision with obstacle !!!
+2023-04-07 15:31:25, INFO: Timeout !!!
+2023-04-07 15:31:32, INFO: Collision with obstacle !!!
+2023-04-07 15:31:34, INFO: Collision with obstacle !!!
+2023-04-07 15:31:37, INFO: Collision with obstacle !!!
+2023-04-07 15:31:41, INFO: Collision with obstacle !!!
+2023-04-07 15:31:43, INFO: Collision with obstacle !!!
+2023-04-07 15:31:53, INFO: Collision with obstacle !!!
+2023-04-07 15:31:56, INFO: Collision with obstacle !!!
+2023-04-07 15:31:58, INFO: Collision with obstacle !!!
+2023-04-07 15:32:01, INFO: Collision with obstacle !!!
+2023-04-07 15:32:02, INFO: Success !!!
+2023-04-07 15:32:05, INFO: Collision with obstacle !!!
+2023-04-07 15:32:10, INFO: Collision with obstacle !!!
+2023-04-07 15:32:18, INFO: Success !!!
+2023-04-07 15:32:28, INFO: Success !!!
+2023-04-07 15:32:37, INFO: Success !!!
+2023-04-07 15:32:40, INFO: Collision with obstacle !!!
+2023-04-07 15:32:48, INFO: Collision with obstacle !!!
+2023-04-07 15:32:50, INFO: Collision with obstacle !!!
+2023-04-07 15:32:56, INFO: Timeout !!!
+2023-04-07 15:32:59, INFO: Collision with obstacle !!!
+2023-04-07 15:33:01, INFO: Collision with obstacle !!!
+2023-04-07 15:33:03, INFO: Collision with obstacle !!!
+2023-04-07 15:33:05, INFO: Collision with obstacle !!!
+2023-04-07 15:33:25, INFO: Collision with obstacle !!!
+2023-04-07 15:33:46, INFO: Collision with obstacle !!!
+2023-04-07 15:34:32, INFO: Collision with obstacle !!!
+2023-04-07 15:34:37, INFO: Success !!!
+2023-04-07 15:35:03, INFO: Collision with obstacle !!!
+2023-04-07 15:35:05, INFO: Success !!!
+2023-04-07 15:35:10, INFO: Collision with obstacle !!!
+2023-04-07 15:35:12, INFO: Collision with obstacle !!!
+2023-04-07 15:35:17, INFO: Collision with obstacle !!!
+2023-04-07 15:35:27, INFO: Collision with obstacle !!!
+2023-04-07 15:35:28, INFO: Collision with obstacle !!!
+2023-04-07 15:35:32, INFO: Collision with obstacle !!!
+2023-04-07 15:35:40, INFO: Collision with obstacle !!!
+2023-04-07 15:35:59, INFO: Collision with obstacle !!!
+2023-04-07 15:36:04, INFO: Collision with obstacle !!!
+2023-04-07 15:36:05, INFO: Collision with obstacle !!!
+2023-04-07 15:36:07, INFO: Collision with obstacle !!!
+2023-04-07 15:36:10, INFO: Collision with obstacle !!!
+2023-04-07 15:36:12, INFO: Collision with obstacle !!!
+2023-04-07 15:36:18, INFO: Success !!!
+2023-04-07 15:36:20, INFO: Success !!!
+2023-04-07 15:36:42, INFO: Collision with obstacle !!!
+2023-04-07 15:36:44, INFO: Collision with obstacle !!!
+2023-04-07 15:36:47, INFO: Collision with obstacle !!!
+2023-04-07 15:36:49, INFO: Success !!!
+2023-04-07 15:37:24, INFO: Collision with obstacle !!!
+2023-04-07 15:37:26, INFO: Collision with obstacle !!!
+2023-04-07 15:37:27, INFO: Collision with obstacle !!!
+2023-04-07 15:37:32, INFO: Collision with obstacle !!!
+2023-04-07 15:37:35, INFO: Success !!!
+2023-04-07 15:38:08, INFO: Collision with obstacle !!!
+2023-04-07 15:38:10, INFO: Collision with obstacle !!!
+2023-04-07 15:38:14, INFO: Success !!!
+2023-04-07 15:38:20, INFO: Collision with obstacle !!!
+2023-04-07 15:38:21, INFO: Collision with obstacle !!!
+2023-04-07 15:38:28, INFO: Collision with obstacle !!!
+2023-04-07 15:38:28, INFO: Success !!!
+2023-04-07 15:38:31, INFO: Success !!!
+2023-04-07 15:38:34, INFO: Collision with obstacle !!!
+2023-04-07 15:38:35, INFO: Collision with human !!!
+2023-04-07 15:38:40, INFO: Success !!!
+2023-04-07 15:38:58, INFO: Success !!!
+2023-04-07 15:39:07, INFO: Collision with obstacle !!!
+2023-04-07 15:39:15, INFO: Collision with obstacle !!!
+2023-04-07 15:39:21, INFO: Collision with human !!!
+2023-04-07 15:39:28, INFO: Collision with obstacle !!!
+2023-04-07 15:39:32, INFO: Collision with obstacle !!!
+2023-04-07 15:39:37, INFO: Success !!!
+2023-04-07 15:39:40, INFO: Collision with obstacle !!!
+2023-04-07 15:39:45, INFO: Success !!!
+2023-04-07 15:39:48, INFO: Success !!!
+2023-04-07 15:39:53, INFO: Collision with obstacle !!!
+2023-04-07 15:39:54, INFO: Collision with obstacle !!!
+2023-04-07 15:39:56, INFO: Collision with obstacle !!!
+2023-04-07 15:39:59, INFO: Collision with obstacle !!!
+2023-04-07 15:40:00, INFO: Collision with obstacle !!!
+2023-04-07 15:40:02, INFO: Collision with obstacle !!!
+2023-04-07 15:40:05, INFO: Collision with obstacle !!!
+2023-04-07 15:40:09, INFO: Collision with obstacle !!!
+2023-04-07 15:40:12, INFO: Collision with obstacle !!!
+2023-04-07 15:40:13, INFO: Collision with obstacle !!!
+2023-04-07 15:40:15, INFO: Collision with obstacle !!!
+2023-04-07 15:40:17, INFO: Collision with obstacle !!!
+2023-04-07 15:40:29, INFO: Success !!!
+2023-04-07 15:40:35, INFO: Collision with obstacle !!!
+2023-04-07 15:40:43, INFO: Collision with human !!!
+2023-04-07 15:40:54, INFO: Collision with obstacle !!!
+2023-04-07 15:40:58, INFO: Collision with obstacle !!!
+2023-04-07 15:41:06, INFO: Collision with obstacle !!!
+2023-04-07 15:41:18, INFO: Collision with obstacle !!!
+2023-04-07 15:41:19, INFO: Collision with obstacle !!!
+2023-04-07 15:41:20, INFO: Collision with obstacle !!!
+2023-04-07 15:41:51, INFO: Collision with obstacle !!!
+2023-04-07 15:41:58, INFO: Collision with obstacle !!!
+2023-04-07 15:42:02, INFO: Collision with obstacle !!!
+2023-04-07 15:42:04, INFO: Success !!!
+2023-04-07 15:42:08, INFO: Success !!!
+2023-04-07 15:42:21, INFO: Collision with obstacle !!!
+2023-04-07 15:42:22, INFO: Collision with obstacle !!!
+2023-04-07 15:42:24, INFO: Collision with obstacle !!!
+2023-04-07 15:42:26, INFO: Collision with obstacle !!!
+2023-04-07 15:42:27, INFO: Collision with obstacle !!!
+2023-04-07 15:42:29, INFO: Collision with obstacle !!!
+2023-04-07 15:42:32, INFO: Collision with obstacle !!!
+2023-04-07 15:42:33, INFO: Success !!!
+2023-04-07 15:42:36, INFO: Collision with obstacle !!!
+2023-04-07 15:42:38, INFO: Success !!!
+2023-04-07 15:42:42, INFO: Collision with obstacle !!!
+2023-04-07 15:42:46, INFO: Collision with obstacle !!!
+2023-04-07 15:42:47, INFO: Collision with obstacle !!!
+2023-04-07 15:42:49, INFO: Collision with obstacle !!!
+2023-04-07 15:42:52, INFO: Collision with obstacle !!!
+2023-04-07 15:42:55, INFO: Collision with obstacle !!!
+2023-04-07 15:42:59, INFO: Collision with obstacle !!!
+2023-04-07 15:43:02, INFO: Collision with obstacle !!!
+2023-04-07 15:43:11, INFO: Collision with obstacle !!!
+2023-04-07 15:43:16, INFO: Collision with obstacle !!!
+2023-04-07 15:43:27, INFO: Collision with obstacle !!!
+2023-04-07 15:43:33, INFO: Collision with obstacle !!!
+2023-04-07 15:43:47, INFO: Collision with obstacle !!!
+2023-04-07 15:43:48, INFO: Collision with obstacle !!!
+2023-04-07 15:43:51, INFO: Collision with obstacle !!!
+2023-04-07 15:43:57, INFO: Collision with obstacle !!!
+2023-04-07 15:43:59, INFO: Collision with obstacle !!!
+2023-04-07 15:44:08, INFO: Timeout !!!
+2023-04-07 15:44:11, INFO: Collision with obstacle !!!
+2023-04-07 15:44:18, INFO: Collision with obstacle !!!
+2023-04-07 15:44:50, INFO: Collision with obstacle !!!
+2023-04-07 15:44:55, INFO: Collision with obstacle !!!
+2023-04-07 15:44:56, INFO: Collision with obstacle !!!
+2023-04-07 15:44:57, INFO: Collision with obstacle !!!
+2023-04-07 15:44:58, INFO: Collision with obstacle !!!
+2023-04-07 15:45:01, INFO: Collision with obstacle !!!
+2023-04-07 15:45:03, INFO: Collision with obstacle !!!
+2023-04-07 15:45:04, INFO: Collision with obstacle !!!
+2023-04-07 15:45:06, INFO: Collision with obstacle !!!
+2023-04-07 15:45:07, INFO: Collision with obstacle !!!
+2023-04-07 15:45:11, INFO: Collision with obstacle !!!
+2023-04-07 15:45:19, INFO: Collision with obstacle !!!
+2023-04-07 15:45:21, INFO: Collision with obstacle !!!
+2023-04-07 15:45:24, INFO: Collision with obstacle !!!
+2023-04-07 15:45:27, INFO: Collision with obstacle !!!
+2023-04-07 15:45:31, INFO: Collision with obstacle !!!
+2023-04-07 15:45:35, INFO: Collision with obstacle !!!
+2023-04-07 15:45:37, INFO: Collision with obstacle !!!
+2023-04-07 15:45:43, INFO: Success !!!
+2023-04-07 15:46:03, INFO: Collision with obstacle !!!
+2023-04-07 15:46:06, INFO: Success !!!
+2023-04-07 15:46:09, INFO: Collision with obstacle !!!
+2023-04-07 15:46:11, INFO: Collision with obstacle !!!
+2023-04-07 15:46:26, INFO: Collision with obstacle !!!
+2023-04-07 15:46:27, INFO: Collision with obstacle !!!
+2023-04-07 15:46:35, INFO: Collision with obstacle !!!
+2023-04-07 15:46:40, INFO: Collision with obstacle !!!
+2023-04-07 15:46:47, INFO: Collision with obstacle !!!
+2023-04-07 15:46:47, INFO: Collision with obstacle !!!
+2023-04-07 15:46:50, INFO: Collision with obstacle !!!
+2023-04-07 15:47:09, INFO: Collision with obstacle !!!
+2023-04-07 15:47:10, INFO: Success !!!
+2023-04-07 15:47:19, INFO: Success !!!
+2023-04-07 15:47:24, INFO: Collision with obstacle !!!
+2023-04-07 15:47:35, INFO: Collision with obstacle !!!
+2023-04-07 15:47:36, INFO: Collision with obstacle !!!
+2023-04-07 15:47:39, INFO: Collision with obstacle !!!
+2023-04-07 15:47:40, INFO: Collision with obstacle !!!
+2023-04-07 15:47:50, INFO: Collision with obstacle !!!
+2023-04-07 15:47:52, INFO: Collision with obstacle !!!
+2023-04-07 15:47:54, INFO: Collision with obstacle !!!
+2023-04-07 15:47:55, INFO: Collision with obstacle !!!
+2023-04-07 15:47:56, INFO: Success !!!
+2023-04-07 15:48:00, INFO: Collision with obstacle !!!
+2023-04-07 15:48:18, INFO: Collision with obstacle !!!
+2023-04-07 15:48:20, INFO: Collision with obstacle !!!
+2023-04-07 15:48:21, INFO: Success !!!
+2023-04-07 15:48:24, INFO: Collision with obstacle !!!
+2023-04-07 15:48:27, INFO: Collision with obstacle !!!
+2023-04-07 15:48:29, INFO: Collision with obstacle !!!
+2023-04-07 15:48:32, INFO: Collision with obstacle !!!
+2023-04-07 15:48:46, INFO: Collision with obstacle !!!
+2023-04-07 15:48:48, INFO: Collision with obstacle !!!
+2023-04-07 15:48:49, INFO: Collision with obstacle !!!
+2023-04-07 15:48:55, INFO: Collision with obstacle !!!
+2023-04-07 15:48:59, INFO: Collision with obstacle !!!
+2023-04-07 15:49:09, INFO: Success !!!
+2023-04-07 15:49:14, INFO: Success !!!
+2023-04-07 15:49:19, INFO: Success !!!
+2023-04-07 15:49:30, INFO: Collision with obstacle !!!
+2023-04-07 15:49:32, INFO: Success !!!
+2023-04-07 15:49:39, INFO: Success !!!
+2023-04-07 15:49:43, INFO: Collision with obstacle !!!
+2023-04-07 15:49:44, INFO: Collision with obstacle !!!
+2023-04-07 15:49:46, INFO: Collision with obstacle !!!
+2023-04-07 15:49:50, INFO: Collision with obstacle !!!
+2023-04-07 15:49:52, INFO: Collision with obstacle !!!
+2023-04-07 15:49:53, INFO: Collision with obstacle !!!
+2023-04-07 15:49:54, INFO: Collision with obstacle !!!
+2023-04-07 15:50:26, INFO: Collision with obstacle !!!
+2023-04-07 15:50:33, INFO: Collision with obstacle !!!
+2023-04-07 15:50:53, INFO: Collision with obstacle !!!
+2023-04-07 15:50:55, INFO: Success !!!
+2023-04-07 15:50:57, INFO: Collision with obstacle !!!
+2023-04-07 15:50:59, INFO: Collision with obstacle !!!
+2023-04-07 15:51:01, INFO: Collision with obstacle !!!
+2023-04-07 15:51:41, INFO: Collision with obstacle !!!
+2023-04-07 15:51:42, INFO: Collision with obstacle !!!
+2023-04-07 15:51:43, INFO: Collision with obstacle !!!
+2023-04-07 15:51:43, INFO: Collision with obstacle !!!
+2023-04-07 15:51:45, INFO: Collision with obstacle !!!
+2023-04-07 15:51:47, INFO: Collision with obstacle !!!
+2023-04-07 15:51:51, INFO: Collision with obstacle !!!
+2023-04-07 15:51:53, INFO: Collision with obstacle !!!
+2023-04-07 15:51:55, INFO: Collision with obstacle !!!
+2023-04-07 15:52:06, INFO: Collision with obstacle !!!
+2023-04-07 15:52:10, INFO: Success !!!
+2023-04-07 15:52:13, INFO: Collision with obstacle !!!
+2023-04-07 15:52:15, INFO: Collision with obstacle !!!
+2023-04-07 15:52:15, INFO: Collision with obstacle !!!
+2023-04-07 15:52:34, INFO: Success !!!
+2023-04-07 15:52:43, INFO: Collision with obstacle !!!
+2023-04-07 15:52:44, INFO: Collision with obstacle !!!
+2023-04-07 15:52:58, INFO: Collision with obstacle !!!
+2023-04-07 15:53:33, INFO: Success !!!
+2023-04-07 15:53:36, INFO: Collision with obstacle !!!
+2023-04-07 15:53:38, INFO: Collision with obstacle !!!
+2023-04-07 15:53:40, INFO: Collision with obstacle !!!
+2023-04-07 15:53:43, INFO: Collision with obstacle !!!
+2023-04-07 15:53:44, INFO: Collision with obstacle !!!
+2023-04-07 15:53:53, INFO: Collision with obstacle !!!
+2023-04-07 15:53:54, INFO: Collision with obstacle !!!
+2023-04-07 15:53:57, INFO: Collision with obstacle !!!
+2023-04-07 15:54:05, INFO: Success !!!
+2023-04-07 15:54:09, INFO: Collision with obstacle !!!
+2023-04-07 15:54:13, INFO: Collision with obstacle !!!
+2023-04-07 15:54:30, INFO: Success !!!
+2023-04-07 15:54:41, INFO: Success !!!
+2023-04-07 15:54:44, INFO: Collision with obstacle !!!
+2023-04-07 15:54:46, INFO: Success !!!
+2023-04-07 15:54:52, INFO: Collision with obstacle !!!
+2023-04-07 15:55:00, INFO: Success !!!
+2023-04-07 15:55:19, INFO: Collision with obstacle !!!
+2023-04-07 15:55:25, INFO: Collision with obstacle !!!
+2023-04-07 15:55:29, INFO: Collision with obstacle !!!
+2023-04-07 15:55:31, INFO: Collision with obstacle !!!
+2023-04-07 15:55:50, INFO: Success !!!
+2023-04-07 15:55:54, INFO: Collision with obstacle !!!
+2023-04-07 15:55:56, INFO: Collision with obstacle !!!
+2023-04-07 15:55:59, INFO: Collision with obstacle !!!
+2023-04-07 15:56:01, INFO: Success !!!
+2023-04-07 15:56:07, INFO: Collision with obstacle !!!
+2023-04-07 15:56:09, INFO: Collision with obstacle !!!
+2023-04-07 15:56:18, INFO: Timeout !!!
+2023-04-07 15:56:22, INFO: Collision with obstacle !!!
+2023-04-07 15:56:34, INFO: Collision with obstacle !!!
+2023-04-07 15:56:36, INFO: Collision with obstacle !!!
+2023-04-07 15:56:39, INFO: Collision with obstacle !!!
+2023-04-07 15:57:03, INFO: Collision with obstacle !!!
+2023-04-07 15:57:06, INFO: Collision with obstacle !!!
+2023-04-07 15:57:08, INFO: Collision with obstacle !!!
+2023-04-07 15:57:10, INFO: Collision with obstacle !!!
+2023-04-07 15:57:11, INFO: Collision with obstacle !!!
+2023-04-07 15:57:14, INFO: Collision with obstacle !!!
+2023-04-07 15:57:16, INFO: Collision with obstacle !!!
+2023-04-07 15:57:18, INFO: Collision with obstacle !!!
+2023-04-07 15:57:22, INFO: Collision with obstacle !!!
+2023-04-07 15:57:24, INFO: Collision with obstacle !!!
+2023-04-07 15:57:58, INFO: Collision with obstacle !!!
+2023-04-07 15:58:00, INFO: Collision with obstacle !!!
+2023-04-07 15:58:04, INFO: Collision with obstacle !!!
+2023-04-07 15:58:06, INFO: Success !!!
+2023-04-07 15:58:11, INFO: Success !!!
+2023-04-07 15:58:22, INFO: Collision with obstacle !!!
+2023-04-07 15:58:24, INFO: Collision with obstacle !!!
+2023-04-07 15:58:27, INFO: Collision with obstacle !!!
+2023-04-07 15:58:29, INFO: Collision with obstacle !!!
+2023-04-07 15:58:32, INFO: Success !!!
+2023-04-07 15:58:34, INFO: TRAIN has success rate: 0.16, collision rate: 0.02, collisionobs rate: 0.79, nav time: 85.62, total reward: -0.0701, average return: -0.0763
+2023-04-07 15:58:44, INFO: Average loss in epoch of statePredictor0: 0.921096
+2023-04-07 15:58:53, INFO: Average loss in epoch of statePredictor1: 0.302214
+2023-04-07 15:59:02, INFO: Average loss in epoch of statePredictor2: 0.208264
+2023-04-07 15:59:10, INFO: Average loss in epoch of statePredictor3: 0.201271
+2023-04-07 15:59:19, INFO: Average loss in epoch of statePredictor4: 0.197762
+2023-04-07 15:59:28, INFO: Average loss in epoch of statePredictor5: 0.194394
+2023-04-07 15:59:37, INFO: Average loss in epoch of statePredictor6: 0.191233
+2023-04-07 15:59:45, INFO: Average loss in epoch of statePredictor7: 0.187396
+2023-04-07 15:59:54, INFO: Average loss in epoch of statePredictor8: 0.182010
+2023-04-07 16:00:03, INFO: Average loss in epoch of statePredictor9: 0.176960
+2023-04-07 16:00:12, INFO: Average loss in epoch of statePredictor10: 0.173267
+2023-04-07 16:00:21, INFO: Average loss in epoch of statePredictor11: 0.170811
+2023-04-07 16:00:30, INFO: Average loss in epoch of statePredictor12: 0.168840
+2023-04-07 16:00:38, INFO: Average loss in epoch of statePredictor13: 0.167262
+2023-04-07 16:00:47, INFO: Average loss in epoch of statePredictor14: 0.166338
+2023-04-07 16:00:56, INFO: Average loss in epoch of statePredictor15: 0.165403
+2023-04-07 16:01:04, INFO: Average loss in epoch of statePredictor16: 0.164843
+2023-04-07 16:01:13, INFO: Average loss in epoch of statePredictor17: 0.164364
+2023-04-07 16:01:22, INFO: Average loss in epoch of statePredictor18: 0.163825
+2023-04-07 16:01:31, INFO: Average loss in epoch of statePredictor19: 0.163362
+2023-04-07 16:01:40, INFO: Average loss in epoch of statePredictor20: 0.163083
+2023-04-07 16:01:49, INFO: Average loss in epoch of statePredictor21: 0.162767
+2023-04-07 16:01:58, INFO: Average loss in epoch of statePredictor22: 0.162493
+2023-04-07 16:02:06, INFO: Average loss in epoch of statePredictor23: 0.162273
+2023-04-07 16:02:15, INFO: Average loss in epoch of statePredictor24: 0.162033
+2023-04-07 16:02:24, INFO: Average loss in epoch of statePredictor25: 0.161724
+2023-04-07 16:02:33, INFO: Average loss in epoch of statePredictor26: 0.161533
+2023-04-07 16:02:42, INFO: Average loss in epoch of statePredictor27: 0.161378
+2023-04-07 16:02:50, INFO: Average loss in epoch of statePredictor28: 0.161149
+2023-04-07 16:02:59, INFO: Average loss in epoch of statePredictor29: 0.160996
+2023-04-07 16:03:08, INFO: Average loss in epoch of statePredictor30: 0.160747
+2023-04-07 16:03:17, INFO: Average loss in epoch of statePredictor31: 0.160526
+2023-04-07 16:03:25, INFO: Average loss in epoch of statePredictor32: 0.160256
+2023-04-07 16:03:34, INFO: Average loss in epoch of statePredictor33: 0.159990
+2023-04-07 16:03:43, INFO: Average loss in epoch of statePredictor34: 0.159940
+2023-04-07 16:03:52, INFO: Average loss in epoch of statePredictor35: 0.159605
+2023-04-07 16:04:00, INFO: Average loss in epoch of statePredictor36: 0.159607
+2023-04-07 16:04:09, INFO: Average loss in epoch of statePredictor37: 0.159583
+2023-04-07 16:04:18, INFO: Average loss in epoch of statePredictor38: 0.159059
+2023-04-07 16:04:27, INFO: Average loss in epoch of statePredictor39: 0.159189
+2023-04-07 16:04:36, INFO: Average loss in epoch of statePredictor40: 0.158967
+2023-04-07 16:04:45, INFO: Average loss in epoch of statePredictor41: 0.158755
+2023-04-07 16:04:53, INFO: Average loss in epoch of statePredictor42: 0.158936
+2023-04-07 16:05:02, INFO: Average loss in epoch of statePredictor43: 0.158577
+2023-04-07 16:05:11, INFO: Average loss in epoch of statePredictor44: 0.158385
+2023-04-07 16:05:20, INFO: Average loss in epoch of statePredictor45: 0.158319
+2023-04-07 16:05:29, INFO: Average loss in epoch of statePredictor46: 0.158405
+2023-04-07 16:05:37, INFO: Average loss in epoch of statePredictor47: 0.158281
+2023-04-07 16:05:46, INFO: Average loss in epoch of statePredictor48: 0.157876
+2023-04-07 16:05:55, INFO: Average loss in epoch of statePredictor49: 0.157872
+2023-04-07 16:06:56, INFO: Average loss in epoch 0: 81958.812184, 40776.955742
+2023-04-07 16:07:57, INFO: Average loss in epoch 1: 3.646420, 290.327696
+2023-04-07 16:08:58, INFO: Average loss in epoch 2: 0.152907, 846.517402
+2023-04-07 16:10:00, INFO: Average loss in epoch 3: 0.063698, 256.103606
+2023-04-07 16:11:00, INFO: Average loss in epoch 4: 0.000964, 185.766102
+2023-04-07 16:12:02, INFO: Average loss in epoch 5: 0.000924, 157.309471
+2023-04-07 16:13:03, INFO: Average loss in epoch 6: 0.000925, 123.182480
+2023-04-07 16:14:04, INFO: Average loss in epoch 7: 0.000937, 242.038850
+2023-04-07 16:15:05, INFO: Average loss in epoch 8: 167949.808601, 148.171197
+2023-04-07 16:16:06, INFO: Average loss in epoch 9: 654.016932, 132.885688
+2023-04-07 16:17:07, INFO: Average loss in epoch 10: 76504.371439, 105.884867
+2023-04-07 16:18:09, INFO: Average loss in epoch 11: 0.000946, 97.057147
+2023-04-07 16:19:10, INFO: Average loss in epoch 12: 0.000912, 101.476431
+2023-04-07 16:20:11, INFO: Average loss in epoch 13: 0.000909, 96.411620
+2023-04-07 16:21:12, INFO: Average loss in epoch 14: 0.000923, 91.792971
+2023-04-07 16:22:13, INFO: Average loss in epoch 15: 0.000924, 92.700147
+2023-04-07 16:23:14, INFO: Average loss in epoch 16: 0.000916, 89.413078
+2023-04-07 16:24:15, INFO: Average loss in epoch 17: 0.000910, 85.891529
+2023-04-07 16:25:16, INFO: Average loss in epoch 18: 0.000917, 82.143002
+2023-04-07 16:26:17, INFO: Average loss in epoch 19: 0.000914, 80.862349
+2023-04-07 16:27:18, INFO: Average loss in epoch 20: 0.000911, 83.789553
+2023-04-07 16:28:19, INFO: Average loss in epoch 21: 0.000909, 79.244391
+2023-04-07 16:29:20, INFO: Average loss in epoch 22: 0.000912, 74.247792
+2023-04-07 16:30:21, INFO: Average loss in epoch 23: 0.000912, 97.184638
+2023-04-07 16:31:23, INFO: Average loss in epoch 24: 0.000915, 86.390592
+2023-04-07 16:32:24, INFO: Average loss in epoch 25: 0.000912, 70.051134
+2023-04-07 16:33:25, INFO: Average loss in epoch 26: 0.000916, 74.331521
+2023-04-07 16:34:26, INFO: Average loss in epoch 27: 0.000912, 76.090640
+2023-04-07 16:35:27, INFO: Average loss in epoch 28: 0.000916, 72.042494
+2023-04-07 16:36:28, INFO: Average loss in epoch 29: 0.000913, 70.966592
+2023-04-07 16:37:29, INFO: Average loss in epoch 30: 0.000909, 76.299716
+2023-04-07 16:38:31, INFO: Average loss in epoch 31: 0.000910, 71.774287
+2023-04-07 16:39:32, INFO: Average loss in epoch 32: 0.000911, 65.060073
+2023-04-07 16:40:33, INFO: Average loss in epoch 33: 0.000919, 62.390511
+2023-04-07 16:41:34, INFO: Average loss in epoch 34: 0.000910, 66.475705
+2023-04-07 16:42:35, INFO: Average loss in epoch 35: 0.000912, 62.994203
+2023-04-07 16:43:36, INFO: Average loss in epoch 36: 0.000910, 64.573177
+2023-04-07 16:44:37, INFO: Average loss in epoch 37: 0.000910, 67.165045
+2023-04-07 16:45:38, INFO: Average loss in epoch 38: 0.000910, 65.585951
+2023-04-07 16:46:39, INFO: Average loss in epoch 39: 0.000910, 60.471221
+2023-04-07 16:47:40, INFO: Average loss in epoch 40: 0.000909, 57.832073
+2023-04-07 16:48:41, INFO: Average loss in epoch 41: 0.000911, 58.420363
+2023-04-07 16:49:42, INFO: Average loss in epoch 42: 0.000907, 53.297382
+2023-04-07 16:50:44, INFO: Average loss in epoch 43: 0.000920, 58.943827
+2023-04-07 16:51:45, INFO: Average loss in epoch 44: 0.000920, 57.504136
+2023-04-07 16:52:46, INFO: Average loss in epoch 45: 0.000912, 60.625683
+2023-04-07 16:53:47, INFO: Average loss in epoch 46: 0.000911, 56.712839
+2023-04-07 16:54:48, INFO: Average loss in epoch 47: 0.000911, 54.145298
+2023-04-07 16:55:49, INFO: Average loss in epoch 48: 0.000913, 56.339508
+2023-04-07 16:56:50, INFO: Average loss in epoch 49: 0.000908, 56.708249
+2023-04-07 16:56:51, INFO: Finish imitation learning. Weights saved.
+2023-04-07 16:56:51, INFO: Experience set size: 1785/5000
+2023-04-07 16:56:51, INFO: Agent is invisible and has holonomic kinematic constraint
+2023-04-07 16:56:51, INFO: Lr: 0.0001 for parameters graph_model.gat0.w_a.0.weight graph_model.gat0.w_a.0.bias graph_model.gat0.w_a.1.weight graph_model.gat0.w_a.1.bias graph_model.gat1.w_a.0.weight graph_model.gat1.w_a.0.bias graph_model.gat1.w_a.1.weight graph_model.gat1.w_a.1.bias graph_model.w_r.0.weight graph_model.w_r.0.bias graph_model.w_r.1.weight graph_model.w_r.1.bias graph_model.w_h.0.weight graph_model.w_h.0.bias graph_model.w_h.1.weight graph_model.w_h.1.bias value_network.0.weight value_network.0.bias value_network.1.weight value_network.1.bias value_network.2.weight value_network.2.bias value_network.3.weight value_network.3.bias mapconv.conv1.weight mapconv.conv1.bias mapconv.layer1.0.conv1.weight mapconv.layer1.0.conv1.bias mapconv.layer1.0.conv2.weight mapconv.layer1.0.conv2.bias mapconv.layer1.1.conv1.weight mapconv.layer1.1.conv1.bias mapconv.layer1.1.conv2.weight mapconv.layer1.1.conv2.bias mapconv.layer2.0.conv1.weight mapconv.layer2.0.conv1.bias mapconv.layer2.0.conv2.weight mapconv.layer2.0.conv2.bias mapconv.layer2.0.downsample.0.weight mapconv.layer2.0.downsample.0.bias mapconv.layer2.1.conv1.weight mapconv.layer2.1.conv1.bias mapconv.layer2.1.conv2.weight mapconv.layer2.1.conv2.bias mapconv.layer3.0.conv1.weight mapconv.layer3.0.conv1.bias mapconv.layer3.0.conv2.weight mapconv.layer3.0.conv2.bias mapconv.layer3.0.downsample.0.weight mapconv.layer3.0.downsample.0.bias mapconv.layer3.1.conv1.weight mapconv.layer3.1.conv1.bias mapconv.layer3.1.conv2.weight mapconv.layer3.1.conv2.bias mapconv.layer4.0.conv1.weight mapconv.layer4.0.conv1.bias mapconv.layer4.0.conv2.weight mapconv.layer4.0.conv2.bias mapconv.layer4.0.downsample.0.weight mapconv.layer4.0.downsample.0.bias mapconv.layer4.1.conv1.weight mapconv.layer4.1.conv1.bias mapconv.layer4.1.conv2.weight mapconv.layer4.1.conv2.bias mapconv.conv2.weight mapconv.conv2.bias mapconv.conv3.weight mapconv.conv3.bias mapconv.conv4.weight mapconv.conv4.bias mapconv.l1.weight mapconv.l1.bias mapconv.l2.weight mapconv.l2.bias weight.weight weight.bias graph_model.gat0.w_a.0.weight graph_model.gat0.w_a.0.bias graph_model.gat0.w_a.1.weight graph_model.gat0.w_a.1.bias graph_model.gat1.w_a.0.weight graph_model.gat1.w_a.0.bias graph_model.gat1.w_a.1.weight graph_model.gat1.w_a.1.bias graph_model.w_r.0.weight graph_model.w_r.0.bias graph_model.w_r.1.weight graph_model.w_r.1.bias graph_model.w_h.0.weight graph_model.w_h.0.bias graph_model.w_h.1.weight graph_model.w_h.1.bias human_motion_predictor_RGL.0.weight human_motion_predictor_RGL.0.bias human_motion_predictor_RGL.1.weight human_motion_predictor_RGL.1.bias human_motion_predictor.st_gcns.0.gcn.conv.weight human_motion_predictor.st_gcns.0.gcn.conv.bias human_motion_predictor.st_gcns.0.tcn.0.weight human_motion_predictor.st_gcns.0.tcn.0.bias human_motion_predictor.st_gcns.0.tcn.1.weight human_motion_predictor.st_gcns.0.tcn.2.weight human_motion_predictor.st_gcns.0.tcn.2.bias human_motion_predictor.st_gcns.0.tcn.3.weight human_motion_predictor.st_gcns.0.tcn.3.bias human_motion_predictor.st_gcns.0.residual.0.weight human_motion_predictor.st_gcns.0.residual.0.bias human_motion_predictor.st_gcns.0.residual.1.weight human_motion_predictor.st_gcns.0.residual.1.bias human_motion_predictor.st_gcns.0.prelu.weight human_motion_predictor.tpcnns.0.weight human_motion_predictor.tpcnns.0.bias human_motion_predictor.tpcnns.1.weight human_motion_predictor.tpcnns.1.bias human_motion_predictor.tpcnns.2.weight human_motion_predictor.tpcnns.2.bias human_motion_predictor.tpcnn_ouput.weight human_motion_predictor.tpcnn_ouput.bias human_motion_predictor.prelus.0.weight human_motion_predictor.prelus.1.weight human_motion_predictor.prelus.2.weight mappredictor.conv1.weight mappredictor.conv1.bias mappredictor.layer1.0.conv1.weight mappredictor.layer1.0.conv1.bias mappredictor.layer1.0.conv2.weight mappredictor.layer1.0.conv2.bias mappredictor.layer1.1.conv1.weight mappredictor.layer1.1.conv1.bias mappredictor.layer1.1.conv2.weight mappredictor.layer1.1.conv2.bias mappredictor.layer2.0.conv1.weight mappredictor.layer2.0.conv1.bias mappredictor.layer2.0.conv2.weight mappredictor.layer2.0.conv2.bias mappredictor.layer2.0.downsample.0.weight mappredictor.layer2.0.downsample.0.bias mappredictor.layer2.1.conv1.weight mappredictor.layer2.1.conv1.bias mappredictor.layer2.1.conv2.weight mappredictor.layer2.1.conv2.bias mappredictor.layer3.0.conv1.weight mappredictor.layer3.0.conv1.bias mappredictor.layer3.0.conv2.weight mappredictor.layer3.0.conv2.bias mappredictor.layer3.0.downsample.0.weight mappredictor.layer3.0.downsample.0.bias mappredictor.layer3.1.conv1.weight mappredictor.layer3.1.conv1.bias mappredictor.layer3.1.conv2.weight mappredictor.layer3.1.conv2.bias mappredictor.layer4.0.conv1.weight mappredictor.layer4.0.conv1.bias mappredictor.layer4.0.conv2.weight mappredictor.layer4.0.conv2.bias mappredictor.layer4.0.downsample.0.weight mappredictor.layer4.0.downsample.0.bias mappredictor.layer4.1.conv1.weight mappredictor.layer4.1.conv1.bias mappredictor.layer4.1.conv2.weight mappredictor.layer4.1.conv2.bias mappredictor.conv2.weight mappredictor.conv2.bias mappredictor.conv3.weight mappredictor.conv3.bias with Adam optimizer
+2023-04-07 16:58:03, INFO: Success !!!
+2023-04-07 16:58:06, INFO: TRAIN in episode 0 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 70.00, total reward: 0.0132, average return: 0.2470
+2023-04-07 17:00:25, INFO: Average loss : 0.021937, 32643.468933
+2023-04-07 17:00:25, INFO: Average loss of statePredictor: 0.165864
+2023-04-07 17:01:08, INFO: Collision with obstacle !!!
+2023-04-07 17:01:10, INFO: TRAIN in episode 1 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0058, average return: -0.0771
+2023-04-07 17:03:29, INFO: Average loss : 0.019805, 31248.092102
+2023-04-07 17:03:29, INFO: Average loss of statePredictor: 0.165706
+2023-04-07 17:06:02, INFO: Success !!!
+2023-04-07 17:06:11, INFO: TRAIN in episode 2 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 180.00, total reward: -0.0059, average return: 0.0987
+2023-04-07 17:08:31, INFO: Average loss : 0.014206, 30205.149658
+2023-04-07 17:08:31, INFO: Average loss of statePredictor: 0.165549
+2023-04-07 17:11:05, INFO: Success !!!
+2023-04-07 17:11:13, INFO: TRAIN in episode 3 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 180.00, total reward: -0.0142, average return: 0.0760
+2023-04-07 17:13:35, INFO: Average loss : 0.015040, 29213.448853
+2023-04-07 17:13:35, INFO: Average loss of statePredictor: 0.165402
+2023-04-07 17:14:10, INFO: Collision with obstacle !!!
+2023-04-07 17:14:11, INFO: TRAIN in episode 4 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0175, average return: -0.0989
+2023-04-07 17:16:34, INFO: Average loss : 0.014536, 29560.806946
+2023-04-07 17:16:34, INFO: Average loss of statePredictor: 0.165257
+2023-04-07 17:19:08, INFO: Success !!!
+2023-04-07 17:19:16, INFO: TRAIN in episode 5 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 180.00, total reward: -0.0047, average return: 0.0959
+2023-04-07 17:21:39, INFO: Average loss : 0.016879, 28813.493652
+2023-04-07 17:21:39, INFO: Average loss of statePredictor: 0.165119
+2023-04-07 17:22:49, INFO: Success !!!
+2023-04-07 17:22:53, INFO: TRAIN in episode 6 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 80.00, total reward: 0.0093, average return: 0.2234
+2023-04-07 17:25:15, INFO: Average loss : 0.009571, 28345.271912
+2023-04-07 17:25:15, INFO: Average loss of statePredictor: 0.164985
+2023-04-07 17:26:49, INFO: Success !!!
+2023-04-07 17:26:54, INFO: TRAIN in episode 7 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 110.00, total reward: 0.0031, average return: 0.1661
+2023-04-07 17:29:20, INFO: Average loss : 0.017325, 28202.971069
+2023-04-07 17:29:20, INFO: Average loss of statePredictor: 0.164855
+2023-04-07 17:32:35, INFO: Success !!!
+2023-04-07 17:32:46, INFO: TRAIN in episode 8 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 230.00, total reward: -0.0063, average return: 0.0818
+2023-04-07 17:35:08, INFO: Average loss : 0.011130, 27802.545410
+2023-04-07 17:35:08, INFO: Average loss of statePredictor: 0.164733
+2023-04-07 17:36:59, INFO: Collision with obstacle !!!
+2023-04-07 17:37:05, INFO: TRAIN in episode 9 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0066, average return: -0.0333
+2023-04-07 17:39:28, INFO: Average loss : 0.014605, 27891.177002
+2023-04-07 17:39:28, INFO: Average loss of statePredictor: 0.164609
+2023-04-07 17:41:19, INFO: Success !!!
+2023-04-07 17:41:24, INFO: TRAIN in episode 10 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 130.00, total reward: -0.0013, average return: 0.1449
+2023-04-07 17:43:46, INFO: Average loss : 0.014478, 28375.774292
+2023-04-07 17:43:46, INFO: Average loss of statePredictor: 0.164493
+2023-04-07 17:46:54, INFO: Success !!!
+2023-04-07 17:47:04, INFO: TRAIN in episode 11 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 220.00, total reward: -0.0061, average return: 0.0890
+2023-04-07 17:49:26, INFO: Average loss : 0.021457, 26928.740295
+2023-04-07 17:49:26, INFO: Average loss of statePredictor: 0.164378
+2023-04-07 17:51:01, INFO: Success !!!
+2023-04-07 17:51:06, INFO: TRAIN in episode 12 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 110.00, total reward: 0.0033, average return: 0.1777
+2023-04-07 17:53:25, INFO: Average loss : 0.014993, 27400.112244
+2023-04-07 17:53:26, INFO: Average loss of statePredictor: 0.164266
+2023-04-07 17:55:43, INFO: Collision with obstacle !!!
+2023-04-07 17:55:50, INFO: TRAIN in episode 13 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0173, average return: 0.0021
+2023-04-07 17:58:11, INFO: Average loss : 0.023253, 26577.518188
+2023-04-07 17:58:11, INFO: Average loss of statePredictor: 0.164160
+2023-04-07 17:59:36, INFO: Success !!!
+2023-04-07 17:59:41, INFO: TRAIN in episode 14 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 100.00, total reward: 0.0041, average return: 0.1967
+2023-04-07 18:02:03, INFO: Average loss : 0.018503, 27067.213928
+2023-04-07 18:02:03, INFO: Average loss of statePredictor: 0.164056
+2023-04-07 18:04:12, INFO: Collision with obstacle !!!
+2023-04-07 18:04:18, INFO: TRAIN in episode 15 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0078, average return: -0.0315
+2023-04-07 18:06:39, INFO: Average loss : 0.021692, 26587.587708
+2023-04-07 18:06:39, INFO: Average loss of statePredictor: 0.163955
+2023-04-07 18:08:37, INFO: Success !!!
+2023-04-07 18:08:43, INFO: TRAIN in episode 16 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 140.00, total reward: -0.0026, average return: 0.1324
+2023-04-07 18:11:04, INFO: Average loss : 0.013131, 26769.489014
+2023-04-07 18:11:05, INFO: Average loss of statePredictor: 0.163856
+2023-04-07 18:11:23, INFO: Collision with obstacle !!!
+2023-04-07 18:11:23, INFO: TRAIN in episode 17 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0808, average return: -0.1654
+2023-04-07 18:13:44, INFO: Average loss : 0.014500, 26899.586060
+2023-04-07 18:13:44, INFO: Average loss of statePredictor: 0.163760
+2023-04-07 18:14:19, INFO: Collision with obstacle !!!
+2023-04-07 18:14:20, INFO: TRAIN in episode 18 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0138, average return: -0.0962
+2023-04-07 18:16:42, INFO: Average loss : 0.018572, 25287.785767
+2023-04-07 18:16:43, INFO: Average loss of statePredictor: 0.163667
+2023-04-07 18:20:00, INFO: Collision with obstacle !!!
+2023-04-07 18:20:10, INFO: TRAIN in episode 19 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0074, average return: -0.0100
+2023-04-07 18:22:33, INFO: Average loss : 0.018683, 25754.180115
+2023-04-07 18:22:33, INFO: Average loss of statePredictor: 0.163577
+2023-04-07 18:23:25, INFO: Success !!!
+2023-04-07 18:23:27, INFO: TRAIN in episode 20 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 60.00, total reward: 0.0238, average return: 0.2901
+2023-04-07 18:25:47, INFO: Average loss : 0.022292, 25588.530701
+2023-04-07 18:25:47, INFO: Average loss of statePredictor: 0.163491
+2023-04-07 18:28:30, INFO: Collision with human !!!
+2023-04-07 18:28:39, INFO: TRAIN in episode 21 has success rate: 0.00, collision rate: 1.00, collisionobs rate: 0.00, nav time: 500.00, total reward: -0.0015, average return: -0.0077
+2023-04-07 18:31:02, INFO: Average loss : 0.013250, 25366.776550
+2023-04-07 18:31:02, INFO: Average loss of statePredictor: 0.163405
+2023-04-07 18:33:18, INFO: Success !!!
+2023-04-07 18:33:25, INFO: TRAIN in episode 22 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 160.00, total reward: -0.0042, average return: 0.1081
+2023-04-07 18:35:46, INFO: Average loss : 0.019534, 24885.474609
+2023-04-07 18:35:46, INFO: Average loss of statePredictor: 0.163323
+2023-04-07 18:38:05, INFO: Collision with obstacle !!!
+2023-04-07 18:38:11, INFO: TRAIN in episode 23 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0054, average return: -0.0298
+2023-04-07 18:40:33, INFO: Average loss : 0.014505, 24644.662170
+2023-04-07 18:40:33, INFO: Average loss of statePredictor: 0.163242
+2023-04-07 18:43:41, INFO: Success !!!
+2023-04-07 18:43:51, INFO: TRAIN in episode 24 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 220.00, total reward: -0.0067, average return: 0.0893
+2023-04-07 18:46:12, INFO: Average loss : 0.010840, 24835.148071
+2023-04-07 18:46:12, INFO: Average loss of statePredictor: 0.163163
+2023-04-07 18:47:38, INFO: Success !!!
+2023-04-07 18:47:43, INFO: TRAIN in episode 25 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 100.00, total reward: 0.0090, average return: 0.1797
+2023-04-07 18:50:05, INFO: Average loss : 0.008655, 24870.112305
+2023-04-07 18:50:06, INFO: Average loss of statePredictor: 0.163086
+2023-04-07 18:51:39, INFO: Collision with human !!!
+2023-04-07 18:51:44, INFO: TRAIN in episode 26 has success rate: 0.00, collision rate: 1.00, collisionobs rate: 0.00, nav time: 500.00, total reward: -0.0010, average return: -0.0245
+2023-04-07 18:54:03, INFO: Average loss : 0.013276, 25012.799133
+2023-04-07 18:54:03, INFO: Average loss of statePredictor: 0.163010
+2023-04-07 18:54:30, INFO: Collision with obstacle !!!
+2023-04-07 18:54:31, INFO: TRAIN in episode 27 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0294, average return: -0.1216
+2023-04-07 18:56:52, INFO: Average loss : 0.010788, 24812.492920
+2023-04-07 18:56:52, INFO: Average loss of statePredictor: 0.162938
+2023-04-07 19:01:06, INFO: Success !!!
+2023-04-07 19:01:20, INFO: TRAIN in episode 28 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 300.00, total reward: -0.0097, average return: 0.0579
+2023-04-07 19:03:40, INFO: Average loss : 0.011688, 24880.349304
+2023-04-07 19:03:41, INFO: Average loss of statePredictor: 0.162867
+2023-04-07 19:08:04, INFO: Success !!!
+2023-04-07 19:08:18, INFO: TRAIN in episode 29 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 310.00, total reward: -0.0033, average return: 0.0802
+2023-04-07 19:10:39, INFO: Average loss : 0.012966, 25035.820862
+2023-04-07 19:10:39, INFO: Average loss of statePredictor: 0.162798
+2023-04-07 19:11:40, INFO: Collision with obstacle !!!
+2023-04-07 19:11:43, INFO: TRAIN in episode 30 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0024, average return: -0.0484
+2023-04-07 19:14:05, INFO: Average loss : 0.008161, 24953.567932
+2023-04-07 19:14:05, INFO: Average loss of statePredictor: 0.162730
+2023-04-07 19:14:48, INFO: Success !!!
+2023-04-07 19:14:50, INFO: TRAIN in episode 31 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 50.00, total reward: 0.0500, average return: 0.3614
+2023-04-07 19:17:11, INFO: Average loss : 0.016983, 23618.400574
+2023-04-07 19:17:11, INFO: Average loss of statePredictor: 0.162662
+2023-04-07 19:18:03, INFO: Success !!!
+2023-04-07 19:18:05, INFO: TRAIN in episode 32 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 60.00, total reward: 0.0276, average return: 0.3042
+2023-04-07 19:20:28, INFO: Average loss : 0.009798, 24482.149536
+2023-04-07 19:20:28, INFO: Average loss of statePredictor: 0.162597
+2023-04-07 19:21:11, INFO: Collision with obstacle !!!
+2023-04-07 19:21:13, INFO: TRAIN in episode 33 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0035, average return: -0.0681
+2023-04-07 19:23:35, INFO: Average loss : 0.023294, 24549.963806
+2023-04-07 19:23:35, INFO: Average loss of statePredictor: 0.162532
+2023-04-07 19:26:01, INFO: Success !!!
+2023-04-07 19:26:08, INFO: TRAIN in episode 34 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 170.00, total reward: -0.0047, average return: 0.1056
+2023-04-07 19:28:28, INFO: Average loss : 0.019113, 24135.373779
+2023-04-07 19:28:28, INFO: Average loss of statePredictor: 0.162470
+2023-04-07 19:29:30, INFO: Collision with obstacle !!!
+2023-04-07 19:29:33, INFO: TRAIN in episode 35 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0018, average return: -0.0478
+2023-04-07 19:31:53, INFO: Average loss : 0.016015, 24261.658447
+2023-04-07 19:31:53, INFO: Average loss of statePredictor: 0.162407
+2023-04-07 19:33:53, INFO: Success !!!
+2023-04-07 19:34:00, INFO: TRAIN in episode 36 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 140.00, total reward: -0.0023, average return: 0.1390
+2023-04-07 19:36:22, INFO: Average loss : 0.009958, 24256.970154
+2023-04-07 19:36:22, INFO: Average loss of statePredictor: 0.162346
+2023-04-07 19:38:05, INFO: Success !!!
+2023-04-07 19:38:10, INFO: TRAIN in episode 37 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 120.00, total reward: 0.0004, average return: 0.1580
+2023-04-07 19:40:30, INFO: Average loss : 0.010124, 23651.839478
+2023-04-07 19:40:30, INFO: Average loss of statePredictor: 0.162286
+2023-04-07 19:41:09, INFO: Collision with obstacle !!!
+2023-04-07 19:41:11, INFO: TRAIN in episode 38 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0005, average return: -0.0862
+2023-04-07 19:43:32, INFO: Average loss : 0.007698, 23522.514587
+2023-04-07 19:43:32, INFO: Average loss of statePredictor: 0.162228
+2023-04-07 19:46:14, INFO: Success !!!
+2023-04-07 19:46:22, INFO: TRAIN in episode 39 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 190.00, total reward: -0.0061, average return: 0.0942
+2023-04-07 19:48:45, INFO: Average loss : 0.014865, 24087.961670
+2023-04-07 19:48:45, INFO: Average loss of statePredictor: 0.162170
+2023-04-07 19:49:29, INFO: Success !!!
+2023-04-07 19:49:30, INFO: TRAIN in episode 40 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 50.00, total reward: 0.0463, average return: 0.3525
+2023-04-07 19:51:50, INFO: Average loss : 0.015868, 23952.013855
+2023-04-07 19:51:50, INFO: Average loss of statePredictor: 0.162112
+2023-04-07 19:53:18, INFO: Collision with obstacle !!!
+2023-04-07 19:53:22, INFO: TRAIN in episode 41 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0001, average return: -0.0356
+2023-04-07 19:55:42, INFO: Average loss : 0.016765, 23730.955688
+2023-04-07 19:55:42, INFO: Average loss of statePredictor: 0.162055
+2023-04-07 19:56:43, INFO: Success !!!
+2023-04-07 19:56:45, INFO: TRAIN in episode 42 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 70.00, total reward: 0.0190, average return: 0.2628
+2023-04-07 19:59:08, INFO: Average loss : 0.016472, 23824.240295
+2023-04-07 19:59:08, INFO: Average loss of statePredictor: 0.161999
+2023-04-07 19:59:52, INFO: Success !!!
+2023-04-07 19:59:53, INFO: TRAIN in episode 43 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 50.00, total reward: 0.0397, average return: 0.3387
+2023-04-07 20:02:16, INFO: Average loss : 0.006353, 23514.970886
+2023-04-07 20:02:16, INFO: Average loss of statePredictor: 0.161945
+2023-04-07 20:02:51, INFO: Collision with obstacle !!!
+2023-04-07 20:02:53, INFO: TRAIN in episode 44 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0175, average return: -0.0990
+2023-04-07 20:05:13, INFO: Average loss : 0.007951, 23865.515686
+2023-04-07 20:05:13, INFO: Average loss of statePredictor: 0.161890
+2023-04-07 20:06:13, INFO: Success !!!
+2023-04-07 20:06:16, INFO: TRAIN in episode 45 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 70.00, total reward: 0.0176, average return: 0.2665
+2023-04-07 20:08:38, INFO: Average loss : 0.018688, 23362.516968
+2023-04-07 20:08:39, INFO: Average loss of statePredictor: 0.161836
+2023-04-07 20:09:32, INFO: Success !!!
+2023-04-07 20:09:34, INFO: TRAIN in episode 46 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 50.00, total reward: 0.0404, average return: 0.3400
+2023-04-07 20:11:54, INFO: Average loss : 0.013636, 24057.704346
+2023-04-07 20:11:55, INFO: Average loss of statePredictor: 0.161784
+2023-04-07 20:13:20, INFO: Collision with human !!!
+2023-04-07 20:13:25, INFO: TRAIN in episode 47 has success rate: 0.00, collision rate: 1.00, collisionobs rate: 0.00, nav time: 500.00, total reward: -0.0064, average return: -0.0415
+2023-04-07 20:15:47, INFO: Average loss : 0.016298, 23884.198242
+2023-04-07 20:15:47, INFO: Average loss of statePredictor: 0.161732
+2023-04-07 20:19:17, INFO: Success !!!
+2023-04-07 20:19:26, INFO: TRAIN in episode 48 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 210.00, total reward: -0.0069, average return: 0.0833
+2023-04-07 20:21:45, INFO: Average loss : 1.705265, 23328.882324
+2023-04-07 20:21:45, INFO: Average loss of statePredictor: 0.161680
+2023-04-07 20:22:45, INFO: Success !!!
+2023-04-07 20:22:48, INFO: TRAIN in episode 49 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 70.00, total reward: 0.0152, average return: 0.2510
+2023-04-07 20:25:10, INFO: Average loss : 0.010278, 23198.482422
+2023-04-07 20:25:10, INFO: Average loss of statePredictor: 0.161631
+2023-04-07 20:26:18, INFO: Collision with obstacle !!!
+2023-04-07 20:26:21, INFO: TRAIN in episode 50 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0039, average return: -0.0488
+2023-04-07 20:28:44, INFO: Average loss : 0.008041, 23275.981262
+2023-04-07 20:28:44, INFO: Average loss of statePredictor: 0.161580
+2023-04-07 20:30:44, INFO: Success !!!
+2023-04-07 20:30:50, INFO: TRAIN in episode 51 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 140.00, total reward: -0.0024, average return: 0.1303
+2023-04-07 20:33:09, INFO: Average loss : 0.010181, 22936.471191
+2023-04-07 20:33:10, INFO: Average loss of statePredictor: 0.161531
+2023-04-07 20:35:44, INFO: Success !!!
+2023-04-07 20:35:53, INFO: TRAIN in episode 52 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 180.00, total reward: -0.0051, average return: 0.1064
+2023-04-07 20:38:15, INFO: Average loss : 0.005873, 22725.801880
+2023-04-07 20:38:15, INFO: Average loss of statePredictor: 0.161483
+2023-04-07 20:39:16, INFO: Collision with obstacle !!!
+2023-04-07 20:39:19, INFO: TRAIN in episode 53 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0098, average return: -0.0617
+2023-04-07 20:41:38, INFO: Average loss : 0.015792, 23307.177856
+2023-04-07 20:41:38, INFO: Average loss of statePredictor: 0.161434
+2023-04-07 20:42:39, INFO: Collision with obstacle !!!
+2023-04-07 20:42:42, INFO: TRAIN in episode 54 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0005, average return: -0.0509
+2023-04-07 20:45:04, INFO: Average loss : 0.005952, 22709.786316
+2023-04-07 20:45:04, INFO: Average loss of statePredictor: 0.161387
+2023-04-07 20:45:56, INFO: Success !!!
+2023-04-07 20:45:58, INFO: TRAIN in episode 55 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 60.00, total reward: 0.0283, average return: 0.3020
+2023-04-07 20:48:20, INFO: Average loss : 0.016861, 23677.206970
+2023-04-07 20:48:20, INFO: Average loss of statePredictor: 0.161341
+2023-04-07 20:49:27, INFO: Collision with obstacle !!!
+2023-04-07 20:49:29, INFO: TRAIN in episode 56 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0017, average return: -0.0620
+2023-04-07 20:51:48, INFO: Average loss : 0.012517, 23128.365051
+2023-04-07 20:51:48, INFO: Average loss of statePredictor: 0.161295
+2023-04-07 20:55:23, INFO: Success !!!
+2023-04-07 20:55:35, INFO: TRAIN in episode 57 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 250.00, total reward: -0.0090, average return: -0.0185
+2023-04-07 20:57:56, INFO: Average loss : 0.023974, 23334.702637
+2023-04-07 20:57:56, INFO: Average loss of statePredictor: 0.161249
+2023-04-07 21:01:02, INFO: Success !!!
+2023-04-07 21:01:12, INFO: TRAIN in episode 58 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 220.00, total reward: -0.0067, average return: 0.0806
+2023-04-07 21:03:32, INFO: Average loss : 0.005523, 23388.039612
+2023-04-07 21:03:32, INFO: Average loss of statePredictor: 0.161205
+2023-04-07 21:05:24, INFO: Success !!!
+2023-04-07 21:05:30, INFO: TRAIN in episode 59 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 130.00, total reward: 0.0004, average return: 0.1530
+2023-04-07 21:07:52, INFO: Average loss : 0.021390, 23290.026489
+2023-04-07 21:07:52, INFO: Average loss of statePredictor: 0.161160
+2023-04-07 21:09:51, INFO: Success !!!
+2023-04-07 21:09:57, INFO: TRAIN in episode 60 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 130.00, total reward: 0.0019, average return: 0.1511
+2023-04-07 21:12:16, INFO: Average loss : 0.008472, 23393.862244
+2023-04-07 21:12:16, INFO: Average loss of statePredictor: 0.161118
+2023-04-07 21:14:50, INFO: Success !!!
+2023-04-07 21:14:58, INFO: TRAIN in episode 61 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 180.00, total reward: -0.0041, average return: 0.1038
+2023-04-07 21:17:20, INFO: Average loss : 0.011645, 23129.199707
+2023-04-07 21:17:20, INFO: Average loss of statePredictor: 0.161074
+2023-04-07 21:18:45, INFO: Collision with human !!!
+2023-04-07 21:18:50, INFO: TRAIN in episode 62 has success rate: 0.00, collision rate: 1.00, collisionobs rate: 0.00, nav time: 500.00, total reward: -0.0046, average return: -0.0389
+2023-04-07 21:21:10, INFO: Average loss : 0.012278, 23272.004028
+2023-04-07 21:21:10, INFO: Average loss of statePredictor: 0.161032
+2023-04-07 21:22:03, INFO: Success !!!
+2023-04-07 21:22:05, INFO: TRAIN in episode 63 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 60.00, total reward: 0.0289, average return: 0.3027
+2023-04-07 21:24:27, INFO: Average loss : 0.005365, 23147.810852
+2023-04-07 21:24:27, INFO: Average loss of statePredictor: 0.160991
+2023-04-07 21:26:11, INFO: Success !!!
+2023-04-07 21:26:16, INFO: TRAIN in episode 64 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 120.00, total reward: -0.0008, average return: 0.1457
+2023-04-07 21:28:36, INFO: Average loss : 0.013770, 23219.592377
+2023-04-07 21:28:36, INFO: Average loss of statePredictor: 0.160950
+2023-04-07 21:31:19, INFO: Success !!!
+2023-04-07 21:31:27, INFO: TRAIN in episode 65 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 190.00, total reward: -0.0066, average return: 0.0904
+2023-04-07 21:33:49, INFO: Average loss : 0.013197, 22866.996216
+2023-04-07 21:33:49, INFO: Average loss of statePredictor: 0.160910
+2023-04-07 21:34:41, INFO: Success !!!
+2023-04-07 21:34:44, INFO: TRAIN in episode 66 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 60.00, total reward: 0.0226, average return: 0.2877
+2023-04-07 21:37:04, INFO: Average loss : 0.015508, 22522.645691
+2023-04-07 21:37:04, INFO: Average loss of statePredictor: 0.160870
+2023-04-07 21:43:02, INFO: Collision with obstacle !!!
+2023-04-07 21:43:22, INFO: TRAIN in episode 67 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0078, average return: -0.0102
+2023-04-07 21:45:41, INFO: Average loss : 0.008843, 23444.722412
+2023-04-07 21:45:41, INFO: Average loss of statePredictor: 0.160831
+2023-04-07 21:48:52, INFO: Success !!!
+2023-04-07 21:49:02, INFO: TRAIN in episode 68 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 220.00, total reward: -0.0064, average return: 0.0807
+2023-04-07 21:51:24, INFO: Average loss : 0.013522, 23259.299744
+2023-04-07 21:51:24, INFO: Average loss of statePredictor: 0.160793
+2023-04-07 21:52:43, INFO: Success !!!
+2023-04-07 21:52:46, INFO: TRAIN in episode 69 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 80.00, total reward: 0.0133, average return: 0.2421
+2023-04-07 21:55:09, INFO: Average loss : 0.017286, 23275.812012
+2023-04-07 21:55:09, INFO: Average loss of statePredictor: 0.160755
+2023-04-07 21:55:28, INFO: Collision with obstacle !!!
+2023-04-07 21:55:28, INFO: TRAIN in episode 70 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0909, average return: -0.1704
+2023-04-07 21:57:47, INFO: Average loss : 0.017683, 22780.204163
+2023-04-07 21:57:47, INFO: Average loss of statePredictor: 0.160717
+2023-04-07 21:59:53, INFO: Success !!!
+2023-04-07 22:00:00, INFO: TRAIN in episode 71 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 150.00, total reward: -0.0046, average return: -0.0755
+2023-04-07 22:02:17, INFO: Average loss : 0.015960, 22850.866211
+2023-04-07 22:02:17, INFO: Average loss of statePredictor: 0.160680
+2023-04-07 22:02:59, INFO: Collision with obstacle !!!
+2023-04-07 22:03:01, INFO: TRAIN in episode 72 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0089, average return: -0.0794
+2023-04-07 22:05:18, INFO: Average loss : 0.019077, 22679.408447
+2023-04-07 22:05:18, INFO: Average loss of statePredictor: 0.160644
+2023-04-07 22:06:36, INFO: Collision with obstacle !!!
+2023-04-07 22:06:40, INFO: TRAIN in episode 73 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0060, average return: -0.0459
+2023-04-07 22:08:59, INFO: Average loss : 0.010993, 22223.578094
+2023-04-07 22:08:59, INFO: Average loss of statePredictor: 0.160608
+2023-04-07 22:09:58, INFO: Success !!!
+2023-04-07 22:10:01, INFO: TRAIN in episode 74 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 70.00, total reward: 0.0178, average return: 0.2680
+2023-04-07 22:12:21, INFO: Average loss : 0.006145, 22738.422119
+2023-04-07 22:12:21, INFO: Average loss of statePredictor: 0.160572
+2023-04-07 22:13:04, INFO: Collision with human !!!
+2023-04-07 22:13:06, INFO: TRAIN in episode 75 has success rate: 0.00, collision rate: 1.00, collisionobs rate: 0.00, nav time: 500.00, total reward: 0.0192, average return: -0.0464
+2023-04-07 22:15:26, INFO: Average loss : 0.015141, 22461.922485
+2023-04-07 22:15:26, INFO: Average loss of statePredictor: 0.160537
+2023-04-07 22:17:19, INFO: Success !!!
+2023-04-07 22:17:25, INFO: TRAIN in episode 76 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 130.00, total reward: -0.0014, average return: 0.1442
+2023-04-07 22:19:47, INFO: Average loss : 0.020618, 22550.775879
+2023-04-07 22:19:47, INFO: Average loss of statePredictor: 0.160502
+2023-04-07 22:20:46, INFO: Success !!!
+2023-04-07 22:20:49, INFO: TRAIN in episode 77 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 70.00, total reward: 0.0239, average return: 0.2555
+2023-04-07 22:23:10, INFO: Average loss : 0.018001, 22210.041595
+2023-04-07 22:23:10, INFO: Average loss of statePredictor: 0.160467
+2023-04-07 22:25:31, INFO: Success !!!
+2023-04-07 22:25:38, INFO: TRAIN in episode 78 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 170.00, total reward: -0.0041, average return: 0.1075
+2023-04-07 22:27:55, INFO: Average loss : 0.010477, 21665.823334
+2023-04-07 22:27:55, INFO: Average loss of statePredictor: 0.160434
+2023-04-07 22:29:30, INFO: Collision with obstacle !!!
+2023-04-07 22:29:35, INFO: TRAIN in episode 79 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0073, average return: -0.0389
+2023-04-07 22:31:55, INFO: Average loss : 0.012838, 22487.940735
+2023-04-07 22:31:56, INFO: Average loss of statePredictor: 0.160400
+2023-04-07 22:32:48, INFO: Collision with obstacle !!!
+2023-04-07 22:32:50, INFO: TRAIN in episode 80 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0059, average return: -0.0665
+2023-04-07 22:35:11, INFO: Average loss : 0.015594, 22015.722656
+2023-04-07 22:35:11, INFO: Average loss of statePredictor: 0.160368
+2023-04-07 22:36:46, INFO: Success !!!
+2023-04-07 22:36:50, INFO: TRAIN in episode 81 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 110.00, total reward: 0.0004, average return: 0.1598
+2023-04-07 22:39:11, INFO: Average loss : 0.020909, 22233.241943
+2023-04-07 22:39:11, INFO: Average loss of statePredictor: 0.160336
+2023-04-07 22:40:27, INFO: Collision with obstacle !!!
+2023-04-07 22:40:32, INFO: TRAIN in episode 82 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0039, average return: -0.0311
+2023-04-07 22:42:51, INFO: Average loss : 0.021563, 22021.682373
+2023-04-07 22:42:51, INFO: Average loss of statePredictor: 0.160304
+2023-04-07 22:45:06, INFO: Success !!!
+2023-04-07 22:45:13, INFO: TRAIN in episode 83 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 160.00, total reward: -0.0036, average return: 0.1088
+2023-04-07 22:47:32, INFO: Average loss : 0.016824, 21909.500977
+2023-04-07 22:47:33, INFO: Average loss of statePredictor: 0.160272
+2023-04-07 22:48:40, INFO: Success !!!
+2023-04-07 22:48:44, INFO: TRAIN in episode 84 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 80.00, total reward: 0.0105, average return: 0.2201
+2023-04-07 22:51:02, INFO: Average loss : 0.010251, 22561.848877
+2023-04-07 22:51:02, INFO: Average loss of statePredictor: 0.160241
+2023-04-07 22:54:29, INFO: Success !!!
+2023-04-07 22:54:40, INFO: TRAIN in episode 85 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 250.00, total reward: -0.0084, average return: 0.0681
+2023-04-07 22:56:59, INFO: Average loss : 0.010831, 22508.781677
+2023-04-07 22:56:59, INFO: Average loss of statePredictor: 0.160211
+2023-04-07 22:59:12, INFO: Success !!!
+2023-04-07 22:59:19, INFO: TRAIN in episode 86 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 160.00, total reward: -0.0045, average return: 0.1195
+2023-04-07 23:01:35, INFO: Average loss : 0.010449, 22491.512268
+2023-04-07 23:01:35, INFO: Average loss of statePredictor: 0.160180
+2023-04-07 23:02:17, INFO: Collision with obstacle !!!
+2023-04-07 23:02:19, INFO: TRAIN in episode 87 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0070, average return: -0.0646
+2023-04-07 23:04:35, INFO: Average loss : 0.011475, 21732.108673
+2023-04-07 23:04:35, INFO: Average loss of statePredictor: 0.160151
+2023-04-07 23:08:09, INFO: Success !!!
+2023-04-07 23:08:20, INFO: TRAIN in episode 88 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 250.00, total reward: -0.0085, average return: 0.0702
+2023-04-07 23:10:38, INFO: Average loss : 0.011352, 22130.845795
+2023-04-07 23:10:38, INFO: Average loss of statePredictor: 0.160121
+2023-04-07 23:11:46, INFO: Collision with obstacle !!!
+2023-04-07 23:11:49, INFO: TRAIN in episode 89 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0050, average return: -0.0506
+2023-04-07 23:14:06, INFO: Average loss : 0.014244, 22304.150635
+2023-04-07 23:14:06, INFO: Average loss of statePredictor: 0.160092
+2023-04-07 23:14:15, INFO: Collision with human !!!
+2023-04-07 23:14:15, INFO: TRAIN in episode 90 has success rate: 0.00, collision rate: 1.00, collisionobs rate: 0.00, nav time: 500.00, total reward: -0.2500, average return: -0.2500
+2023-04-07 23:16:33, INFO: Average loss : 0.013541, 21904.910767
+2023-04-07 23:16:33, INFO: Average loss of statePredictor: 0.160064
+2023-04-07 23:18:21, INFO: Collision with obstacle !!!
+2023-04-07 23:18:27, INFO: TRAIN in episode 91 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0064, average return: -0.0012
+2023-04-07 23:20:45, INFO: Average loss : 0.010334, 22162.029297
+2023-04-07 23:20:45, INFO: Average loss of statePredictor: 0.160036
+2023-04-07 23:23:21, INFO: Success !!!
+2023-04-07 23:23:29, INFO: TRAIN in episode 92 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 190.00, total reward: -0.0061, average return: 0.0934
+2023-04-07 23:25:47, INFO: Average loss : 0.008882, 22602.649109
+2023-04-07 23:25:47, INFO: Average loss of statePredictor: 0.160008
+2023-04-07 23:27:10, INFO: Success !!!
+2023-04-07 23:27:15, INFO: TRAIN in episode 93 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 100.00, total reward: 0.0039, average return: 0.1770
+2023-04-07 23:29:32, INFO: Average loss : 0.005843, 22559.546692
+2023-04-07 23:29:32, INFO: Average loss of statePredictor: 0.159981
+2023-04-07 23:30:22, INFO: Collision with obstacle !!!
+2023-04-07 23:30:24, INFO: TRAIN in episode 94 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0060, average return: -0.0521
+2023-04-07 23:32:42, INFO: Average loss : 0.023228, 21896.196960
+2023-04-07 23:32:42, INFO: Average loss of statePredictor: 0.159954
+2023-04-07 23:33:58, INFO: Success !!!
+2023-04-07 23:34:02, INFO: TRAIN in episode 95 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 90.00, total reward: 0.0045, average return: 0.1930
+2023-04-07 23:36:17, INFO: Average loss : 0.013328, 21993.275513
+2023-04-07 23:36:18, INFO: Average loss of statePredictor: 0.159929
+2023-04-07 23:38:37, INFO: Success !!!
+2023-04-07 23:38:44, INFO: TRAIN in episode 96 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 170.00, total reward: -0.0048, average return: 0.1045
+2023-04-07 23:41:02, INFO: Average loss : 0.007209, 21734.194275
+2023-04-07 23:41:02, INFO: Average loss of statePredictor: 0.159903
+2023-04-07 23:42:08, INFO: Collision with obstacle !!!
+2023-04-07 23:42:11, INFO: TRAIN in episode 97 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0047, average return: -0.0494
+2023-04-07 23:44:29, INFO: Average loss : 0.020458, 21756.341736
+2023-04-07 23:44:29, INFO: Average loss of statePredictor: 0.159878
+2023-04-07 23:45:27, INFO: Success !!!
+2023-04-07 23:45:30, INFO: TRAIN in episode 98 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 70.00, total reward: 0.0180, average return: 0.2689
+2023-04-07 23:47:47, INFO: Average loss : 0.013982, 21229.579468
+2023-04-07 23:47:47, INFO: Average loss of statePredictor: 0.159853
+2023-04-07 23:50:32, INFO: Success !!!
+2023-04-07 23:50:41, INFO: TRAIN in episode 99 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 200.00, total reward: -0.0065, average return: 0.0909
+2023-04-07 23:52:59, INFO: Average loss : 0.006490, 21583.856628
+2023-04-07 23:52:59, INFO: Average loss of statePredictor: 0.159829
+2023-04-07 23:54:22, INFO: Collision with obstacle !!!
+2023-04-07 23:54:26, INFO: TRAIN in episode 100 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0029, average return: -0.0361
+2023-04-07 23:56:41, INFO: Average loss : 0.010012, 21935.343140
+2023-04-07 23:56:42, INFO: Average loss of statePredictor: 0.159805
+2023-04-07 23:58:36, INFO: Success !!!
+2023-04-07 23:58:42, INFO: TRAIN in episode 101 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 140.00, total reward: -0.0015, average return: 0.1316
+2023-04-08 00:00:58, INFO: Average loss : 0.013282, 21896.709412
+2023-04-08 00:00:58, INFO: Average loss of statePredictor: 0.159782
+2023-04-08 00:02:01, INFO: Collision with obstacle !!!
+2023-04-08 00:02:03, INFO: TRAIN in episode 102 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0032, average return: -0.0654
+2023-04-08 00:04:19, INFO: Average loss : 0.010912, 21466.576904
+2023-04-08 00:04:19, INFO: Average loss of statePredictor: 0.159759
+2023-04-08 00:06:54, INFO: Success !!!
+2023-04-08 00:07:03, INFO: TRAIN in episode 103 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 190.00, total reward: -0.0300, average return: -0.0356
+2023-04-08 00:09:19, INFO: Average loss : 0.013712, 20999.823334
+2023-04-08 00:09:19, INFO: Average loss of statePredictor: 0.159736
+2023-04-08 00:10:49, INFO: Success !!!
+2023-04-08 00:10:54, INFO: TRAIN in episode 104 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 110.00, total reward: 0.0023, average return: 0.1681
+2023-04-08 00:13:10, INFO: Average loss : 0.008213, 21476.208252
+2023-04-08 00:13:10, INFO: Average loss of statePredictor: 0.159714
+2023-04-08 00:16:19, INFO: Success !!!
+2023-04-08 00:16:29, INFO: TRAIN in episode 105 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 230.00, total reward: -0.0081, average return: 0.0759
+2023-04-08 00:18:45, INFO: Average loss : 0.014637, 21330.308899
+2023-04-08 00:18:45, INFO: Average loss of statePredictor: 0.159692
+2023-04-08 00:20:25, INFO: Collision with obstacle !!!
+2023-04-08 00:20:30, INFO: TRAIN in episode 106 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0082, average return: -0.0372
+2023-04-08 00:22:48, INFO: Average loss : 0.014346, 21088.542603
+2023-04-08 00:22:48, INFO: Average loss of statePredictor: 0.159670
+2023-04-08 00:24:05, INFO: Collision with obstacle !!!
+2023-04-08 00:24:09, INFO: TRAIN in episode 107 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0019, average return: -0.0392
+2023-04-08 00:26:24, INFO: Average loss : 0.013692, 21767.584167
+2023-04-08 00:26:24, INFO: Average loss of statePredictor: 0.159649
+2023-04-08 00:27:31, INFO: Success !!!
+2023-04-08 00:27:34, INFO: TRAIN in episode 108 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 80.00, total reward: 0.0096, average return: 0.2192
+2023-04-08 00:29:52, INFO: Average loss : 0.017851, 21532.785217
+2023-04-08 00:29:52, INFO: Average loss of statePredictor: 0.159628
+2023-04-08 00:31:47, INFO: Success !!!
+2023-04-08 00:31:53, INFO: TRAIN in episode 109 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 140.00, total reward: -0.0006, average return: -0.1093
+2023-04-08 00:34:11, INFO: Average loss : 0.011850, 21043.770081
+2023-04-08 00:34:11, INFO: Average loss of statePredictor: 0.159607
+2023-04-08 00:36:49, INFO: Success !!!
+2023-04-08 00:36:57, INFO: TRAIN in episode 110 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 190.00, total reward: -0.0061, average return: 0.0926
+2023-04-08 00:39:12, INFO: Average loss : 0.025889, 21280.451172
+2023-04-08 00:39:13, INFO: Average loss of statePredictor: 0.159587
+2023-04-08 00:39:55, INFO: Success !!!
+2023-04-08 00:39:57, INFO: TRAIN in episode 111 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 50.00, total reward: 0.0446, average return: 0.3483
+2023-04-08 00:42:13, INFO: Average loss : 0.010602, 20808.143555
+2023-04-08 00:42:13, INFO: Average loss of statePredictor: 0.159567
+2023-04-08 00:43:03, INFO: Success !!!
+2023-04-08 00:43:06, INFO: TRAIN in episode 112 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 60.00, total reward: 0.0262, average return: 0.2982
+2023-04-08 00:45:24, INFO: Average loss : 0.017852, 21284.638550
+2023-04-08 00:45:24, INFO: Average loss of statePredictor: 0.159547
+2023-04-08 00:47:50, INFO: Success !!!
+2023-04-08 00:47:57, INFO: TRAIN in episode 113 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 170.00, total reward: -0.0052, average return: 0.1045
+2023-04-08 00:50:13, INFO: Average loss : 0.019822, 21515.909241
+2023-04-08 00:50:13, INFO: Average loss of statePredictor: 0.159528
+2023-04-08 00:52:17, INFO: Success !!!
+2023-04-08 00:52:24, INFO: TRAIN in episode 114 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 150.00, total reward: -0.0029, average return: 0.1233
+2023-04-08 00:54:39, INFO: Average loss : 0.016907, 21311.641876
+2023-04-08 00:54:40, INFO: Average loss of statePredictor: 0.159508
+2023-04-08 00:56:51, INFO: Success !!!
+2023-04-08 00:56:58, INFO: TRAIN in episode 115 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 160.00, total reward: -0.0039, average return: 0.0759
+2023-04-08 00:59:16, INFO: Average loss : 0.019541, 21360.196411
+2023-04-08 00:59:16, INFO: Average loss of statePredictor: 0.159489
+2023-04-08 01:00:57, INFO: Collision with obstacle !!!
+2023-04-08 01:01:02, INFO: TRAIN in episode 116 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0079, average return: -0.0367
+2023-04-08 01:03:18, INFO: Average loss : 0.030718, 21567.563721
+2023-04-08 01:03:18, INFO: Average loss of statePredictor: 0.159470
+2023-04-08 01:04:17, INFO: Success !!!
+2023-04-08 01:04:20, INFO: TRAIN in episode 117 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 70.00, total reward: 0.0175, average return: 0.2664
+2023-04-08 01:06:36, INFO: Average loss : 0.007388, 21267.718994
+2023-04-08 01:06:36, INFO: Average loss of statePredictor: 0.159452
+2023-04-08 01:08:00, INFO: Collision with obstacle !!!
+2023-04-08 01:08:04, INFO: TRAIN in episode 118 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0068, average return: -0.0426
+2023-04-08 01:10:20, INFO: Average loss : 0.009582, 21134.692810
+2023-04-08 01:10:20, INFO: Average loss of statePredictor: 0.159433
+2023-04-08 01:11:01, INFO: Success !!!
+2023-04-08 01:11:03, INFO: TRAIN in episode 119 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 50.00, total reward: 0.0418, average return: 0.3408
+2023-04-08 01:13:21, INFO: Average loss : 0.025386, 21153.905151
+2023-04-08 01:13:21, INFO: Average loss of statePredictor: 0.159415
+2023-04-08 01:14:20, INFO: Collision with obstacle !!!
+2023-04-08 01:14:22, INFO: TRAIN in episode 120 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0072, average return: -0.0601
+2023-04-08 01:16:39, INFO: Average loss : 0.016134, 21300.078247
+2023-04-08 01:16:39, INFO: Average loss of statePredictor: 0.159398
+2023-04-08 01:18:52, INFO: Success !!!
+2023-04-08 01:18:58, INFO: TRAIN in episode 121 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 160.00, total reward: -0.0045, average return: 0.0156
+2023-04-08 01:21:16, INFO: Average loss : 0.007030, 20748.008606
+2023-04-08 01:21:17, INFO: Average loss of statePredictor: 0.159380
+2023-04-08 01:23:00, INFO: Collision with obstacle !!!
+2023-04-08 01:23:04, INFO: TRAIN in episode 122 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0080, average return: -0.0410
+2023-04-08 01:25:20, INFO: Average loss : 0.015574, 21456.695618
+2023-04-08 01:25:21, INFO: Average loss of statePredictor: 0.159362
+2023-04-08 01:27:06, INFO: Success !!!
+2023-04-08 01:27:11, INFO: TRAIN in episode 123 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 120.00, total reward: 0.0007, average return: 0.1531
+2023-04-08 01:29:29, INFO: Average loss : 0.017129, 20758.962036
+2023-04-08 01:29:29, INFO: Average loss of statePredictor: 0.159345
+2023-04-08 01:31:33, INFO: Success !!!
+2023-04-08 01:31:39, INFO: TRAIN in episode 124 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 150.00, total reward: -0.0020, average return: 0.1316
+2023-04-08 01:33:55, INFO: Average loss : 0.015538, 21326.444214
+2023-04-08 01:33:55, INFO: Average loss of statePredictor: 0.159329
+2023-04-08 01:35:48, INFO: Success !!!
+2023-04-08 01:35:53, INFO: TRAIN in episode 125 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 120.00, total reward: -0.0007, average return: 0.1468
+2023-04-08 01:38:10, INFO: Average loss : 0.014241, 21007.544983
+2023-04-08 01:38:10, INFO: Average loss of statePredictor: 0.159312
+2023-04-08 01:41:01, INFO: Success !!!
+2023-04-08 01:41:10, INFO: TRAIN in episode 126 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 200.00, total reward: -0.0433, average return: 0.0254
+2023-04-08 01:43:25, INFO: Average loss : 0.012505, 21201.099609
+2023-04-08 01:43:25, INFO: Average loss of statePredictor: 0.159295
+2023-04-08 01:44:07, INFO: Success !!!
+2023-04-08 01:44:09, INFO: TRAIN in episode 127 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 50.00, total reward: 0.0523, average return: 0.3678
+2023-04-08 01:46:26, INFO: Average loss : 0.007714, 20874.743225
+2023-04-08 01:46:26, INFO: Average loss of statePredictor: 0.159279
+2023-04-08 01:48:26, INFO: Success !!!
+2023-04-08 01:48:31, INFO: TRAIN in episode 128 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 120.00, total reward: 0.0001, average return: 0.1583
+2023-04-08 01:50:47, INFO: Average loss : 0.008547, 20527.173828
+2023-04-08 01:50:47, INFO: Average loss of statePredictor: 0.159262
+2023-04-08 01:52:18, INFO: Success !!!
+2023-04-08 01:52:23, INFO: TRAIN in episode 129 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 110.00, total reward: 0.0015, average return: 0.1633
+2023-04-08 01:54:40, INFO: Average loss : 0.015155, 21134.130554
+2023-04-08 01:54:40, INFO: Average loss of statePredictor: 0.159246
+2023-04-08 01:55:06, INFO: Collision with obstacle !!!
+2023-04-08 01:55:07, INFO: TRAIN in episode 130 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0376, average return: -0.1266
+2023-04-08 01:57:22, INFO: Average loss : 0.008992, 21137.065002
+2023-04-08 01:57:23, INFO: Average loss of statePredictor: 0.159230
+2023-04-08 01:59:10, INFO: Collision with obstacle !!!
+2023-04-08 01:59:16, INFO: TRAIN in episode 131 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0012, average return: -0.0160
+2023-04-08 02:01:32, INFO: Average loss : 0.023278, 20618.203064
+2023-04-08 02:01:32, INFO: Average loss of statePredictor: 0.159215
+2023-04-08 02:02:39, INFO: Success !!!
+2023-04-08 02:02:42, INFO: TRAIN in episode 132 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 80.00, total reward: 0.0079, average return: 0.2167
+2023-04-08 02:05:01, INFO: Average loss : 0.021860, 20698.494385
+2023-04-08 02:05:01, INFO: Average loss of statePredictor: 0.159199
+2023-04-08 02:06:42, INFO: Success !!!
+2023-04-08 02:06:47, INFO: TRAIN in episode 133 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 120.00, total reward: 0.0007, average return: 0.1560
+2023-04-08 02:09:02, INFO: Average loss : 0.003863, 20571.517792
+2023-04-08 02:09:02, INFO: Average loss of statePredictor: 0.159184
+2023-04-08 02:11:05, INFO: Success !!!
+2023-04-08 02:11:12, INFO: TRAIN in episode 134 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 150.00, total reward: -0.0029, average return: 0.1260
+2023-04-08 02:13:29, INFO: Average loss : 0.015400, 20417.395660
+2023-04-08 02:13:30, INFO: Average loss of statePredictor: 0.159168
+2023-04-08 02:14:04, INFO: Collision with obstacle !!!
+2023-04-08 02:14:05, INFO: TRAIN in episode 135 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0163, average return: -0.0982
+2023-04-08 02:16:21, INFO: Average loss : 0.017035, 20526.904114
+2023-04-08 02:16:21, INFO: Average loss of statePredictor: 0.159153
+2023-04-08 02:16:54, INFO: Success !!!
+2023-04-08 02:16:55, INFO: TRAIN in episode 136 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 40.00, total reward: 0.0812, average return: 0.4168
+2023-04-08 02:19:11, INFO: Average loss : 0.008304, 20771.292969
+2023-04-08 02:19:11, INFO: Average loss of statePredictor: 0.159138
+2023-04-08 02:21:15, INFO: Success !!!
+2023-04-08 02:21:22, INFO: TRAIN in episode 137 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 150.00, total reward: -0.0038, average return: 0.1186
+2023-04-08 02:23:39, INFO: Average loss : 0.017211, 20293.365295
+2023-04-08 02:23:40, INFO: Average loss of statePredictor: 0.159124
+2023-04-08 02:24:30, INFO: Success !!!
+2023-04-08 02:24:32, INFO: TRAIN in episode 138 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 60.00, total reward: 0.0338, average return: 0.3033
+2023-04-08 02:26:48, INFO: Average loss : 0.006986, 20320.361786
+2023-04-08 02:26:48, INFO: Average loss of statePredictor: 0.159109
+2023-04-08 02:27:30, INFO: Success !!!
+2023-04-08 02:27:32, INFO: TRAIN in episode 139 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 50.00, total reward: 0.0458, average return: 0.3490
+2023-04-08 02:29:50, INFO: Average loss : 0.008332, 20205.544617
+2023-04-08 02:29:50, INFO: Average loss of statePredictor: 0.159094
+2023-04-08 02:32:58, INFO: Success !!!
+2023-04-08 02:33:08, INFO: TRAIN in episode 140 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 230.00, total reward: -0.0075, average return: 0.0761
+2023-04-08 02:35:23, INFO: Average loss : 0.015909, 20523.717865
+2023-04-08 02:35:24, INFO: Average loss of statePredictor: 0.159080
+2023-04-08 02:36:46, INFO: Collision with obstacle !!!
+2023-04-08 02:36:50, INFO: TRAIN in episode 141 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0080, average return: -0.0437
+2023-04-08 02:39:06, INFO: Average loss : 0.007171, 20796.668701
+2023-04-08 02:39:06, INFO: Average loss of statePredictor: 0.159066
+2023-04-08 02:42:08, INFO: Success !!!
+2023-04-08 02:42:18, INFO: TRAIN in episode 142 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 220.00, total reward: -0.0069, average return: 0.0797
+2023-04-08 02:44:34, INFO: Average loss : 0.025023, 20784.001495
+2023-04-08 02:44:34, INFO: Average loss of statePredictor: 0.159052
+2023-04-08 02:45:40, INFO: Collision with obstacle !!!
+2023-04-08 02:45:43, INFO: TRAIN in episode 143 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0108, average return: -0.0249
+2023-04-08 02:47:59, INFO: Average loss : 0.019530, 20778.147614
+2023-04-08 02:47:59, INFO: Average loss of statePredictor: 0.159038
+2023-04-08 02:49:40, INFO: Success !!!
+2023-04-08 02:49:45, INFO: TRAIN in episode 144 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 120.00, total reward: -0.0011, average return: 0.1448
+2023-04-08 02:52:03, INFO: Average loss : 0.022859, 20907.191345
+2023-04-08 02:52:03, INFO: Average loss of statePredictor: 0.159024
+2023-04-08 02:52:36, INFO: Success !!!
+2023-04-08 02:52:38, INFO: TRAIN in episode 145 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 40.00, total reward: 0.0980, average return: 0.4422
+2023-04-08 02:54:54, INFO: Average loss : 0.012906, 20187.200378
+2023-04-08 02:54:54, INFO: Average loss of statePredictor: 0.159010
+2023-04-08 02:56:33, INFO: Success !!!
+2023-04-08 02:56:38, INFO: TRAIN in episode 146 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 120.00, total reward: 0.0037, average return: 0.1531
+2023-04-08 02:58:54, INFO: Average loss : 0.010051, 21102.257812
+2023-04-08 02:58:55, INFO: Average loss of statePredictor: 0.158996
+2023-04-08 02:59:53, INFO: Collision with obstacle !!!
+2023-04-08 02:59:55, INFO: TRAIN in episode 147 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0043, average return: -0.0506
+2023-04-08 03:02:14, INFO: Average loss : 0.012511, 21358.990967
+2023-04-08 03:02:14, INFO: Average loss of statePredictor: 0.158982
+2023-04-08 03:03:45, INFO: Success !!!
+2023-04-08 03:03:49, INFO: TRAIN in episode 148 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 110.00, total reward: 0.0013, average return: 0.1597
+2023-04-08 03:06:05, INFO: Average loss : 0.013197, 20766.200134
+2023-04-08 03:06:05, INFO: Average loss of statePredictor: 0.158969
+2023-04-08 03:08:10, INFO: Success !!!
+2023-04-08 03:08:16, INFO: TRAIN in episode 149 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 150.00, total reward: -0.0021, average return: 0.1256
+2023-04-08 03:10:34, INFO: Average loss : 0.014513, 20298.887573
+2023-04-08 03:10:34, INFO: Average loss of statePredictor: 0.158955
+2023-04-08 03:11:00, INFO: Collision with obstacle !!!
+2023-04-08 03:11:01, INFO: TRAIN in episode 150 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0253, average return: -0.1194
+2023-04-08 03:13:17, INFO: Average loss : 0.012955, 20101.502136
+2023-04-08 03:13:17, INFO: Average loss of statePredictor: 0.158942
+2023-04-08 03:13:51, INFO: Collision with obstacle !!!
+2023-04-08 03:13:52, INFO: TRAIN in episode 151 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0194, average return: -0.1001
+2023-04-08 03:16:10, INFO: Average loss : 0.016360, 19955.908081
+2023-04-08 03:16:10, INFO: Average loss of statePredictor: 0.158928
+2023-04-08 03:16:50, INFO: Collision with obstacle !!!
+2023-04-08 03:16:52, INFO: TRAIN in episode 152 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0163, average return: -0.0982
+2023-04-08 03:19:07, INFO: Average loss : 0.014008, 20375.654022
+2023-04-08 03:19:08, INFO: Average loss of statePredictor: 0.158915
+2023-04-08 03:25:02, INFO: Collision with obstacle !!!
+2023-04-08 03:25:21, INFO: TRAIN in episode 153 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0055, average return: -0.0140
+2023-04-08 03:27:37, INFO: Average loss : 0.020254, 20698.065247
+2023-04-08 03:27:37, INFO: Average loss of statePredictor: 0.158902
+2023-04-08 03:28:35, INFO: Success !!!
+2023-04-08 03:28:38, INFO: TRAIN in episode 154 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 70.00, total reward: 0.0230, average return: 0.2780
+2023-04-08 03:30:54, INFO: Average loss : 0.011559, 20749.994812
+2023-04-08 03:30:54, INFO: Average loss of statePredictor: 0.158888
+2023-04-08 03:33:07, INFO: Success !!!
+2023-04-08 03:33:13, INFO: TRAIN in episode 155 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 140.00, total reward: -0.0029, average return: 0.1288
+2023-04-08 03:35:28, INFO: Average loss : 0.010452, 20507.012024
+2023-04-08 03:35:28, INFO: Average loss of statePredictor: 0.158875
+2023-04-08 03:35:54, INFO: Collision with human !!!
+2023-04-08 03:35:55, INFO: TRAIN in episode 156 has success rate: 0.00, collision rate: 1.00, collisionobs rate: 0.00, nav time: 500.00, total reward: -0.0340, average return: -0.1245
+2023-04-08 03:38:10, INFO: Average loss : 0.017018, 20583.651794
+2023-04-08 03:38:11, INFO: Average loss of statePredictor: 0.158862
+2023-04-08 03:39:47, INFO: Collision with obstacle !!!
+2023-04-08 03:39:51, INFO: TRAIN in episode 157 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0057, average return: -0.0372
+2023-04-08 03:42:07, INFO: Average loss : 0.017893, 21201.330597
+2023-04-08 03:42:07, INFO: Average loss of statePredictor: 0.158848
+2023-04-08 03:42:59, INFO: Collision with obstacle !!!
+2023-04-08 03:43:01, INFO: TRAIN in episode 158 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0037, average return: -0.0648
+2023-04-08 03:45:17, INFO: Average loss : 0.024956, 20819.939026
+2023-04-08 03:45:17, INFO: Average loss of statePredictor: 0.158835
+2023-04-08 03:45:59, INFO: Collision with obstacle !!!
+2023-04-08 03:46:01, INFO: TRAIN in episode 159 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0124, average return: -0.0823
+2023-04-08 03:48:17, INFO: Average loss : 0.017355, 20048.978180
+2023-04-08 03:48:17, INFO: Average loss of statePredictor: 0.158822
+2023-04-08 03:49:15, INFO: Success !!!
+2023-04-08 03:49:18, INFO: TRAIN in episode 160 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 70.00, total reward: 0.0136, average return: 0.2490
+2023-04-08 03:51:33, INFO: Average loss : 0.012865, 20682.102539
+2023-04-08 03:51:34, INFO: Average loss of statePredictor: 0.158809
+2023-04-08 03:52:34, INFO: Collision with obstacle !!!
+2023-04-08 03:52:37, INFO: TRAIN in episode 161 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0065, average return: -0.0591
+2023-04-08 03:54:52, INFO: Average loss : 0.009632, 20108.884705
+2023-04-08 03:54:53, INFO: Average loss of statePredictor: 0.158796
+2023-04-08 03:56:16, INFO: Success !!!
+2023-04-08 03:56:21, INFO: TRAIN in episode 162 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 100.00, total reward: 0.0025, average return: 0.1761
+2023-04-08 03:58:36, INFO: Average loss : 0.008916, 20125.083252
+2023-04-08 03:58:36, INFO: Average loss of statePredictor: 0.158783
+2023-04-08 04:01:29, INFO: Collision with obstacle !!!
+2023-04-08 04:01:38, INFO: TRAIN in episode 163 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0053, average return: -0.0065
+2023-04-08 04:03:54, INFO: Average loss : 0.014782, 20018.167664
+2023-04-08 04:03:54, INFO: Average loss of statePredictor: 0.158770
+2023-04-08 04:05:39, INFO: Success !!!
+2023-04-08 04:05:43, INFO: TRAIN in episode 164 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 110.00, total reward: 0.0015, average return: 0.1582
+2023-04-08 04:07:59, INFO: Average loss : 0.022840, 20520.413971
+2023-04-08 04:07:59, INFO: Average loss of statePredictor: 0.158757
+2023-04-08 04:10:02, INFO: Success !!!
+2023-04-08 04:10:08, INFO: TRAIN in episode 165 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 140.00, total reward: -0.0373, average return: 0.0375
+2023-04-08 04:12:23, INFO: Average loss : 0.012395, 20088.908508
+2023-04-08 04:12:23, INFO: Average loss of statePredictor: 0.158745
+2023-04-08 04:15:08, INFO: Collision with obstacle !!!
+2023-04-08 04:15:17, INFO: TRAIN in episode 166 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0072, average return: -0.0169
+2023-04-08 04:17:33, INFO: Average loss : 0.008145, 19980.511719
+2023-04-08 04:17:34, INFO: Average loss of statePredictor: 0.158733
+2023-04-08 04:18:08, INFO: Success !!!
+2023-04-08 04:18:09, INFO: TRAIN in episode 167 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 40.00, total reward: 0.0993, average return: 0.4444
+2023-04-08 04:20:24, INFO: Average loss : 0.024958, 20380.312500
+2023-04-08 04:20:24, INFO: Average loss of statePredictor: 0.158720
+2023-04-08 04:22:12, INFO: Collision with obstacle !!!
+2023-04-08 04:22:18, INFO: TRAIN in episode 168 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0039, average return: -0.0265
+2023-04-08 04:24:35, INFO: Average loss : 0.006913, 20100.451050
+2023-04-08 04:24:35, INFO: Average loss of statePredictor: 0.158708
+2023-04-08 04:25:01, INFO: Collision with obstacle !!!
+2023-04-08 04:25:02, INFO: TRAIN in episode 169 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0162, average return: -0.1131
+2023-04-08 04:27:19, INFO: Average loss : 0.019589, 19737.611145
+2023-04-08 04:27:20, INFO: Average loss of statePredictor: 0.158696
+2023-04-08 04:31:59, INFO: Collision with obstacle !!!
+2023-04-08 04:32:14, INFO: TRAIN in episode 170 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0039, average return: -0.0147
+2023-04-08 04:34:29, INFO: Average loss : 0.017598, 20049.432007
+2023-04-08 04:34:29, INFO: Average loss of statePredictor: 0.158683
+2023-04-08 04:36:26, INFO: Success !!!
+2023-04-08 04:36:32, INFO: TRAIN in episode 171 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 140.00, total reward: -0.0026, average return: 0.1331
+2023-04-08 04:38:49, INFO: Average loss : 0.010453, 19981.646973
+2023-04-08 04:38:49, INFO: Average loss of statePredictor: 0.158671
+2023-04-08 04:40:13, INFO: Collision with obstacle !!!
+2023-04-08 04:40:17, INFO: TRAIN in episode 172 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0061, average return: -0.0140
+2023-04-08 04:42:32, INFO: Average loss : 0.025170, 20198.199615
+2023-04-08 04:42:32, INFO: Average loss of statePredictor: 0.158659
+2023-04-08 04:46:34, INFO: Collision with obstacle !!!
+2023-04-08 04:46:46, INFO: TRAIN in episode 173 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0030, average return: -0.0085
+2023-04-08 04:49:02, INFO: Average loss : 0.012806, 19787.657959
+2023-04-08 04:49:02, INFO: Average loss of statePredictor: 0.158647
+2023-04-08 04:50:50, INFO: Success !!!
+2023-04-08 04:50:56, INFO: TRAIN in episode 174 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 130.00, total reward: -0.0019, average return: 0.1389
+2023-04-08 04:53:12, INFO: Average loss : 0.017661, 19673.387512
+2023-04-08 04:53:12, INFO: Average loss of statePredictor: 0.158635
+2023-04-08 04:57:10, INFO: Success !!!
+2023-04-08 04:57:23, INFO: TRAIN in episode 175 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 290.00, total reward: -0.0094, average return: 0.0572
+2023-04-08 04:59:38, INFO: Average loss : 0.013064, 20718.802979
+2023-04-08 04:59:38, INFO: Average loss of statePredictor: 0.158624
+2023-04-08 05:02:04, INFO: Collision with obstacle !!!
+2023-04-08 05:02:11, INFO: TRAIN in episode 176 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0070, average return: -0.0225
+2023-04-08 05:04:28, INFO: Average loss : 0.011349, 19188.356476
+2023-04-08 05:04:28, INFO: Average loss of statePredictor: 0.158612
+2023-04-08 05:05:51, INFO: Success !!!
+2023-04-08 05:05:55, INFO: TRAIN in episode 177 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 100.00, total reward: 0.0054, average return: 0.1824
+2023-04-08 05:08:12, INFO: Average loss : 0.020966, 20531.219696
+2023-04-08 05:08:12, INFO: Average loss of statePredictor: 0.158601
+2023-04-08 05:09:27, INFO: Collision with human !!!
+2023-04-08 05:09:31, INFO: TRAIN in episode 178 has success rate: 0.00, collision rate: 1.00, collisionobs rate: 0.00, nav time: 500.00, total reward: -0.0047, average return: -0.0436
+2023-04-08 05:11:47, INFO: Average loss : 0.009072, 19517.949432
+2023-04-08 05:11:47, INFO: Average loss of statePredictor: 0.158589
+2023-04-08 05:14:45, INFO: Success !!!
+2023-04-08 05:14:54, INFO: TRAIN in episode 179 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 210.00, total reward: -0.0069, average return: 0.0826
+2023-04-08 05:17:11, INFO: Average loss : 0.019906, 19566.414062
+2023-04-08 05:17:11, INFO: Average loss of statePredictor: 0.158578
+2023-04-08 05:19:39, INFO: Collision with obstacle !!!
+2023-04-08 05:19:47, INFO: TRAIN in episode 180 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0050, average return: -0.0168
+2023-04-08 05:22:02, INFO: Average loss : 0.011385, 19779.756531
+2023-04-08 05:22:02, INFO: Average loss of statePredictor: 0.158566
+2023-04-08 05:26:04, INFO: Collision with obstacle !!!
+2023-04-08 05:26:17, INFO: TRAIN in episode 181 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0089, average return: -0.0154
+2023-04-08 05:28:33, INFO: Average loss : 0.012274, 20001.569946
+2023-04-08 05:28:33, INFO: Average loss of statePredictor: 0.158555
+2023-04-08 05:30:13, INFO: Collision with obstacle !!!
+2023-04-08 05:30:18, INFO: TRAIN in episode 182 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0028, average return: -0.0294
+2023-04-08 05:32:34, INFO: Average loss : 0.016471, 20342.219757
+2023-04-08 05:32:34, INFO: Average loss of statePredictor: 0.158543
+2023-04-08 05:32:51, INFO: Collision with obstacle !!!
+2023-04-08 05:32:52, INFO: TRAIN in episode 183 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -1.3273, average return: -0.7886
+2023-04-08 05:35:08, INFO: Average loss : 0.012348, 19959.813965
+2023-04-08 05:35:08, INFO: Average loss of statePredictor: 0.158532
+2023-04-08 05:36:06, INFO: Collision with human !!!
+2023-04-08 05:36:09, INFO: TRAIN in episode 184 has success rate: 0.00, collision rate: 1.00, collisionobs rate: 0.00, nav time: 500.00, total reward: -0.0062, average return: -0.0581
+2023-04-08 05:38:25, INFO: Average loss : 0.015984, 20455.814270
+2023-04-08 05:38:26, INFO: Average loss of statePredictor: 0.158521
+2023-04-08 05:40:05, INFO: Collision with obstacle !!!
+2023-04-08 05:40:10, INFO: TRAIN in episode 185 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0046, average return: -0.0315
+2023-04-08 05:42:26, INFO: Average loss : 0.013452, 19824.357971
+2023-04-08 05:42:26, INFO: Average loss of statePredictor: 0.158510
+2023-04-08 05:44:07, INFO: Collision with obstacle !!!
+2023-04-08 05:44:12, INFO: TRAIN in episode 186 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0042, average return: -0.0244
+2023-04-08 05:46:27, INFO: Average loss : 0.013853, 19714.024048
+2023-04-08 05:46:27, INFO: Average loss of statePredictor: 0.158499
+2023-04-08 05:47:59, INFO: Collision with human !!!
+2023-04-08 05:48:04, INFO: TRAIN in episode 187 has success rate: 0.00, collision rate: 1.00, collisionobs rate: 0.00, nav time: 500.00, total reward: -0.0089, average return: -0.0413
+2023-04-08 05:50:19, INFO: Average loss : 0.017051, 19775.299042
+2023-04-08 05:50:19, INFO: Average loss of statePredictor: 0.158488
+2023-04-08 05:51:58, INFO: Success !!!
+2023-04-08 05:52:03, INFO: TRAIN in episode 188 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 120.00, total reward: -0.0011, average return: 0.1449
+2023-04-08 05:54:19, INFO: Average loss : 0.007980, 19423.941650
+2023-04-08 05:54:19, INFO: Average loss of statePredictor: 0.158478
+2023-04-08 05:56:32, INFO: Collision with human !!!
+2023-04-08 05:56:38, INFO: TRAIN in episode 189 has success rate: 0.00, collision rate: 1.00, collisionobs rate: 0.00, nav time: 500.00, total reward: -0.0033, average return: -0.0091
+2023-04-08 05:58:54, INFO: Average loss : 0.017857, 18866.934326
+2023-04-08 05:58:54, INFO: Average loss of statePredictor: 0.158467
+2023-04-08 06:01:08, INFO: Success !!!
+2023-04-08 06:01:11, INFO: TRAIN in episode 190 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 80.00, total reward: 0.0103, average return: 0.2310
+2023-04-08 06:03:26, INFO: Average loss : 0.010044, 20325.822998
+2023-04-08 06:03:27, INFO: Average loss of statePredictor: 0.158456
+2023-04-08 06:05:06, INFO: Success !!!
+2023-04-08 06:05:11, INFO: TRAIN in episode 191 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 120.00, total reward: -0.0005, average return: 0.1493
+2023-04-08 06:07:28, INFO: Average loss : 0.002754, 19591.234558
+2023-04-08 06:07:28, INFO: Average loss of statePredictor: 0.158445
+2023-04-08 06:08:52, INFO: Collision with obstacle !!!
+2023-04-08 06:08:57, INFO: TRAIN in episode 192 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0010, average return: -0.0372
+2023-04-08 06:11:12, INFO: Average loss : 0.009362, 19734.996490
+2023-04-08 06:11:12, INFO: Average loss of statePredictor: 0.158435
+2023-04-08 06:13:25, INFO: Success !!!
+2023-04-08 06:13:32, INFO: TRAIN in episode 193 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 160.00, total reward: -0.0037, average return: 0.1095
+2023-04-08 06:15:48, INFO: Average loss : 0.024009, 20049.613770
+2023-04-08 06:15:48, INFO: Average loss of statePredictor: 0.158424
+2023-04-08 06:16:55, INFO: Collision with human !!!
+2023-04-08 06:16:58, INFO: TRAIN in episode 194 has success rate: 0.00, collision rate: 1.00, collisionobs rate: 0.00, nav time: 500.00, total reward: -0.0019, average return: -0.0455
+2023-04-08 06:19:14, INFO: Average loss : 0.014336, 19805.064697
+2023-04-08 06:19:14, INFO: Average loss of statePredictor: 0.158413
+2023-04-08 06:20:55, INFO: Success !!!
+2023-04-08 06:21:00, INFO: TRAIN in episode 195 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 120.00, total reward: 0.0004, average return: 0.1615
+2023-04-08 06:23:16, INFO: Average loss : 0.017576, 19661.031403
+2023-04-08 06:23:17, INFO: Average loss of statePredictor: 0.158403
+2023-04-08 06:24:28, INFO: Success !!!
+2023-04-08 06:24:32, INFO: TRAIN in episode 196 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 80.00, total reward: 0.0112, average return: 0.2394
+2023-04-08 06:26:48, INFO: Average loss : 0.021828, 19808.338837
+2023-04-08 06:26:48, INFO: Average loss of statePredictor: 0.158392
+2023-04-08 06:29:01, INFO: Success !!!
+2023-04-08 06:29:08, INFO: TRAIN in episode 197 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 160.00, total reward: -0.0033, average return: 0.1238
+2023-04-08 06:31:23, INFO: Average loss : 0.019902, 19621.871338
+2023-04-08 06:31:23, INFO: Average loss of statePredictor: 0.158382
+2023-04-08 06:33:10, INFO: Success !!!
+2023-04-08 06:33:16, INFO: TRAIN in episode 198 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 130.00, total reward: -0.0012, average return: 0.1365
+2023-04-08 06:35:32, INFO: Average loss : 0.008827, 19934.477051
+2023-04-08 06:35:32, INFO: Average loss of statePredictor: 0.158372
+2023-04-08 06:36:35, INFO: Collision with obstacle !!!
+2023-04-08 06:36:37, INFO: TRAIN in episode 199 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0073, average return: -0.0678
+2023-04-08 06:38:53, INFO: Average loss : 0.008970, 19865.021179
+2023-04-08 06:38:53, INFO: Average loss of statePredictor: 0.158361
+2023-04-08 06:41:41, INFO: Success !!!
+2023-04-08 06:42:40, INFO: Collision with human !!!
+2023-04-08 06:44:28, INFO: Success !!!
+2023-04-08 06:45:02, INFO: Collision with human !!!
+2023-04-08 06:47:05, INFO: Collision with obstacle !!!
+2023-04-08 06:49:27, INFO: Success !!!
+2023-04-08 06:50:25, INFO: Success !!!
+2023-04-08 06:51:24, INFO: Collision with obstacle !!!
+2023-04-08 06:52:06, INFO: Success !!!
+2023-04-08 06:53:12, INFO: Success !!!
+2023-04-08 06:54:18, INFO: Success !!!
+2023-04-08 06:56:13, INFO: Success !!!
+2023-04-08 06:57:48, INFO: Success !!!
+2023-04-08 06:59:10, INFO: Collision with obstacle !!!
+2023-04-08 07:01:36, INFO: Success !!!
+2023-04-08 07:02:58, INFO: Collision with obstacle !!!
+2023-04-08 07:04:05, INFO: Collision with obstacle !!!
+2023-04-08 07:06:08, INFO: Success !!!
+2023-04-08 07:06:41, INFO: Collision with obstacle !!!
+2023-04-08 07:07:46, INFO: Collision with obstacle !!!
+2023-04-08 07:08:36, INFO: Success !!!
+2023-04-08 07:10:55, INFO: Success !!!
+2023-04-08 07:11:37, INFO: Collision with obstacle !!!
+2023-04-08 07:12:40, INFO: Success !!!
+2023-04-08 07:14:19, INFO: Collision with obstacle !!!
+2023-04-08 07:15:36, INFO: Collision with human !!!
+2023-04-08 07:15:53, INFO: Collision with obstacle !!!
+2023-04-08 07:19:11, INFO: Success !!!
+2023-04-08 07:21:55, INFO: Success !!!
+2023-04-08 07:22:38, INFO: Collision with human !!!
+2023-04-08 07:25:05, INFO: Success !!!
+2023-04-08 07:27:25, INFO: Success !!!
+2023-04-08 07:29:17, INFO: Success !!!
+2023-04-08 07:32:26, INFO: Success !!!
+2023-04-08 07:33:21, INFO: Success !!!
+2023-04-08 07:36:28, INFO: Success !!!
+2023-04-08 07:38:15, INFO: Collision with obstacle !!!
+2023-04-08 07:42:16, INFO: Collision with obstacle !!!
+2023-04-08 07:44:03, INFO: Collision with obstacle !!!
+2023-04-08 07:45:39, INFO: Collision with obstacle !!!
+2023-04-08 07:47:44, INFO: Success !!!
+2023-04-08 07:49:07, INFO: Success !!!
+2023-04-08 07:50:54, INFO: Success !!!
+2023-04-08 07:52:13, INFO: Success !!!
+2023-04-08 07:53:04, INFO: Collision with obstacle !!!
+2023-04-08 07:54:59, INFO: Collision with human !!!
+2023-04-08 08:01:55, INFO: Timeout !!!
+2023-04-08 08:04:15, INFO: Success !!!
+2023-04-08 08:05:04, INFO: Collision with obstacle !!!
+2023-04-08 08:06:18, INFO: Collision with obstacle !!!
+2023-04-08 08:07:48, INFO: Success !!!
+2023-04-08 08:08:44, INFO: Collision with obstacle !!!
+2023-04-08 08:10:04, INFO: Success !!!
+2023-04-08 08:12:15, INFO: Success !!!
+2023-04-08 08:12:54, INFO: Collision with human !!!
+2023-04-08 08:16:58, INFO: Collision with obstacle !!!
+2023-04-08 08:17:39, INFO: Success !!!
+2023-04-08 08:19:09, INFO: Success !!!
+2023-04-08 08:19:50, INFO: Success !!!
+2023-04-08 08:21:45, INFO: Success !!!
+2023-04-08 08:24:58, INFO: Success !!!
+2023-04-08 08:26:21, INFO: Collision with obstacle !!!
+2023-04-08 08:28:25, INFO: Collision with human !!!
+2023-04-08 08:30:21, INFO: Collision with obstacle !!!
+2023-04-08 08:32:50, INFO: Collision with obstacle !!!
+2023-04-08 08:35:35, INFO: Collision with obstacle !!!
+2023-04-08 08:36:08, INFO: Collision with obstacle !!!
+2023-04-08 08:38:37, INFO: Success !!!
+2023-04-08 08:39:29, INFO: Collision with obstacle !!!
+2023-04-08 08:41:26, INFO: Collision with human !!!
+2023-04-08 08:41:51, INFO: Collision with obstacle !!!
+2023-04-08 08:45:09, INFO: Success !!!
+2023-04-08 08:46:08, INFO: Collision with obstacle !!!
+2023-04-08 08:46:48, INFO: Collision with obstacle !!!
+2023-04-08 08:47:31, INFO: Collision with obstacle !!!
+2023-04-08 08:49:18, INFO: Success !!!
+2023-04-08 08:50:50, INFO: Collision with obstacle !!!
+2023-04-08 08:52:21, INFO: Collision with obstacle !!!
+2023-04-08 08:54:17, INFO: Collision with obstacle !!!
+2023-04-08 08:55:58, INFO: Collision with obstacle !!!
+2023-04-08 08:58:53, INFO: Success !!!
+2023-04-08 08:59:51, INFO: Collision with obstacle !!!
+2023-04-08 09:01:14, INFO: Collision with obstacle !!!
+2023-04-08 09:01:55, INFO: Collision with obstacle !!!
+2023-04-08 09:02:39, INFO: Success !!!
+2023-04-08 09:05:51, INFO: Success !!!
+2023-04-08 09:07:25, INFO: Success !!!
+2023-04-08 09:09:35, INFO: Success !!!
+2023-04-08 09:11:22, INFO: Success !!!
+2023-04-08 09:12:04, INFO: Success !!!
+2023-04-08 09:15:05, INFO: Success !!!
+2023-04-08 09:16:27, INFO: Success !!!
+2023-04-08 09:17:18, INFO: Success !!!
+2023-04-08 09:18:24, INFO: Success !!!
+2023-04-08 09:20:19, INFO: Collision with obstacle !!!
+2023-04-08 09:22:47, INFO: Success !!!
+2023-04-08 09:23:09, INFO: Collision with human !!!
+2023-04-08 09:24:06, INFO: Success !!!
+2023-04-08 09:24:56, INFO: Collision with human !!!
+2023-04-08 09:25:05, INFO: Collision with obstacle !!!
+2023-04-08 09:25:05, INFO: VAL   in episode 200 has success rate: 0.51, collision rate: 0.10, collisionobs rate: 0.38, nav time: 133.14, total reward: -0.0093, average return: 0.0516
+2023-04-08 09:25:05, INFO: Frequency of being in danger: 0.00 and average min separate distance in danger: 0.00
+2023-04-08 09:26:42, INFO: Success !!!
+2023-04-08 09:26:47, INFO: TRAIN in episode 200 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 120.00, total reward: -0.0014, average return: -0.0549
+2023-04-08 09:29:04, INFO: Average loss : 0.009589, 19780.440155
+2023-04-08 09:29:04, INFO: Average loss of statePredictor: 0.158351
+2023-04-08 09:29:45, INFO: Collision with obstacle !!!
+2023-04-08 09:29:47, INFO: TRAIN in episode 201 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0028, average return: -0.0741
+2023-04-08 09:32:03, INFO: Average loss : 0.011087, 20439.659637
+2023-04-08 09:32:03, INFO: Average loss of statePredictor: 0.158340
+2023-04-08 09:33:18, INFO: Collision with obstacle !!!
+2023-04-08 09:33:22, INFO: TRAIN in episode 202 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0037, average return: -0.0435
+2023-04-08 09:35:38, INFO: Average loss : 0.018288, 19425.655029
+2023-04-08 09:35:38, INFO: Average loss of statePredictor: 0.158330
+2023-04-08 09:36:19, INFO: Collision with obstacle !!!
+2023-04-08 09:36:21, INFO: TRAIN in episode 203 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0046, average return: -0.0761
+2023-04-08 09:38:37, INFO: Average loss : 0.021600, 20010.247650
+2023-04-08 09:38:38, INFO: Average loss of statePredictor: 0.158320
+2023-04-08 09:40:57, INFO: Success !!!
+2023-04-08 09:41:04, INFO: TRAIN in episode 204 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 170.00, total reward: -0.0053, average return: 0.1022
+2023-04-08 09:43:20, INFO: Average loss : 0.019235, 20296.250549
+2023-04-08 09:43:20, INFO: Average loss of statePredictor: 0.158310
+2023-04-08 09:43:45, INFO: Collision with obstacle !!!
+2023-04-08 09:43:46, INFO: TRAIN in episode 205 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0309, average return: -0.1227
+2023-04-08 09:46:02, INFO: Average loss : 0.017515, 19506.267670
+2023-04-08 09:46:02, INFO: Average loss of statePredictor: 0.158300
+2023-04-08 09:48:22, INFO: Success !!!
+2023-04-08 09:48:30, INFO: TRAIN in episode 206 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 170.00, total reward: -0.0046, average return: 0.1121
+2023-04-08 09:50:46, INFO: Average loss : 0.016184, 19114.341736
+2023-04-08 09:50:46, INFO: Average loss of statePredictor: 0.158290
+2023-04-08 09:51:27, INFO: Collision with obstacle !!!
+2023-04-08 09:51:29, INFO: TRAIN in episode 207 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0079, average return: -0.0787
+2023-04-08 09:53:45, INFO: Average loss : 0.009941, 18950.331726
+2023-04-08 09:53:45, INFO: Average loss of statePredictor: 0.158280
+2023-04-08 09:56:07, INFO: Success !!!
+2023-04-08 09:56:14, INFO: TRAIN in episode 208 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 170.00, total reward: -0.0043, average return: 0.1065
+2023-04-08 09:58:30, INFO: Average loss : 0.018235, 20161.857910
+2023-04-08 09:58:30, INFO: Average loss of statePredictor: 0.158270
+2023-04-08 09:58:39, INFO: Collision with obstacle !!!
+2023-04-08 09:58:39, INFO: TRAIN in episode 209 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.2500, average return: -0.2500
+2023-04-08 10:00:55, INFO: Average loss : 0.006970, 19058.173950
+2023-04-08 10:00:56, INFO: Average loss of statePredictor: 0.158260
+2023-04-08 10:02:03, INFO: Collision with obstacle !!!
+2023-04-08 10:02:06, INFO: TRAIN in episode 210 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0007, average return: -0.0420
+2023-04-08 10:04:22, INFO: Average loss : 0.021506, 19389.787170
+2023-04-08 10:04:23, INFO: Average loss of statePredictor: 0.158250
+2023-04-08 10:05:26, INFO: Success !!!
+2023-04-08 10:05:28, INFO: TRAIN in episode 211 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 50.00, total reward: 0.0494, average return: 0.3594
+2023-04-08 10:07:44, INFO: Average loss : 0.014721, 19351.034729
+2023-04-08 10:07:44, INFO: Average loss of statePredictor: 0.158240
+2023-04-08 10:11:50, INFO: Success !!!
+2023-04-08 10:12:03, INFO: TRAIN in episode 212 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 300.00, total reward: -0.0097, average return: 0.0600
+2023-04-08 10:14:19, INFO: Average loss : 0.009459, 19500.179932
+2023-04-08 10:14:19, INFO: Average loss of statePredictor: 0.158230
+2023-04-08 10:16:48, INFO: Success !!!
+2023-04-08 10:16:55, INFO: TRAIN in episode 213 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 150.00, total reward: -0.0034, average return: 0.1298
+2023-04-08 10:19:10, INFO: Average loss : 0.013624, 19162.607056
+2023-04-08 10:19:10, INFO: Average loss of statePredictor: 0.158220
+2023-04-08 10:20:17, INFO: Collision with obstacle !!!
+2023-04-08 10:20:20, INFO: TRAIN in episode 214 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0085, average return: -0.0541
+2023-04-08 10:22:36, INFO: Average loss : 0.039035, 19339.915649
+2023-04-08 10:22:36, INFO: Average loss of statePredictor: 0.158211
+2023-04-08 10:25:39, INFO: Success !!!
+2023-04-08 10:25:49, INFO: TRAIN in episode 215 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 220.00, total reward: -0.0075, average return: 0.0806
+2023-04-08 10:28:05, INFO: Average loss : 0.017352, 18642.327698
+2023-04-08 10:28:05, INFO: Average loss of statePredictor: 0.158201
+2023-04-08 10:29:28, INFO: Success !!!
+2023-04-08 10:29:32, INFO: TRAIN in episode 216 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 100.00, total reward: 0.0035, average return: 0.1842
+2023-04-08 10:31:49, INFO: Average loss : 0.022994, 19715.128815
+2023-04-08 10:31:49, INFO: Average loss of statePredictor: 0.158191
+2023-04-08 10:32:23, INFO: Collision with obstacle !!!
+2023-04-08 10:32:24, INFO: TRAIN in episode 217 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0183, average return: -0.0994
+2023-04-08 10:34:40, INFO: Average loss : 0.009544, 18913.100952
+2023-04-08 10:34:41, INFO: Average loss of statePredictor: 0.158182
+2023-04-08 10:36:03, INFO: Success !!!
+2023-04-08 10:36:07, INFO: TRAIN in episode 218 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 100.00, total reward: 0.0038, average return: 0.1875
+2023-04-08 10:38:24, INFO: Average loss : 0.016308, 18824.296600
+2023-04-08 10:38:24, INFO: Average loss of statePredictor: 0.158172
+2023-04-08 10:42:15, INFO: Success !!!
+2023-04-08 10:42:28, INFO: TRAIN in episode 219 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 280.00, total reward: -0.0096, average return: 0.0585
+2023-04-08 10:44:45, INFO: Average loss : 0.017414, 18606.555695
+2023-04-08 10:44:45, INFO: Average loss of statePredictor: 0.158162
+2023-04-08 10:46:08, INFO: Collision with human !!!
+2023-04-08 10:46:12, INFO: TRAIN in episode 220 has success rate: 0.00, collision rate: 1.00, collisionobs rate: 0.00, nav time: 500.00, total reward: -0.0052, average return: -0.0403
+2023-04-08 10:48:28, INFO: Average loss : 0.016614, 19078.295746
+2023-04-08 10:48:28, INFO: Average loss of statePredictor: 0.158152
+2023-04-08 10:49:56, INFO: Success !!!
+2023-04-08 10:49:59, INFO: TRAIN in episode 221 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 60.00, total reward: 0.0243, average return: 0.2917
+2023-04-08 10:52:15, INFO: Average loss : 0.014167, 18917.477814
+2023-04-08 10:52:15, INFO: Average loss of statePredictor: 0.158143
+2023-04-08 10:52:42, INFO: Collision with obstacle !!!
+2023-04-08 10:52:43, INFO: TRAIN in episode 222 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0146, average return: -0.1121
+2023-04-08 10:54:59, INFO: Average loss : 0.009410, 19119.458099
+2023-04-08 10:54:59, INFO: Average loss of statePredictor: 0.158133
+2023-04-08 10:57:43, INFO: Success !!!
+2023-04-08 10:57:52, INFO: TRAIN in episode 223 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 200.00, total reward: -0.0066, average return: 0.0970
+2023-04-08 11:00:09, INFO: Average loss : 0.019030, 18584.451782
+2023-04-08 11:00:09, INFO: Average loss of statePredictor: 0.158123
+2023-04-08 11:00:58, INFO: Collision with obstacle !!!
+2023-04-08 11:01:01, INFO: TRAIN in episode 224 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.4841, average return: -0.1431
+2023-04-08 11:03:17, INFO: Average loss : 0.007380, 19351.651367
+2023-04-08 11:03:17, INFO: Average loss of statePredictor: 0.158114
+2023-04-08 11:06:11, INFO: Collision with obstacle !!!
+2023-04-08 11:06:20, INFO: TRAIN in episode 225 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0073, average return: -0.0164
+2023-04-08 11:08:37, INFO: Average loss : 0.017323, 18709.463531
+2023-04-08 11:08:37, INFO: Average loss of statePredictor: 0.158104
+2023-04-08 11:09:44, INFO: Success !!!
+2023-04-08 11:09:47, INFO: TRAIN in episode 226 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 80.00, total reward: 0.0119, average return: 0.2423
+2023-04-08 11:12:03, INFO: Average loss : 0.026603, 19292.040100
+2023-04-08 11:12:04, INFO: Average loss of statePredictor: 0.158094
+2023-04-08 11:13:27, INFO: Collision with obstacle !!!
+2023-04-08 11:13:31, INFO: TRAIN in episode 227 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0082, average return: -0.0441
+2023-04-08 11:15:47, INFO: Average loss : 0.012407, 18160.712646
+2023-04-08 11:15:48, INFO: Average loss of statePredictor: 0.158085
+2023-04-08 11:16:09, INFO: Collision with human !!!
+2023-04-08 11:16:09, INFO: TRAIN in episode 228 has success rate: 0.00, collision rate: 1.00, collisionobs rate: 0.00, nav time: 500.00, total reward: -0.0817, average return: -0.1658
+2023-04-08 11:18:26, INFO: Average loss : 0.013458, 18803.402740
+2023-04-08 11:18:26, INFO: Average loss of statePredictor: 0.158075
+2023-04-08 11:19:16, INFO: Collision with obstacle !!!
+2023-04-08 11:19:18, INFO: TRAIN in episode 229 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0033, average return: -0.0637
+2023-04-08 11:21:35, INFO: Average loss : 0.019266, 18733.978485
+2023-04-08 11:21:35, INFO: Average loss of statePredictor: 0.158066
+2023-04-08 11:23:15, INFO: Success !!!
+2023-04-08 11:23:20, INFO: TRAIN in episode 230 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 120.00, total reward: -0.0006, average return: 0.1500
+2023-04-08 11:25:36, INFO: Average loss : 0.010483, 19082.227509
+2023-04-08 11:25:36, INFO: Average loss of statePredictor: 0.158056
+2023-04-08 11:26:52, INFO: Collision with obstacle !!!
+2023-04-08 11:26:56, INFO: TRAIN in episode 231 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0134, average return: -0.0214
+2023-04-08 11:29:12, INFO: Average loss : 0.013022, 18509.016052
+2023-04-08 11:29:12, INFO: Average loss of statePredictor: 0.158047
+2023-04-08 11:31:22, INFO: Collision with obstacle !!!
+2023-04-08 11:31:29, INFO: TRAIN in episode 232 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0147, average return: 0.0169
+2023-04-08 11:33:45, INFO: Average loss : 0.021538, 18962.395844
+2023-04-08 11:33:45, INFO: Average loss of statePredictor: 0.158038
+2023-04-08 11:34:52, INFO: Success !!!
+2023-04-08 11:34:55, INFO: TRAIN in episode 233 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 80.00, total reward: 0.0131, average return: 0.2275
+2023-04-08 11:37:12, INFO: Average loss : 0.017043, 18540.361969
+2023-04-08 11:37:12, INFO: Average loss of statePredictor: 0.158028
+2023-04-08 11:39:01, INFO: Success !!!
+2023-04-08 11:39:06, INFO: TRAIN in episode 234 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 130.00, total reward: -0.0013, average return: 0.1469
+2023-04-08 11:41:22, INFO: Average loss : 0.006206, 19087.281342
+2023-04-08 11:41:22, INFO: Average loss of statePredictor: 0.158019
+2023-04-08 11:43:43, INFO: Success !!!
+2023-04-08 11:43:50, INFO: TRAIN in episode 235 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 170.00, total reward: -0.0047, average return: 0.1034
+2023-04-08 11:46:07, INFO: Average loss : 0.007897, 19233.855865
+2023-04-08 11:46:07, INFO: Average loss of statePredictor: 0.158009
+2023-04-08 11:49:02, INFO: Success !!!
+2023-04-08 11:49:12, INFO: TRAIN in episode 236 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 210.00, total reward: -0.0066, average return: 0.0811
+2023-04-08 11:51:29, INFO: Average loss : 0.014951, 19003.584290
+2023-04-08 11:51:29, INFO: Average loss of statePredictor: 0.158000
+2023-04-08 11:54:00, INFO: Success !!!
+2023-04-08 11:54:08, INFO: TRAIN in episode 237 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 180.00, total reward: -0.0059, average return: 0.0978
+2023-04-08 11:56:25, INFO: Average loss : 0.009197, 18702.468628
+2023-04-08 11:56:25, INFO: Average loss of statePredictor: 0.157991
+2023-04-08 11:57:41, INFO: Success !!!
+2023-04-08 11:57:44, INFO: TRAIN in episode 238 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 90.00, total reward: 0.0072, average return: 0.2169
+2023-04-08 12:00:03, INFO: Average loss : 0.018697, 18283.168488
+2023-04-08 12:00:03, INFO: Average loss of statePredictor: 0.157981
+2023-04-08 12:01:52, INFO: Collision with obstacle !!!
+2023-04-08 12:01:58, INFO: TRAIN in episode 239 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0019, average return: -0.0231
+2023-04-08 12:04:15, INFO: Average loss : 0.011180, 19031.261871
+2023-04-08 12:04:15, INFO: Average loss of statePredictor: 0.157972
+2023-04-08 12:05:57, INFO: Collision with obstacle !!!
+2023-04-08 12:06:02, INFO: TRAIN in episode 240 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0047, average return: -0.0314
+2023-04-08 12:08:18, INFO: Average loss : 0.010033, 18500.704956
+2023-04-08 12:08:19, INFO: Average loss of statePredictor: 0.157963
+2023-04-08 12:09:50, INFO: Success !!!
+2023-04-08 12:09:55, INFO: TRAIN in episode 241 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 110.00, total reward: 0.0032, average return: 0.1710
+2023-04-08 12:12:12, INFO: Average loss : 0.026292, 18891.730865
+2023-04-08 12:12:12, INFO: Average loss of statePredictor: 0.157954
+2023-04-08 12:12:55, INFO: Success !!!
+2023-04-08 12:12:57, INFO: TRAIN in episode 242 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 50.00, total reward: 0.0456, average return: 0.3511
+2023-04-08 12:15:14, INFO: Average loss : 0.013769, 18400.895172
+2023-04-08 12:15:15, INFO: Average loss of statePredictor: 0.157944
+2023-04-08 12:16:38, INFO: Success !!!
+2023-04-08 12:16:42, INFO: TRAIN in episode 243 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 100.00, total reward: 0.0059, average return: 0.1852
+2023-04-08 12:19:00, INFO: Average loss : 0.013548, 19016.645935
+2023-04-08 12:19:00, INFO: Average loss of statePredictor: 0.157936
+2023-04-08 12:24:08, INFO: Collision with obstacle !!!
+2023-04-08 12:24:25, INFO: TRAIN in episode 244 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0045, average return: 0.0237
+2023-04-08 12:26:42, INFO: Average loss : 0.012040, 19346.972351
+2023-04-08 12:26:42, INFO: Average loss of statePredictor: 0.157926
+2023-04-08 12:27:16, INFO: Collision with obstacle !!!
+2023-04-08 12:27:17, INFO: TRAIN in episode 245 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0120, average return: -0.0948
+2023-04-08 12:29:35, INFO: Average loss : 0.009759, 17926.951447
+2023-04-08 12:29:35, INFO: Average loss of statePredictor: 0.157917
+2023-04-08 12:30:50, INFO: Success !!!
+2023-04-08 12:30:54, INFO: TRAIN in episode 246 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 90.00, total reward: 0.0072, average return: 0.1993
+2023-04-08 12:33:10, INFO: Average loss : 0.010565, 18727.101379
+2023-04-08 12:33:10, INFO: Average loss of statePredictor: 0.157908
+2023-04-08 12:34:01, INFO: Success !!!
+2023-04-08 12:34:03, INFO: TRAIN in episode 247 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 60.00, total reward: 0.0280, average return: 0.3044
+2023-04-08 12:36:20, INFO: Average loss : 0.013067, 18769.586578
+2023-04-08 12:36:20, INFO: Average loss of statePredictor: 0.157899
+2023-04-08 12:38:58, INFO: Success !!!
+2023-04-08 12:39:06, INFO: TRAIN in episode 248 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 180.00, total reward: -0.0055, average return: 0.1066
+2023-04-08 12:41:21, INFO: Average loss : 0.011326, 18387.900696
+2023-04-08 12:41:21, INFO: Average loss of statePredictor: 0.157890
+2023-04-08 12:42:03, INFO: Success !!!
+2023-04-08 12:42:05, INFO: TRAIN in episode 249 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 50.00, total reward: 0.0390, average return: 0.3375
+2023-04-08 12:44:23, INFO: Average loss : 0.010888, 18743.758301
+2023-04-08 12:44:23, INFO: Average loss of statePredictor: 0.157881
+2023-04-08 12:45:05, INFO: Collision with obstacle !!!
+2023-04-08 12:45:07, INFO: TRAIN in episode 250 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0022, average return: -0.0741
+2023-04-08 12:47:23, INFO: Average loss : 0.019737, 18714.723755
+2023-04-08 12:47:23, INFO: Average loss of statePredictor: 0.157872
+2023-04-08 12:48:30, INFO: Success !!!
+2023-04-08 12:48:33, INFO: TRAIN in episode 251 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 80.00, total reward: 0.0090, average return: 0.2209
+2023-04-08 12:50:50, INFO: Average loss : 0.011667, 18547.286285
+2023-04-08 12:50:50, INFO: Average loss of statePredictor: 0.157863
+2023-04-08 12:51:49, INFO: Success !!!
+2023-04-08 12:51:52, INFO: TRAIN in episode 252 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 70.00, total reward: 0.0152, average return: 0.2533
+2023-04-08 12:54:08, INFO: Average loss : 0.009202, 18276.154205
+2023-04-08 12:54:08, INFO: Average loss of statePredictor: 0.157854
+2023-04-08 12:54:50, INFO: Success !!!
+2023-04-08 12:54:52, INFO: TRAIN in episode 253 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 50.00, total reward: 0.0517, average return: 0.3659
+2023-04-08 12:57:09, INFO: Average loss : 0.007606, 18785.025452
+2023-04-08 12:57:09, INFO: Average loss of statePredictor: 0.157845
+2023-04-08 12:57:59, INFO: Collision with obstacle !!!
+2023-04-08 12:58:01, INFO: TRAIN in episode 254 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0067, average return: -0.0672
+2023-04-08 13:00:19, INFO: Average loss : 0.016133, 19042.017029
+2023-04-08 13:00:19, INFO: Average loss of statePredictor: 0.157837
+2023-04-08 13:01:22, INFO: Success !!!
+2023-04-08 13:01:25, INFO: TRAIN in episode 255 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 70.00, total reward: 0.0164, average return: 0.2616
+2023-04-08 13:03:41, INFO: Average loss : 0.016336, 18621.146790
+2023-04-08 13:03:41, INFO: Average loss of statePredictor: 0.157828
+2023-04-08 13:04:49, INFO: Success !!!
+2023-04-08 13:04:52, INFO: TRAIN in episode 256 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 80.00, total reward: 0.0239, average return: 0.2300
+2023-04-08 13:07:08, INFO: Average loss : 0.014361, 18654.629700
+2023-04-08 13:07:08, INFO: Average loss of statePredictor: 0.157819
+2023-04-08 13:08:40, INFO: Collision with obstacle !!!
+2023-04-08 13:08:44, INFO: TRAIN in episode 257 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0065, average return: -0.0379
+2023-04-08 13:11:01, INFO: Average loss : 0.011047, 18565.433960
+2023-04-08 13:11:01, INFO: Average loss of statePredictor: 0.157810
+2023-04-08 13:11:19, INFO: Collision with obstacle !!!
+2023-04-08 13:11:19, INFO: TRAIN in episode 258 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0790, average return: -0.1645
+2023-04-08 13:13:35, INFO: Average loss : 0.016611, 18793.066772
+2023-04-08 13:13:36, INFO: Average loss of statePredictor: 0.157801
+2023-04-08 13:14:22, INFO: Collision with obstacle !!!
+2023-04-08 13:14:24, INFO: TRAIN in episode 259 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0075, average return: -0.0679
+2023-04-08 13:16:42, INFO: Average loss : 0.016073, 18494.681305
+2023-04-08 13:16:42, INFO: Average loss of statePredictor: 0.157793
+2023-04-08 13:17:25, INFO: Collision with obstacle !!!
+2023-04-08 13:17:26, INFO: TRAIN in episode 260 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0135, average return: -0.0960
+2023-04-08 13:19:42, INFO: Average loss : 0.013471, 18244.423737
+2023-04-08 13:19:42, INFO: Average loss of statePredictor: 0.157784
+2023-04-08 13:21:01, INFO: Success !!!
+2023-04-08 13:21:05, INFO: TRAIN in episode 261 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 90.00, total reward: 0.0059, average return: 0.2030
+2023-04-08 13:23:22, INFO: Average loss : 0.008688, 17742.595093
+2023-04-08 13:23:22, INFO: Average loss of statePredictor: 0.157775
+2023-04-08 13:24:46, INFO: Success !!!
+2023-04-08 13:24:50, INFO: TRAIN in episode 262 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 100.00, total reward: 0.0055, average return: 0.1785
+2023-04-08 13:27:06, INFO: Average loss : 0.012162, 18456.992737
+2023-04-08 13:27:06, INFO: Average loss of statePredictor: 0.157767
+2023-04-08 13:27:50, INFO: Collision with obstacle !!!
+2023-04-08 13:27:52, INFO: TRAIN in episode 263 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0091, average return: -0.0800
+2023-04-08 13:30:08, INFO: Average loss : 0.018355, 18377.030701
+2023-04-08 13:30:08, INFO: Average loss of statePredictor: 0.157758
+2023-04-08 13:31:49, INFO: Collision with obstacle !!!
+2023-04-08 13:31:54, INFO: TRAIN in episode 264 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0013, average return: -0.0221
+2023-04-08 13:34:11, INFO: Average loss : 0.018571, 18769.359924
+2023-04-08 13:34:11, INFO: Average loss of statePredictor: 0.157750
+2023-04-08 13:35:02, INFO: Collision with human !!!
+2023-04-08 13:35:05, INFO: TRAIN in episode 265 has success rate: 0.00, collision rate: 1.00, collisionobs rate: 0.00, nav time: 500.00, total reward: -0.0086, average return: -0.0687
+2023-04-08 13:37:22, INFO: Average loss : 0.009596, 18513.182648
+2023-04-08 13:37:22, INFO: Average loss of statePredictor: 0.157741
+2023-04-08 13:39:52, INFO: Collision with obstacle !!!
+2023-04-08 13:39:59, INFO: TRAIN in episode 266 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.1435, average return: -0.1173
+2023-04-08 13:42:16, INFO: Average loss : 0.012086, 18851.105469
+2023-04-08 13:42:16, INFO: Average loss of statePredictor: 0.157732
+2023-04-08 13:44:21, INFO: Success !!!
+2023-04-08 13:44:27, INFO: TRAIN in episode 267 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 150.00, total reward: -0.0032, average return: 0.1198
+2023-04-08 13:46:45, INFO: Average loss : 0.013293, 18351.645905
+2023-04-08 13:46:45, INFO: Average loss of statePredictor: 0.157724
+2023-04-08 13:49:33, INFO: Collision with obstacle !!!
+2023-04-08 13:49:43, INFO: TRAIN in episode 268 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0059, average return: -0.0233
+2023-04-08 13:51:59, INFO: Average loss : 0.016037, 18707.165588
+2023-04-08 13:51:59, INFO: Average loss of statePredictor: 0.157715
+2023-04-08 13:53:15, INFO: Collision with obstacle !!!
+2023-04-08 13:53:18, INFO: TRAIN in episode 269 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0058, average return: -0.0232
+2023-04-08 13:55:36, INFO: Average loss : 0.017824, 18383.333313
+2023-04-08 13:55:36, INFO: Average loss of statePredictor: 0.157706
+2023-04-08 13:57:42, INFO: Success !!!
+2023-04-08 13:57:48, INFO: TRAIN in episode 270 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 150.00, total reward: -0.0030, average return: 0.1168
+2023-04-08 14:00:04, INFO: Average loss : 0.014081, 18619.063599
+2023-04-08 14:00:05, INFO: Average loss of statePredictor: 0.157698
+2023-04-08 14:01:54, INFO: Success !!!
+2023-04-08 14:01:59, INFO: TRAIN in episode 271 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 130.00, total reward: -0.0018, average return: 0.1357
+2023-04-08 14:04:16, INFO: Average loss : 0.012964, 18657.145081
+2023-04-08 14:04:16, INFO: Average loss of statePredictor: 0.157690
+2023-04-08 14:06:39, INFO: Success !!!
+2023-04-08 14:06:46, INFO: TRAIN in episode 272 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 170.00, total reward: -0.0045, average return: 0.1075
+2023-04-08 14:09:03, INFO: Average loss : 0.009660, 18452.058746
+2023-04-08 14:09:03, INFO: Average loss of statePredictor: 0.157681
+2023-04-08 14:09:53, INFO: Success !!!
+2023-04-08 14:09:55, INFO: TRAIN in episode 273 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 60.00, total reward: 0.0237, average return: 0.2902
+2023-04-08 14:12:13, INFO: Average loss : 0.016380, 18503.601624
+2023-04-08 14:12:13, INFO: Average loss of statePredictor: 0.157673
+2023-04-08 14:13:27, INFO: Success !!!
+2023-04-08 14:13:31, INFO: TRAIN in episode 274 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 90.00, total reward: 0.0082, average return: 0.2187
+2023-04-08 14:15:48, INFO: Average loss : 0.009659, 18602.086792
+2023-04-08 14:15:48, INFO: Average loss of statePredictor: 0.157664
+2023-04-08 14:16:48, INFO: Collision with obstacle !!!
+2023-04-08 14:16:51, INFO: TRAIN in episode 275 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0069, average return: -0.0589
+2023-04-08 14:19:07, INFO: Average loss : 0.013955, 18087.123169
+2023-04-08 14:19:07, INFO: Average loss of statePredictor: 0.157656
+2023-04-08 14:21:11, INFO: Success !!!
+2023-04-08 14:21:17, INFO: TRAIN in episode 276 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 140.00, total reward: -0.0013, average return: 0.1337
+2023-04-08 14:23:34, INFO: Average loss : 0.011525, 17980.244324
+2023-04-08 14:23:34, INFO: Average loss of statePredictor: 0.157648
+2023-04-08 14:30:37, INFO: Timeout !!!
+2023-04-08 14:30:39, INFO: TRAIN in episode 277 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 500.00, total reward: -0.0073, average return: -0.0004
+2023-04-08 14:32:56, INFO: Average loss : 0.014714, 18354.086761
+2023-04-08 14:32:56, INFO: Average loss of statePredictor: 0.157640
+2023-04-08 14:37:16, INFO: Success !!!
+2023-04-08 14:37:29, INFO: TRAIN in episode 278 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 270.00, total reward: -0.0092, average return: 0.0669
+2023-04-08 14:39:45, INFO: Average loss : 0.011111, 18258.320862
+2023-04-08 14:39:45, INFO: Average loss of statePredictor: 0.157631
+2023-04-08 14:41:18, INFO: Success !!!
+2023-04-08 14:41:23, INFO: TRAIN in episode 279 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 110.00, total reward: 0.0019, average return: 0.1772
+2023-04-08 14:43:40, INFO: Average loss : 0.022616, 18195.501984
+2023-04-08 14:43:40, INFO: Average loss of statePredictor: 0.157623
+2023-04-08 14:44:56, INFO: Collision with obstacle !!!
+2023-04-08 14:45:00, INFO: TRAIN in episode 280 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0082, average return: -0.0484
+2023-04-08 14:47:16, INFO: Average loss : 0.016885, 18519.743347
+2023-04-08 14:47:16, INFO: Average loss of statePredictor: 0.157615
+2023-04-08 14:48:56, INFO: Success !!!
+2023-04-08 14:49:01, INFO: TRAIN in episode 281 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 120.00, total reward: -0.0001, average return: 0.1454
+2023-04-08 14:51:18, INFO: Average loss : 0.012510, 18049.785889
+2023-04-08 14:51:19, INFO: Average loss of statePredictor: 0.157606
+2023-04-08 14:52:42, INFO: Success !!!
+2023-04-08 14:52:47, INFO: TRAIN in episode 282 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 100.00, total reward: 0.0027, average return: 0.1759
+2023-04-08 14:55:03, INFO: Average loss : 0.008485, 18630.224823
+2023-04-08 14:55:03, INFO: Average loss of statePredictor: 0.157598
+2023-04-08 14:56:51, INFO: Success !!!
+2023-04-08 14:56:57, INFO: TRAIN in episode 283 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 130.00, total reward: -0.0006, average return: 0.1346
+2023-04-08 14:59:15, INFO: Average loss : 0.009304, 18214.259064
+2023-04-08 14:59:15, INFO: Average loss of statePredictor: 0.157589
+2023-04-08 15:00:18, INFO: Success !!!
+2023-04-08 15:00:21, INFO: TRAIN in episode 284 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 70.00, total reward: 0.0156, average return: 0.2561
+2023-04-08 15:02:37, INFO: Average loss : 0.008514, 18565.407959
+2023-04-08 15:02:37, INFO: Average loss of statePredictor: 0.157581
+2023-04-08 15:03:19, INFO: Collision with obstacle !!!
+2023-04-08 15:03:21, INFO: TRAIN in episode 285 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0034, average return: -0.0710
+2023-04-08 15:05:37, INFO: Average loss : 0.015313, 17920.682037
+2023-04-08 15:05:37, INFO: Average loss of statePredictor: 0.157573
+2023-04-08 15:06:31, INFO: Collision with human !!!
+2023-04-08 15:06:32, INFO: TRAIN in episode 286 has success rate: 0.00, collision rate: 1.00, collisionobs rate: 0.00, nav time: 500.00, total reward: 0.0074, average return: -0.0634
+2023-04-08 15:08:50, INFO: Average loss : 0.009165, 18128.996704
+2023-04-08 15:08:50, INFO: Average loss of statePredictor: 0.157564
+2023-04-08 15:09:57, INFO: Success !!!
+2023-04-08 15:10:00, INFO: TRAIN in episode 287 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 80.00, total reward: 0.0008, average return: -0.1311
+2023-04-08 15:12:17, INFO: Average loss : 0.009217, 18652.026215
+2023-04-08 15:12:17, INFO: Average loss of statePredictor: 0.157556
+2023-04-08 15:12:42, INFO: Collision with obstacle !!!
+2023-04-08 15:12:43, INFO: TRAIN in episode 288 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0282, average return: -0.1211
+2023-04-08 15:15:01, INFO: Average loss : 0.021251, 17875.443359
+2023-04-08 15:15:01, INFO: Average loss of statePredictor: 0.157548
+2023-04-08 15:17:31, INFO: Collision with obstacle !!!
+2023-04-08 15:17:39, INFO: TRAIN in episode 289 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0078, average return: -0.0226
+2023-04-08 15:19:56, INFO: Average loss : 0.013622, 18697.135773
+2023-04-08 15:19:57, INFO: Average loss of statePredictor: 0.157539
+2023-04-08 15:20:44, INFO: Collision with obstacle !!!
+2023-04-08 15:20:45, INFO: TRAIN in episode 290 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0043, average return: -0.0685
+2023-04-08 15:23:02, INFO: Average loss : 0.007376, 18058.563812
+2023-04-08 15:23:02, INFO: Average loss of statePredictor: 0.157531
+2023-04-08 15:24:42, INFO: Collision with obstacle !!!
+2023-04-08 15:24:47, INFO: TRAIN in episode 291 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0068, average return: -0.0351
+2023-04-08 15:27:04, INFO: Average loss : 0.004586, 17623.292297
+2023-04-08 15:27:04, INFO: Average loss of statePredictor: 0.157523
+2023-04-08 15:29:52, INFO: Success !!!
+2023-04-08 15:30:00, INFO: TRAIN in episode 292 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 190.00, total reward: -0.0064, average return: 0.0974
+2023-04-08 15:32:17, INFO: Average loss : 0.015128, 17992.243103
+2023-04-08 15:32:18, INFO: Average loss of statePredictor: 0.157514
+2023-04-08 15:33:40, INFO: Success !!!
+2023-04-08 15:33:45, INFO: TRAIN in episode 293 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 100.00, total reward: 0.0041, average return: 0.1938
+2023-04-08 15:36:02, INFO: Average loss : 0.022277, 17720.829010
+2023-04-08 15:36:02, INFO: Average loss of statePredictor: 0.157506
+2023-04-08 15:37:09, INFO: Success !!!
+2023-04-08 15:37:12, INFO: TRAIN in episode 294 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 80.00, total reward: -0.8610, average return: -0.2010
+2023-04-08 15:39:30, INFO: Average loss : 0.025719, 17819.477203
+2023-04-08 15:39:30, INFO: Average loss of statePredictor: 0.157498
+2023-04-08 15:40:13, INFO: Success !!!
+2023-04-08 15:40:14, INFO: TRAIN in episode 295 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 50.00, total reward: 0.0592, average return: 0.3661
+2023-04-08 15:42:31, INFO: Average loss : 0.004611, 17977.234924
+2023-04-08 15:42:31, INFO: Average loss of statePredictor: 0.157490
+2023-04-08 15:43:38, INFO: Collision with obstacle !!!
+2023-04-08 15:43:41, INFO: TRAIN in episode 296 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0033, average return: -0.0403
+2023-04-08 15:45:59, INFO: Average loss : 0.021426, 17877.232758
+2023-04-08 15:45:59, INFO: Average loss of statePredictor: 0.157482
+2023-04-08 15:47:31, INFO: Success !!!
+2023-04-08 15:47:36, INFO: TRAIN in episode 297 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 110.00, total reward: 0.0022, average return: 0.1685
+2023-04-08 15:49:53, INFO: Average loss : 0.022185, 18280.838379
+2023-04-08 15:49:53, INFO: Average loss of statePredictor: 0.157474
+2023-04-08 15:51:28, INFO: Collision with obstacle !!!
+2023-04-08 15:51:32, INFO: TRAIN in episode 298 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0064, average return: -0.0377
+2023-04-08 15:53:48, INFO: Average loss : 0.014667, 17641.458099
+2023-04-08 15:53:49, INFO: Average loss of statePredictor: 0.157465
+2023-04-08 15:57:00, INFO: Success !!!
+2023-04-08 15:57:10, INFO: TRAIN in episode 299 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 230.00, total reward: -0.0078, average return: 0.0742
+2023-04-08 15:59:26, INFO: Average loss : 0.011155, 17903.558960
+2023-04-08 15:59:26, INFO: Average loss of statePredictor: 0.157457
+2023-04-08 16:00:33, INFO: Success !!!
+2023-04-08 16:00:36, INFO: TRAIN in episode 300 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 80.00, total reward: 0.0090, average return: 0.2210
+2023-04-08 16:02:52, INFO: Average loss : 0.015597, 18251.181702
+2023-04-08 16:02:52, INFO: Average loss of statePredictor: 0.157449
+2023-04-08 16:04:09, INFO: Success !!!
+2023-04-08 16:04:13, INFO: TRAIN in episode 301 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 90.00, total reward: 0.0075, average return: 0.2107
+2023-04-08 16:06:29, INFO: Average loss : 0.010732, 18108.255157
+2023-04-08 16:06:29, INFO: Average loss of statePredictor: 0.157441
+2023-04-08 16:07:19, INFO: Collision with obstacle !!!
+2023-04-08 16:07:21, INFO: TRAIN in episode 302 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0084, average return: -0.0686
+2023-04-08 16:09:37, INFO: Average loss : 0.010955, 17457.429871
+2023-04-08 16:09:38, INFO: Average loss of statePredictor: 0.157433
+2023-04-08 16:11:08, INFO: Success !!!
+2023-04-08 16:11:12, INFO: TRAIN in episode 303 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 110.00, total reward: 0.0033, average return: 0.1717
+2023-04-08 16:13:28, INFO: Average loss : 0.021635, 17741.861664
+2023-04-08 16:13:28, INFO: Average loss of statePredictor: 0.157425
+2023-04-08 16:14:29, INFO: Success !!!
+2023-04-08 16:14:31, INFO: TRAIN in episode 304 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 70.00, total reward: 0.0172, average return: 0.2640
+2023-04-08 16:16:48, INFO: Average loss : 0.013397, 18001.510468
+2023-04-08 16:16:48, INFO: Average loss of statePredictor: 0.157416
+2023-04-08 16:19:20, INFO: Success !!!
+2023-04-08 16:19:27, INFO: TRAIN in episode 305 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 170.00, total reward: -0.0053, average return: 0.1022
+2023-04-08 16:21:43, INFO: Average loss : 0.005022, 17960.084198
+2023-04-08 16:21:44, INFO: Average loss of statePredictor: 0.157408
+2023-04-08 16:23:22, INFO: Success !!!
+2023-04-08 16:23:27, INFO: TRAIN in episode 306 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 120.00, total reward: -0.0007, average return: 0.1481
+2023-04-08 16:25:42, INFO: Average loss : 0.028171, 18132.373901
+2023-04-08 16:25:42, INFO: Average loss of statePredictor: 0.157400
+2023-04-08 16:27:05, INFO: Collision with obstacle !!!
+2023-04-08 16:27:09, INFO: TRAIN in episode 307 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0094, average return: -0.0456
+2023-04-08 16:29:25, INFO: Average loss : 0.019760, 18442.474945
+2023-04-08 16:29:25, INFO: Average loss of statePredictor: 0.157392
+2023-04-08 16:33:01, INFO: Success !!!
+2023-04-08 16:33:13, INFO: TRAIN in episode 308 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 260.00, total reward: -0.0084, average return: 0.0672
+2023-04-08 16:35:29, INFO: Average loss : 0.007083, 17467.529449
+2023-04-08 16:35:29, INFO: Average loss of statePredictor: 0.157384
+2023-04-08 16:36:10, INFO: Collision with obstacle !!!
+2023-04-08 16:36:11, INFO: TRAIN in episode 309 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0336, average return: -0.1243
+2023-04-08 16:38:27, INFO: Average loss : 0.008261, 17903.022919
+2023-04-08 16:38:28, INFO: Average loss of statePredictor: 0.157376
+2023-04-08 16:39:15, INFO: Success !!!
+2023-04-08 16:39:17, INFO: TRAIN in episode 310 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 50.00, total reward: 0.0538, average return: 0.3721
+2023-04-08 16:41:34, INFO: Average loss : 0.012943, 17541.749725
+2023-04-08 16:41:34, INFO: Average loss of statePredictor: 0.157368
+2023-04-08 16:43:36, INFO: Collision with obstacle !!!
+2023-04-08 16:43:42, INFO: TRAIN in episode 311 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0072, average return: -0.0112
+2023-04-08 16:45:59, INFO: Average loss : 0.014426, 18411.271332
+2023-04-08 16:45:59, INFO: Average loss of statePredictor: 0.157360
+2023-04-08 16:48:12, INFO: Success !!!
+2023-04-08 16:48:19, INFO: TRAIN in episode 312 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 160.00, total reward: -0.0045, average return: 0.1125
+2023-04-08 16:50:35, INFO: Average loss : 0.016902, 17969.199677
+2023-04-08 16:50:35, INFO: Average loss of statePredictor: 0.157352
+2023-04-08 16:51:49, INFO: Success !!!
+2023-04-08 16:51:53, INFO: TRAIN in episode 313 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 90.00, total reward: 0.0058, average return: 0.1999
+2023-04-08 16:54:08, INFO: Average loss : 0.008675, 18030.015747
+2023-04-08 16:54:08, INFO: Average loss of statePredictor: 0.157344
+2023-04-08 16:55:48, INFO: Success !!!
+2023-04-08 16:55:53, INFO: TRAIN in episode 314 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 120.00, total reward: -0.0019, average return: 0.0277
+2023-04-08 16:58:08, INFO: Average loss : 0.020773, 17798.725311
+2023-04-08 16:58:08, INFO: Average loss of statePredictor: 0.157336
+2023-04-08 17:00:22, INFO: Success !!!
+2023-04-08 17:00:28, INFO: TRAIN in episode 315 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 160.00, total reward: -0.0024, average return: 0.0728
+2023-04-08 17:02:44, INFO: Average loss : 0.018650, 18018.747040
+2023-04-08 17:02:45, INFO: Average loss of statePredictor: 0.157327
+2023-04-08 17:03:18, INFO: Collision with human !!!
+2023-04-08 17:03:19, INFO: TRAIN in episode 316 has success rate: 0.00, collision rate: 1.00, collisionobs rate: 0.00, nav time: 500.00, total reward: -0.2061, average return: -0.6851
+2023-04-08 17:05:35, INFO: Average loss : 0.012574, 18237.324280
+2023-04-08 17:05:36, INFO: Average loss of statePredictor: 0.157319
+2023-04-08 17:08:37, INFO: Success !!!
+2023-04-08 17:08:46, INFO: TRAIN in episode 317 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 200.00, total reward: -0.0057, average return: 0.0955
+2023-04-08 17:11:02, INFO: Average loss : 0.016182, 18601.944916
+2023-04-08 17:11:02, INFO: Average loss of statePredictor: 0.157311
+2023-04-08 17:11:53, INFO: Collision with obstacle !!!
+2023-04-08 17:11:55, INFO: TRAIN in episode 318 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0056, average return: -0.0662
+2023-04-08 17:14:10, INFO: Average loss : 0.016478, 17934.839355
+2023-04-08 17:14:10, INFO: Average loss of statePredictor: 0.157303
+2023-04-08 17:17:21, INFO: Collision with obstacle !!!
+2023-04-08 17:17:31, INFO: TRAIN in episode 319 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0072, average return: -0.0224
+2023-04-08 17:19:48, INFO: Average loss : 0.014587, 18117.739685
+2023-04-08 17:19:48, INFO: Average loss of statePredictor: 0.157295
+2023-04-08 17:20:48, INFO: Success !!!
+2023-04-08 17:20:50, INFO: TRAIN in episode 320 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 70.00, total reward: 0.0167, average return: 0.2548
+2023-04-08 17:23:07, INFO: Average loss : 0.010080, 18342.974640
+2023-04-08 17:23:07, INFO: Average loss of statePredictor: 0.157287
+2023-04-08 17:23:49, INFO: Collision with obstacle !!!
+2023-04-08 17:23:51, INFO: TRAIN in episode 321 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0030, average return: -0.0747
+2023-04-08 17:26:07, INFO: Average loss : 0.007218, 18468.781921
+2023-04-08 17:26:08, INFO: Average loss of statePredictor: 0.157278
+2023-04-08 17:27:31, INFO: Success !!!
+2023-04-08 17:27:35, INFO: TRAIN in episode 322 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 100.00, total reward: 0.0030, average return: 0.1811
+2023-04-08 17:29:52, INFO: Average loss : 0.007491, 18448.451630
+2023-04-08 17:29:52, INFO: Average loss of statePredictor: 0.157270
+2023-04-08 17:31:56, INFO: Collision with obstacle !!!
+2023-04-08 17:32:03, INFO: TRAIN in episode 323 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0019, average return: -0.0178
+2023-04-08 17:34:20, INFO: Average loss : 0.012420, 18309.676300
+2023-04-08 17:34:20, INFO: Average loss of statePredictor: 0.157262
+2023-04-08 17:36:23, INFO: Collision with obstacle !!!
+2023-04-08 17:36:30, INFO: TRAIN in episode 324 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0027, average return: -0.0181
+2023-04-08 17:38:47, INFO: Average loss : 0.014497, 18324.542084
+2023-04-08 17:38:47, INFO: Average loss of statePredictor: 0.157254
+2023-04-08 17:39:28, INFO: Success !!!
+2023-04-08 17:39:30, INFO: TRAIN in episode 325 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 50.00, total reward: 0.0488, average return: 0.3593
+2023-04-08 17:41:47, INFO: Average loss : 0.007747, 18086.935516
+2023-04-08 17:41:47, INFO: Average loss of statePredictor: 0.157246
+2023-04-08 17:42:22, INFO: Collision with human !!!
+2023-04-08 17:42:23, INFO: TRAIN in episode 326 has success rate: 0.00, collision rate: 1.00, collisionobs rate: 0.00, nav time: 500.00, total reward: -0.0134, average return: -0.0960
+2023-04-08 17:44:39, INFO: Average loss : 0.016337, 18030.308838
+2023-04-08 17:44:39, INFO: Average loss of statePredictor: 0.157237
+2023-04-08 17:47:34, INFO: Collision with obstacle !!!
+2023-04-08 17:47:43, INFO: TRAIN in episode 327 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0082, average return: -0.0188
+2023-04-08 17:49:59, INFO: Average loss : 0.023298, 17842.800354
+2023-04-08 17:49:59, INFO: Average loss of statePredictor: 0.157229
+2023-04-08 17:51:30, INFO: Collision with obstacle !!!
+2023-04-08 17:51:34, INFO: TRAIN in episode 328 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0042, average return: -0.0336
+2023-04-08 17:53:50, INFO: Average loss : 0.012684, 18279.586548
+2023-04-08 17:53:50, INFO: Average loss of statePredictor: 0.157221
+2023-04-08 17:54:41, INFO: Collision with obstacle !!!
+2023-04-08 17:54:43, INFO: TRAIN in episode 329 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0069, average return: -0.0676
+2023-04-08 17:57:00, INFO: Average loss : 0.008025, 18010.351410
+2023-04-08 17:57:00, INFO: Average loss of statePredictor: 0.157212
+2023-04-08 17:59:37, INFO: Collision with obstacle !!!
+2023-04-08 17:59:46, INFO: TRAIN in episode 330 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0064, average return: -0.0142
+2023-04-08 18:02:01, INFO: Average loss : 0.023007, 18203.435974
+2023-04-08 18:02:01, INFO: Average loss of statePredictor: 0.157204
+2023-04-08 18:02:35, INFO: Collision with obstacle !!!
+2023-04-08 18:02:36, INFO: TRAIN in episode 331 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0172, average return: -0.0986
+2023-04-08 18:04:52, INFO: Average loss : 0.006483, 17935.222382
+2023-04-08 18:04:52, INFO: Average loss of statePredictor: 0.157196
+2023-04-08 18:05:59, INFO: Collision with obstacle !!!
+2023-04-08 18:06:02, INFO: TRAIN in episode 332 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0049, average return: -0.0570
+2023-04-08 18:08:18, INFO: Average loss : 0.010270, 17888.676483
+2023-04-08 18:08:18, INFO: Average loss of statePredictor: 0.157188
+2023-04-08 18:09:24, INFO: Success !!!
+2023-04-08 18:09:27, INFO: TRAIN in episode 333 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 80.00, total reward: 0.0082, average return: 0.2180
+2023-04-08 18:11:44, INFO: Average loss : 0.020101, 18286.330811
+2023-04-08 18:11:44, INFO: Average loss of statePredictor: 0.157180
+2023-04-08 18:12:18, INFO: Collision with obstacle !!!
+2023-04-08 18:12:20, INFO: TRAIN in episode 334 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0151, average return: -0.0971
+2023-04-08 18:14:36, INFO: Average loss : 0.011766, 18104.918457
+2023-04-08 18:14:36, INFO: Average loss of statePredictor: 0.157172
+2023-04-08 18:16:23, INFO: Collision with obstacle !!!
+2023-04-08 18:16:28, INFO: TRAIN in episode 335 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0025, average return: -0.0158
+2023-04-08 18:18:45, INFO: Average loss : 0.017479, 17860.242645
+2023-04-08 18:18:45, INFO: Average loss of statePredictor: 0.157164
+2023-04-08 18:20:04, INFO: Success !!!
+2023-04-08 18:20:08, INFO: TRAIN in episode 336 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 90.00, total reward: 0.0120, average return: 0.2119
+2023-04-08 18:22:24, INFO: Average loss : 0.006650, 17666.781097
+2023-04-08 18:22:24, INFO: Average loss of statePredictor: 0.157156
+2023-04-08 18:23:08, INFO: Success !!!
+2023-04-08 18:23:10, INFO: TRAIN in episode 337 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 50.00, total reward: 0.0446, average return: 0.3488
+2023-04-08 18:25:26, INFO: Average loss : 0.024513, 17811.554840
+2023-04-08 18:25:26, INFO: Average loss of statePredictor: 0.157147
+2023-04-08 18:27:38, INFO: Success !!!
+2023-04-08 18:27:44, INFO: TRAIN in episode 338 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 160.00, total reward: -0.0048, average return: 0.1088
+2023-04-08 18:30:00, INFO: Average loss : 0.016691, 18056.434174
+2023-04-08 18:30:01, INFO: Average loss of statePredictor: 0.157139
+2023-04-08 18:31:24, INFO: Collision with obstacle !!!
+2023-04-08 18:31:28, INFO: TRAIN in episode 339 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0009, average return: -0.0312
+2023-04-08 18:33:44, INFO: Average loss : 0.014656, 18040.302124
+2023-04-08 18:33:44, INFO: Average loss of statePredictor: 0.157132
+2023-04-08 18:34:26, INFO: Collision with obstacle !!!
+2023-04-08 18:34:28, INFO: TRAIN in episode 340 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0042, average return: -0.0754
+2023-04-08 18:36:44, INFO: Average loss : 0.019845, 18030.967072
+2023-04-08 18:36:44, INFO: Average loss of statePredictor: 0.157123
+2023-04-08 18:38:04, INFO: Collision with obstacle !!!
+2023-04-08 18:38:07, INFO: TRAIN in episode 341 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0067, average return: -0.0465
+2023-04-08 18:40:24, INFO: Average loss : 20.018326, 18402.340271
+2023-04-08 18:40:24, INFO: Average loss of statePredictor: 0.157116
+2023-04-08 18:41:39, INFO: Success !!!
+2023-04-08 18:41:43, INFO: TRAIN in episode 342 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 90.00, total reward: 0.0073, average return: 0.2148
+2023-04-08 18:43:59, INFO: Average loss : 0.022187, 17876.976929
+2023-04-08 18:43:59, INFO: Average loss of statePredictor: 0.157108
+2023-04-08 18:46:37, INFO: Success !!!
+2023-04-08 18:46:45, INFO: TRAIN in episode 343 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 190.00, total reward: -0.0154, average return: 0.0453
+2023-04-08 18:49:01, INFO: Average loss : 0.014308, 17741.303009
+2023-04-08 18:49:01, INFO: Average loss of statePredictor: 0.157100
+2023-04-08 18:50:49, INFO: Collision with obstacle !!!
+2023-04-08 18:50:54, INFO: TRAIN in episode 344 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0033, average return: -0.0215
+2023-04-08 18:53:11, INFO: Average loss : 0.013450, 17689.585175
+2023-04-08 18:53:11, INFO: Average loss of statePredictor: 0.157092
+2023-04-08 18:53:53, INFO: Success !!!
+2023-04-08 18:53:54, INFO: TRAIN in episode 345 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 50.00, total reward: 0.0502, average return: 0.3626
+2023-04-08 18:56:10, INFO: Average loss : 0.018048, 17820.218018
+2023-04-08 18:56:10, INFO: Average loss of statePredictor: 0.157084
+2023-04-08 19:00:26, INFO: Success !!!
+2023-04-08 19:00:40, INFO: TRAIN in episode 346 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 310.00, total reward: -0.0098, average return: -0.0839
+2023-04-08 19:02:56, INFO: Average loss : 0.013872, 17942.213074
+2023-04-08 19:02:56, INFO: Average loss of statePredictor: 0.157076
+2023-04-08 19:04:43, INFO: Success !!!
+2023-04-08 19:04:48, INFO: TRAIN in episode 347 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 130.00, total reward: -0.0022, average return: 0.1343
+2023-04-08 19:07:04, INFO: Average loss : 0.013074, 18073.316376
+2023-04-08 19:07:05, INFO: Average loss of statePredictor: 0.157068
+2023-04-08 19:07:51, INFO: Collision with human !!!
+2023-04-08 19:07:53, INFO: TRAIN in episode 348 has success rate: 0.00, collision rate: 1.00, collisionobs rate: 0.00, nav time: 500.00, total reward: 0.0076, average return: -0.0632
+2023-04-08 19:10:08, INFO: Average loss : 0.020260, 17670.297180
+2023-04-08 19:10:09, INFO: Average loss of statePredictor: 0.157060
+2023-04-08 19:11:40, INFO: Collision with obstacle !!!
+2023-04-08 19:11:44, INFO: TRAIN in episode 349 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0000, average return: -0.0265
+2023-04-08 19:14:00, INFO: Average loss : 0.013958, 18050.098480
+2023-04-08 19:14:01, INFO: Average loss of statePredictor: 0.157052
+2023-04-08 19:14:43, INFO: Collision with obstacle !!!
+2023-04-08 19:14:45, INFO: TRAIN in episode 350 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0085, average return: -0.0792
+2023-04-08 19:17:00, INFO: Average loss : 0.008520, 18268.235870
+2023-04-08 19:17:00, INFO: Average loss of statePredictor: 0.157045
+2023-04-08 19:18:17, INFO: Collision with obstacle !!!
+2023-04-08 19:18:21, INFO: TRAIN in episode 351 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0025, average return: -0.0420
+2023-04-08 19:20:37, INFO: Average loss : 0.027479, 17650.222229
+2023-04-08 19:20:37, INFO: Average loss of statePredictor: 0.157037
+2023-04-08 19:21:43, INFO: Success !!!
+2023-04-08 19:21:46, INFO: TRAIN in episode 352 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 80.00, total reward: 0.0129, average return: 0.2423
+2023-04-08 19:24:03, INFO: Average loss : 0.035222, 17773.624603
+2023-04-08 19:24:03, INFO: Average loss of statePredictor: 0.157029
+2023-04-08 19:26:22, INFO: Success !!!
+2023-04-08 19:26:30, INFO: TRAIN in episode 353 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 170.00, total reward: -0.0050, average return: 0.1129
+2023-04-08 19:28:45, INFO: Average loss : 0.011468, 17770.654846
+2023-04-08 19:28:46, INFO: Average loss of statePredictor: 0.157022
+2023-04-08 19:29:43, INFO: Collision with human !!!
+2023-04-08 19:29:46, INFO: TRAIN in episode 354 has success rate: 0.00, collision rate: 1.00, collisionobs rate: 0.00, nav time: 500.00, total reward: 0.0063, average return: -0.0397
+2023-04-08 19:32:03, INFO: Average loss : 0.013718, 17480.055145
+2023-04-08 19:32:03, INFO: Average loss of statePredictor: 0.157014
+2023-04-08 19:33:16, INFO: Collision with obstacle !!!
+2023-04-08 19:33:19, INFO: TRAIN in episode 355 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0066, average return: -0.0522
+2023-04-08 19:35:35, INFO: Average loss : 0.009116, 17986.683899
+2023-04-08 19:35:36, INFO: Average loss of statePredictor: 0.157006
+2023-04-08 19:36:41, INFO: Success !!!
+2023-04-08 19:36:44, INFO: TRAIN in episode 356 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 80.00, total reward: 0.0089, average return: 0.2205
+2023-04-08 19:39:00, INFO: Average loss : 0.009939, 17174.852692
+2023-04-08 19:39:00, INFO: Average loss of statePredictor: 0.156998
+2023-04-08 19:39:51, INFO: Collision with obstacle !!!
+2023-04-08 19:39:54, INFO: TRAIN in episode 357 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0076, average return: -0.0679
+2023-04-08 19:42:10, INFO: Average loss : 0.013562, 18411.065826
+2023-04-08 19:42:10, INFO: Average loss of statePredictor: 0.156991
+2023-04-08 19:44:15, INFO: Success !!!
+2023-04-08 19:44:21, INFO: TRAIN in episode 358 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 130.00, total reward: -0.0007, average return: 0.1368
+2023-04-08 19:46:36, INFO: Average loss : 0.017112, 17504.493500
+2023-04-08 19:46:37, INFO: Average loss of statePredictor: 0.156983
+2023-04-08 19:48:07, INFO: Collision with obstacle !!!
+2023-04-08 19:48:12, INFO: TRAIN in episode 359 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0096, average return: -0.0426
+2023-04-08 19:50:28, INFO: Average loss : 0.017483, 17878.295685
+2023-04-08 19:50:29, INFO: Average loss of statePredictor: 0.156976
+2023-04-08 19:51:19, INFO: Collision with obstacle !!!
+2023-04-08 19:51:22, INFO: TRAIN in episode 360 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: 0.0030, average return: -0.0562
+2023-04-08 19:53:40, INFO: Average loss : 0.010316, 17818.748749
+2023-04-08 19:53:40, INFO: Average loss of statePredictor: 0.156968
+2023-04-08 19:54:30, INFO: Success !!!
+2023-04-08 19:54:33, INFO: TRAIN in episode 361 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 60.00, total reward: 0.0276, average return: 0.2945
+2023-04-08 19:56:53, INFO: Average loss : 0.011924, 17951.765503
+2023-04-08 19:56:53, INFO: Average loss of statePredictor: 0.156960
+2023-04-08 19:59:14, INFO: Collision with obstacle !!!
+2023-04-08 19:59:21, INFO: TRAIN in episode 362 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0079, average return: -0.0272
+2023-04-08 20:01:41, INFO: Average loss : 0.018241, 18308.167877
+2023-04-08 20:01:41, INFO: Average loss of statePredictor: 0.156953
+2023-04-08 20:02:58, INFO: Collision with obstacle !!!
+2023-04-08 20:03:02, INFO: TRAIN in episode 363 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0003, average return: -0.0397
+2023-04-08 20:05:21, INFO: Average loss : 0.016398, 17531.501862
+2023-04-08 20:05:21, INFO: Average loss of statePredictor: 0.156945
+2023-04-08 20:06:12, INFO: Success !!!
+2023-04-08 20:06:14, INFO: TRAIN in episode 364 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 60.00, total reward: 0.0254, average return: 0.2955
+2023-04-08 20:08:36, INFO: Average loss : 0.020203, 17884.372040
+2023-04-08 20:08:36, INFO: Average loss of statePredictor: 0.156938
+2023-04-08 20:10:18, INFO: Success !!!
+2023-04-08 20:10:23, INFO: TRAIN in episode 365 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 120.00, total reward: 0.0002, average return: 0.1641
+2023-04-08 20:12:45, INFO: Average loss : 0.020185, 17812.239868
+2023-04-08 20:12:45, INFO: Average loss of statePredictor: 0.156931
+2023-04-08 20:13:03, INFO: Collision with obstacle !!!
+2023-04-08 20:13:03, INFO: TRAIN in episode 366 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0907, average return: -0.1703
+2023-04-08 20:15:24, INFO: Average loss : 0.003645, 17711.131165
+2023-04-08 20:15:24, INFO: Average loss of statePredictor: 0.156923
+2023-04-08 20:16:15, INFO: Success !!!
+2023-04-08 20:16:17, INFO: TRAIN in episode 367 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 60.00, total reward: 0.0265, average return: 0.2990
+2023-04-08 20:18:37, INFO: Average loss : 0.014710, 18118.737061
+2023-04-08 20:18:37, INFO: Average loss of statePredictor: 0.156916
+2023-04-08 20:20:21, INFO: Success !!!
+2023-04-08 20:20:26, INFO: TRAIN in episode 368 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 120.00, total reward: 0.0017, average return: 0.1473
+2023-04-08 20:22:46, INFO: Average loss : 0.024033, 17456.663635
+2023-04-08 20:22:46, INFO: Average loss of statePredictor: 0.156908
+2023-04-08 20:25:02, INFO: Collision with obstacle !!!
+2023-04-08 20:25:09, INFO: TRAIN in episode 369 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0058, average return: -0.0206
+2023-04-08 20:27:28, INFO: Average loss : 0.012660, 17493.531036
+2023-04-08 20:27:28, INFO: Average loss of statePredictor: 0.156901
+2023-04-08 20:28:02, INFO: Collision with human !!!
+2023-04-08 20:28:03, INFO: TRAIN in episode 370 has success rate: 0.00, collision rate: 1.00, collisionobs rate: 0.00, nav time: 500.00, total reward: -0.0079, average return: -0.0917
+2023-04-08 20:30:24, INFO: Average loss : 0.021156, 17456.940247
+2023-04-08 20:30:24, INFO: Average loss of statePredictor: 0.156893
+2023-04-08 20:31:06, INFO: Success !!!
+2023-04-08 20:31:08, INFO: TRAIN in episode 371 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 50.00, total reward: 0.0419, average return: 0.3427
+2023-04-08 20:33:27, INFO: Average loss : 0.022415, 17509.245056
+2023-04-08 20:33:27, INFO: Average loss of statePredictor: 0.156886
+2023-04-08 20:36:47, INFO: Success !!!
+2023-04-08 20:36:57, INFO: TRAIN in episode 372 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 240.00, total reward: -0.0084, average return: 0.0724
+2023-04-08 20:39:18, INFO: Average loss : 0.017973, 17823.668701
+2023-04-08 20:39:18, INFO: Average loss of statePredictor: 0.156879
+2023-04-08 20:41:42, INFO: Success !!!
+2023-04-08 20:41:50, INFO: TRAIN in episode 373 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 170.00, total reward: -0.0045, average return: 0.1033
+2023-04-08 20:44:12, INFO: Average loss : 0.017930, 17796.812775
+2023-04-08 20:44:12, INFO: Average loss of statePredictor: 0.156871
+2023-04-08 20:47:41, INFO: Success !!!
+2023-04-08 20:47:52, INFO: TRAIN in episode 374 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 250.00, total reward: -0.0081, average return: 0.0737
+2023-04-08 20:50:12, INFO: Average loss : 0.016283, 18138.456665
+2023-04-08 20:50:12, INFO: Average loss of statePredictor: 0.156864
+2023-04-08 20:50:21, INFO: Collision with human !!!
+2023-04-08 20:50:21, INFO: TRAIN in episode 375 has success rate: 0.00, collision rate: 1.00, collisionobs rate: 0.00, nav time: 500.00, total reward: -0.2500, average return: -0.2500
+2023-04-08 20:52:41, INFO: Average loss : 0.002861, 17788.168579
+2023-04-08 20:52:41, INFO: Average loss of statePredictor: 0.156857
+2023-04-08 20:53:32, INFO: Collision with obstacle !!!
+2023-04-08 20:53:34, INFO: TRAIN in episode 376 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0082, average return: -0.0689
+2023-04-08 20:55:54, INFO: Average loss : 0.009181, 17618.711029
+2023-04-08 20:55:54, INFO: Average loss of statePredictor: 0.156849
+2023-04-08 20:57:30, INFO: Collision with obstacle !!!
+2023-04-08 20:57:34, INFO: TRAIN in episode 377 has success rate: 0.00, collision rate: 0.00, collisionobs rate: 1.00, nav time: 500.00, total reward: -0.0013, average return: -0.0272
+2023-04-08 20:59:54, INFO: Average loss : 0.012943, 17454.924469
+2023-04-08 20:59:54, INFO: Average loss of statePredictor: 0.156842
+2023-04-08 21:01:19, INFO: Success !!!
+2023-04-08 21:01:23, INFO: TRAIN in episode 378 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 100.00, total reward: 0.0041, average return: 0.1971
+2023-04-08 21:03:43, INFO: Average loss : 0.011942, 17591.817810
+2023-04-08 21:03:43, INFO: Average loss of statePredictor: 0.156834
+2023-04-08 21:04:42, INFO: Success !!!
+2023-04-08 21:04:45, INFO: TRAIN in episode 379 has success rate: 1.00, collision rate: 0.00, collisionobs rate: 0.00, nav time: 70.00, total reward: 0.0232, average return: 0.2588
+2023-04-08 21:07:04, INFO: Average loss : 0.010750, 18220.970703
+2023-04-08 21:07:04, INFO: Average loss of statePredictor: 0.156827
